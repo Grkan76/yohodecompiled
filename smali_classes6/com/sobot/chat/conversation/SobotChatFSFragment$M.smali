@@ -1,0 +1,88 @@
+.class Lcom/sobot/chat/conversation/SobotChatFSFragment$M;
+.super Lb9/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/sobot/chat/conversation/SobotChatFSFragment;->D5()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Lcom/sobot/chat/conversation/SobotChatFSFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/sobot/chat/conversation/SobotChatFSFragment;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/sobot/chat/conversation/SobotChatFSFragment$M;->b:Lcom/sobot/chat/conversation/SobotChatFSFragment;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lb9/d;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+
+# virtual methods
+.method public a(Landroid/view/View;)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lcom/sobot/chat/conversation/SobotChatFSFragment$M;->b:Lcom/sobot/chat/conversation/SobotChatFSFragment;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Lcom/sobot/chat/conversation/SobotChatFSFragment;->m5()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method

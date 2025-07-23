@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@null" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_solo_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.audionew.features.main.me.view.RatioLayout android:layout_gravity="bottom" android:id="@id/id_logo_bg_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.6" />
+    <ImageView android:id="@id/id_load_opt_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <libx.android.videoplayer.VideoPlayer android:id="@id/audio_mall_car_effect_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/id_loading_mico_text_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" android:src="@null" android:scaleType="centerInside" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/id_skip_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/id_loading_skip_tv" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/text_skip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </FrameLayout>
+</FrameLayout>

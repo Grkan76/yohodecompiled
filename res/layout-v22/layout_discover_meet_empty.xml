@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@color/transparent" style="@style/MDEmptyLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivEmpty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_discover_meet_empty" />
+    <TextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/color636B82" android:id="@id/tvEmptyDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_meet_no_data" />
+    <TextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/tvReFilter" android:background="@drawable/bg_common_00cc3d_r100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="98.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="98.0dip" android:text="@string/string_discover_meet_re_filter" android:layout_marginHorizontal="98.0dip" />
+</LinearLayout>

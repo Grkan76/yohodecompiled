@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" style="@style/CommonToolbarStyle">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <widget.ui.textview.MicoEditText android:theme="@style/MDLiveEditTextTheme" android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:textColorHint="@color/colorB0B8CA" android:layout_gravity="center_vertical" android:id="@id/etv_user_search" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?actionBarSize" android:maxWidth="280.0dip" android:hint="@string/string_audio_contact_search_prompt" android:maxLines="1" android:singleLine="true" android:imeOptions="actionSearch" android:layout_marginEnd="?actionBarSize" style="@style/EditTextCursorBg8900FF" />
+            <RelativeLayout android:id="@id/ic_clear_rl" android:visibility="gone" style="@style/ToolbarBtnFrameStyle">
+                <ImageView android:clickable="false" android:src="@drawable/ic_search_close" style="@style/ToolbarBtnImgStyle" />
+            </RelativeLayout>
+        </FrameLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <View style="@style/LineF1F2F6" />
+    <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_search_result_refresh_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_search_history_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <widget.ui.textview.MicoTextView android:textColor="@color/colorFFA6B0BD" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/string_audio_contact_search_historical_record" android:paddingStart="@dimen/dimens_16" style="@style/TextView.Regular.12" />
+        <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_history_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+    </LinearLayout>
+</LinearLayout>

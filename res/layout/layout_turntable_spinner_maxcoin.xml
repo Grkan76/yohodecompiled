@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/shape_turntable_choose_item" android:layout_width="fill_parent" android:layout_height="229.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_1" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_45" android:paddingStart="@dimen/dimens_15" android:paddingEnd="@dimen/dimens_15">
+            <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="#99ffffff" android:id="@id/tv_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_item_1" android:visibility="gone" android:layout_width="@dimen/dimens_16" android:layout_height="@dimen/dimens_16" android:layout_marginLeft="@dimen/dimens_5" android:layout_marginStart="@dimen/dimens_5" />
+        </LinearLayout>
+        <View android:background="#ff722dd7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_2" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_45" android:paddingStart="@dimen/dimens_15" android:paddingEnd="@dimen/dimens_15">
+            <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="#99ffffff" android:id="@id/tv_item_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_item_2" android:visibility="gone" android:layout_width="@dimen/dimens_16" android:layout_height="@dimen/dimens_16" android:layout_marginLeft="@dimen/dimens_5" android:layout_marginStart="@dimen/dimens_5" />
+        </LinearLayout>
+        <View android:background="#ff722dd7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_3" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_45" android:paddingStart="@dimen/dimens_15" android:paddingEnd="@dimen/dimens_15">
+            <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="#99ffffff" android:id="@id/tv_item_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_item_3" android:visibility="gone" android:layout_width="@dimen/dimens_16" android:layout_height="@dimen/dimens_16" android:layout_marginLeft="@dimen/dimens_5" android:layout_marginStart="@dimen/dimens_5" />
+        </LinearLayout>
+        <View android:id="@id/divider3" android:background="#ff722dd7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_4" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_45" android:paddingStart="@dimen/dimens_15" android:paddingEnd="@dimen/dimens_15">
+            <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="#99ffffff" android:id="@id/tv_item_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_item_4" android:visibility="gone" android:layout_width="@dimen/dimens_16" android:layout_height="@dimen/dimens_16" android:layout_marginLeft="@dimen/dimens_5" android:layout_marginStart="@dimen/dimens_5" />
+        </LinearLayout>
+        <View android:id="@id/divider4" android:background="#ff722dd7" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_5" android:layout_width="fill_parent" android:layout_height="@dimen/dimens_45" android:paddingStart="@dimen/dimens_15" android:paddingEnd="@dimen/dimens_15">
+            <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="#99ffffff" android:id="@id/tv_item_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_item_5" android:visibility="gone" android:layout_width="@dimen/dimens_16" android:layout_height="@dimen/dimens_16" android:layout_marginLeft="@dimen/dimens_5" android:layout_marginStart="@dimen/dimens_5" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

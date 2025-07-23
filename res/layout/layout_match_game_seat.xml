@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/ic_img_avatar_dec" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <widget.ui.view.DecorateAvatarImageView android:id="@id/iv_room_avatar_deco" android:layout_width="120.0dip" android:layout_height="120.0dip" app:avatar_height="80.0dip" app:avatar_width="80.0dip" app:decorate_height="120.0dip" app:decorate_width="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_name" android:layout_width="120.0dip" android:layout_height="wrap_content" android:lines="1" />
+    </LinearLayout>
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_home_owner_flag" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="4.0dip" app:actualImageResource="@drawable/ic_home_owner" />
+</FrameLayout>

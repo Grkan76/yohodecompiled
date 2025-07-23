@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_height="80.0dip" style="@style/ConvItemLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_height="80.0dip" style="@style/ConvItemLayout_Content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15.0dip" android:layout_marginEnd="10.0dip">
+            <widget.ui.view.SquareImageView android:id="@id/ivAvatar_conv" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" style="@style/BaseAvatar56Style" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivStickyTag" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="38.0dip" android:src="@drawable/ic_chat_set_top_conv_24" />
+            <View android:layout_gravity="end|center|top" android:id="@id/online_status_view" android:background="@drawable/bg_user_online_state_layer" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginEnd="3.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_weight="1.0" android:layout_marginEnd="8.0dip">
+                    <widget.md.view.layout.AnchorMeasureLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:anchorId="@id/nicknameView">
+                        <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Medium.18" android:textColor="@color/color1D212C" android:gravity="start|center" android:id="@id/nicknameView" style="@style/BaseUserNameStyle" />
+                        <LinearLayout android:id="@id/llUserLabel" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.10" android:textStyle="bold|italic" android:textColor="@color/colorF3E2BD" android:gravity="center" android:layout_gravity="center" android:id="@id/tvNewWealthyTag" android:background="@drawable/bg_chat_new_wealthy_tag" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:text="@string/string_chat_new_wealthy" android:layout_marginStart="4.0dip" />
+                            <widget.ui.textview.MicoTextView android:layout_gravity="center" android:id="@id/tvVipIndicator" android:visibility="gone" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" style="@style/MDVipTip12Style" />
+                            <com.mico.framework.ui.widget.AudioVipLevelImageView android:layout_gravity="center" android:id="@id/ivVipLevel" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="14.0dip" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" />
+                            <widget.ui.textview.MicoTextView android:layout_gravity="center" android:id="@id/tvOfficialFlag" android:visibility="gone" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" style="@style/MDUserOfficialFlagStyle" />
+                            <ImageView android:id="@id/ivBirthdayIndicator" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" style="@style/Chat_Birthday_Icon" />
+                            <View android:layout_gravity="end" android:visibility="gone" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" style="@style/MDUserOnLineState8" />
+                        </LinearLayout>
+                        <com.audio.ui.widget.AudioPayServiceLabelView android:id="@id/payServiceLabelView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+                    </widget.md.view.layout.AnchorMeasureLayout>
+                </FrameLayout>
+                <widget.ui.textview.MicoTextView android:id="@id/tvTimeline" android:visibility="visible" style="@style/MDUserDistanceStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:minHeight="20.0dip">
+                <com.audionew.features.chat.widget.MsgStatusView android:layout_gravity="center_vertical" android:id="@id/iv_msg_send_status" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" />
+                <ViewStub android:layout_gravity="center_vertical" android:id="@id/chatting_paid_msg_tag" android:layout="@layout/md_item_chat_msg_paid_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color888F9F" android:ellipsize="end" android:gravity="start|center" android:id="@id/tvDesc" android:layout_width="0.0dip" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/MDUserDescStyle" />
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip">
+                    <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_msg_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tipsFixPadding="8.0dip" app:tipsRadius="10.0dip" app:tipsSolidColor="@color/colorFF0066" />
+                    <ImageView android:layout_gravity="center" android:id="@id/tv_msg_count_gift" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/ic_giftwall_rule" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:gravity="center_vertical" android:id="@id/ivNotificationOff" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_chats_belloff_16dp" />
+            <ImageView android:id="@id/ivNewMsgTipsMute" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" style="@style/RedPointStyle" />
+        </LinearLayout>
+        <ImageView android:id="@id/ivRedTip" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" style="@style/RedPointStyle" />
+    </LinearLayout>
+</LinearLayout>

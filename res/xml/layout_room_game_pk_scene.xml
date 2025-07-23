@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="50" motion:motionInterpolator="easeInOut">
+        <OnClick motion:clickAction="toggle" motion:touchAnchorId="@id/iv_switch" motion:touchAnchorSide="top" />
+        <KeyFrameSet>
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/user_name_tv_1" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="50" motion:motionTarget="@id/user_name_tv_2" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/pk_bg" android:layout_width="@dimen/game_pk_float_mini_bg_width" android:layout_height="@dimen/game_pk_float_mini_bg_height" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/user_avatar_iv_1" android:layout_width="@dimen/game_pk_float_mini_avatar_size" android:layout_height="@dimen/game_pk_float_mini_avatar_size" android:layout_marginTop="@dimen/game_pk_float_mini_avatar_margin_top" android:layout_marginStart="@dimen/game_pk_float_mini_avatar_margin_hor" motion:layout_constraintStart_toStartOf="@id/pk_bg" motion:layout_constraintTop_toTopOf="@id/pk_bg" />
+        <Constraint android:id="@id/user_avatar_iv_2" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/game_pk_float_mini_avatar_margin_top" android:layout_marginEnd="@dimen/game_pk_float_mini_avatar_margin_hor" motion:layout_constraintEnd_toEndOf="@id/pk_bg" motion:layout_constraintTop_toTopOf="@id/pk_bg" />
+        <Constraint android:id="@id/user_name_tv_1" android:visibility="gone" android:alpha="0.0" />
+        <Constraint android:id="@id/user_name_tv_2" android:visibility="gone" android:alpha="0.0" />
+        <Constraint android:id="@id/time_down_tv">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="11.0" />
+        </Constraint>
+        <Constraint android:id="@id/pk_anim" android:layout_width="@dimen/game_pk_float_mini_pk_anim_size" android:layout_height="@dimen/game_pk_float_mini_pk_anim_size" android:layout_marginTop="@dimen/game_pk_float_mini_pk_anim_margin_top" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/tv_countdown_20s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/game_pk_float_mini_countdown_20s_margin_top" android:alpha="0.0" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="32.0" />
+        </Constraint>
+        <Constraint android:id="@id/game_ticket_price" android:visibility="gone" />
+        <Constraint android:orientation="horizontal" android:id="@id/pk_progress" android:layout_width="0.0dip" android:layout_height="@dimen/game_pk_float_mini_progress_height" android:layout_marginBottom="@dimen/game_pk_float_mini_progress_margin_bottom" android:layout_marginStart="@dimen/game_pk_float_mini_progress_margin_hor" android:layout_marginEnd="@dimen/game_pk_float_mini_progress_margin_hor" motion:layout_constraintBottom_toBottomOf="@id/pk_bg" motion:layout_constraintEnd_toEndOf="@id/pk_bg" motion:layout_constraintStart_toStartOf="@id/pk_bg" />
+        <Constraint android:id="@id/progress_anim" android:layout_width="@dimen/game_pk_float_mini_progress_anim_width" android:layout_height="@dimen/game_pk_float_mini_progress_anim_height" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintStart_toStartOf="@id/pk_progress" motion:layout_constraintTop_toTopOf="@id/pk_progress" />
+        <Constraint android:id="@id/iv_gem_red" android:visibility="gone" />
+        <Constraint android:id="@id/iv_gem_blue" android:visibility="gone" />
+        <Constraint android:id="@id/tv_left_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_pk_float_mini_score_margin_bottom" motion:layout_constraintBottom_toTopOf="@id/pk_progress" motion:layout_constraintStart_toStartOf="@id/pk_progress">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="11.0" />
+        </Constraint>
+        <Constraint android:id="@id/tv_right_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_pk_float_mini_score_margin_bottom" motion:layout_constraintBottom_toTopOf="@id/pk_progress" motion:layout_constraintEnd_toEndOf="@id/pk_progress">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="11.0" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/pk_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintDimensionRatio="w,359:136" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/user_avatar_iv_1" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" motion:layout_constraintStart_toStartOf="@id/pk_bg" motion:layout_constraintTop_toTopOf="@id/pk_bg" />
+        <Constraint android:id="@id/user_avatar_iv_2" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip" motion:layout_constraintEnd_toEndOf="@id/pk_bg" motion:layout_constraintTop_toTopOf="@id/pk_bg" />
+        <Constraint android:id="@id/user_name_tv_1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" android:layout_marginStart="6.0dip" motion:layout_constraintBottom_toBottomOf="@id/user_avatar_iv_1" motion:layout_constraintStart_toEndOf="@id/user_avatar_iv_1" motion:layout_constraintTop_toTopOf="@id/user_avatar_iv_1" />
+        <Constraint android:id="@id/user_name_tv_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="1.0" android:layout_marginEnd="6.0dip" motion:layout_constraintBottom_toBottomOf="@id/user_avatar_iv_2" motion:layout_constraintEnd_toStartOf="@id/user_avatar_iv_2" motion:layout_constraintTop_toTopOf="@id/user_avatar_iv_2" />
+        <Constraint android:id="@id/time_down_tv">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="12.0" />
+        </Constraint>
+        <Constraint android:id="@id/pk_anim" android:layout_width="81.0dip" android:layout_height="81.0dip" android:layout_marginTop="12.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/tv_countdown_20s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="62.0" />
+        </Constraint>
+        <Constraint android:id="@id/pk_start_anim" android:layout_width="0.0dip" android:layout_height="@dimen/game_pk_float_pk_start_anim_height" android:layout_marginTop="4.0dip" motion:layout_constraintDimensionRatio="h,100:375" motion:layout_constraintEnd_toEndOf="@id/pk_bg" motion:layout_constraintStart_toStartOf="@id/pk_bg" motion:layout_constraintTop_toTopOf="@id/pk_bg" />
+        <Constraint android:id="@id/game_ticket_price" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginBottom="32.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_bg" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint android:orientation="horizontal" android:id="@id/pk_progress" android:layout_width="0.0dip" android:layout_height="20.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_bg" motion:layout_constraintEnd_toEndOf="@id/pk_bg" motion:layout_constraintStart_toStartOf="@id/pk_bg" />
+        <Constraint android:id="@id/progress_anim" android:layout_width="104.0dip" android:layout_height="30.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintStart_toStartOf="@id/pk_progress" motion:layout_constraintTop_toTopOf="@id/pk_progress" />
+        <Constraint android:id="@id/iv_gem_red" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="6.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintStart_toStartOf="@id/pk_progress" motion:layout_constraintTop_toTopOf="@id/pk_progress" />
+        <Constraint android:id="@id/iv_gem_blue" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginEnd="6.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintEnd_toEndOf="@id/pk_progress" motion:layout_constraintTop_toTopOf="@id/pk_progress" />
+        <Constraint android:id="@id/tv_left_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintStart_toEndOf="@id/iv_gem_red" motion:layout_constraintTop_toTopOf="@id/pk_progress">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="12.0" />
+        </Constraint>
+        <Constraint android:id="@id/tv_right_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" motion:layout_constraintBottom_toBottomOf="@id/pk_progress" motion:layout_constraintEnd_toStartOf="@id/iv_gem_blue" motion:layout_constraintTop_toTopOf="@id/pk_progress">
+            <CustomAttribute motion:attributeName="textSize" motion:customFloatValue="12.0" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

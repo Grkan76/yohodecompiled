@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_decorate_conner" android:background="@drawable/bg_common_white_top_r8" android:layout_width="fill_parent" android:layout_height="84.0dip" />
+    <include android:id="@id/include_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" layout="@layout/item_audio_ranking_normal_new" />
+</FrameLayout>

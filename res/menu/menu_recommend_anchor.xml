@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/id_menu_no_recommend_in_seven_day" android:title="@string/recommendations_14" app:showAsAction="never" />
+    <item android:id="@id/id_menu_cancel" android:title="@string/string_common_cancel" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/id_ll_root" android:background="@color/color99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/id_include_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/include_viewpager" />
+    <LinearLayout android:gravity="center" android:id="@id/id_ll_tab" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="520.0dip">
+        <FrameLayout android:id="@id/id_badge_tab1" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/id_badge_tab1_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_badge_tab_selected_lv1" />
+            <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_badge_lv1" />
+        </FrameLayout>
+        <ImageView android:id="@id/id_iv_2" android:layout_width="41.0dip" android:layout_height="4.0dip" android:src="@drawable/ic_badge_lv1_lv2" />
+        <FrameLayout android:id="@id/id_badge_tab2" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/id_badge_tab2_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_badge_tab_selected_lv2" />
+            <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_badge_lv2" />
+        </FrameLayout>
+        <ImageView android:id="@id/id_iv_3" android:layout_width="41.0dip" android:layout_height="4.0dip" android:src="@drawable/ic_badge_lv2_lv3" />
+        <FrameLayout android:id="@id/id_badge_tab3" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/id_badge_tab3_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_badge_tab_selected_lv3" />
+            <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_badge_lv3" />
+        </FrameLayout>
+        <ImageView android:id="@id/id_iv_4" android:layout_width="41.0dip" android:layout_height="4.0dip" android:src="@drawable/ic_badge_lv3_lv4" />
+        <FrameLayout android:id="@id/id_badge_tab4" android:layout_width="48.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/id_badge_tab4_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_badge_tab_selected_lv4" />
+            <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_badge_lv4" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

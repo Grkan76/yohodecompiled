@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.AudioRoomSeatScoreBoardView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_scoreboard_iv" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/id_scoreboard_tv" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxWidth="52.0dip" android:maxLines="1" android:textAlignment="center" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:autoSizeMaxTextSize="10.0sp" app:autoSizeMinTextSize="6.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+</com.audio.ui.audioroom.widget.AudioRoomSeatScoreBoardView>

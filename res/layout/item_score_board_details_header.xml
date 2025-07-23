@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center_vertical" android:id="@id/tv_round_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

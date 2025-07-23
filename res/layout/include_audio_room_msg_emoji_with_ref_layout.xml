@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.audio.ui.widget.BubbleDecoratorView android:id="@id/bd_msg_text_bubble" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/bg_msg_text_bubble" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ViewStub android:layout_gravity="start|center|top" android:id="@id/msg_ref_vs" android:layout="@layout/audio_room_msg_ref" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/black" android:id="@id/tv_msg_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <com.audio.ui.audioroom.widget.AudioRoomStickerImageView android:id="@id/live_msg_sticker" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    </com.audio.ui.widget.BubbleDecoratorView>
+</RelativeLayout>

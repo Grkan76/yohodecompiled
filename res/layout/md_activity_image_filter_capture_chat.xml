@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color1D212C" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.legacy.widget.Space android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <widget.photodraweeview.PhotoDraweeView android:id="@id/item_image_photo_iv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:fadeDuration="0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <widget.ui.button.MicoButton android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:id="@id/id_close_fl" android:layout_width="88.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:text="@string/string_audio_photo_retake" android:layout_marginStart="16.0dip" app:mbNormalStrokeColor="#1affffff" app:mbRadius="8.0dip" app:mbRippleColor="@color/black38" app:mbStrokeWidth="1.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <widget.ui.button.MicoButton android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:id="@id/id_confirm_fl" android:layout_width="88.0dip" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/string_audio_send" android:layout_marginEnd="16.0dip" app:mbDisableColor="@color/colorF5F7F9" app:mbNormalColor="@color/colorAppBaseTheme" app:mbPressColor="@color/color6D00CB" app:mbRadius="8.0dip" app:mbRippleColor="@color/black38" />
+    </LinearLayout>
+</LinearLayout>

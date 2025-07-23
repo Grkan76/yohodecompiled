@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_common_white_r20" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_toolbox_room_hide" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color636B82" android:id="@id/id_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_audio_room_hide_renew_tip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color636B82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_audio_room_hide_renew_pay_require" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/colorAppBaseTheme" android:id="@id/id_tv_pay_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_coin_32" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="24.0dip">
+            <widget.ui.button.MicoButton android:id="@id/id_btn_cancel" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_cancel" style="@style/DialogBtnCancel" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <widget.ui.button.MicoButton android:enabled="true" android:id="@id/id_btn_to_renew" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_audio_toolbox_room_hide_start" style="@style/DialogBtnOk" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

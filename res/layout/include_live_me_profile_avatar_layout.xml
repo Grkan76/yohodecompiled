@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveAvatarPageLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.AutoViewPager android:id="@id/avatar_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <View android:layout_gravity="top" android:id="@id/masked_header_view" android:background="@drawable/bg_user_profile_header_masked" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.audio.ui.widget.LivePageIndicator android:layout_gravity="bottom|center" android:id="@id/avatar_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:lpiDefaultColor="@color/white60" app:lpiDefaultOutColor="@color/black10" app:lpiIndicatorActiveWidth="8.0dip" app:lpiIndicatorSize="5.0dip" app:lpiPreviewCount="4" app:lpiSelectedColor="@color/white" app:lpiSelectedOutColor="@color/color000000" app:lpiSlideActive="true" app:lpiSpacing="4.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.audio.ui.widget.LiveAvatarPageLayout>

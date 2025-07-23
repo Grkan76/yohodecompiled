@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/colorB0B8CA" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_audio_profile_have_no_car" />
+</FrameLayout>

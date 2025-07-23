@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_dialog_audio_room_pk_left_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_welcome" />
+        <widget.ui.view.RCFrameLayout android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:round_corner="16.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </widget.ui.view.RCFrameLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color636B82" android:gravity="start" android:layout_gravity="center" android:id="@id/tv_welcome" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_audio_pk_left_time" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_ok" android:background="@drawable/bg_audio_dialog_single_common_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/string_common_confirm" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+    </LinearLayout>
+</FrameLayout>

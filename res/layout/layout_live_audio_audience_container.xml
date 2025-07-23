@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.seat.AudioRoomAudienceSeatLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/seat_container" android:visibility="invisible" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_live_audio_audience_all_normal" />
+    <include android:id="@id/seat_flow_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/seat_container" layout="@layout/layout_live_room_seat_holder" />
+    <include android:id="@id/id_guard_card_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/seat_flow_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/seat_flow_container" layout="@layout/layout_live_audio_guard_card_holder" />
+</com.audio.ui.audioroom.widget.seat.AudioRoomAudienceSeatLayout>

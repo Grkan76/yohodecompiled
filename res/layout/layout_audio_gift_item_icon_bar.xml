@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.bottombar.gift.AudioGiftItemIconBar android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/gift_promotion" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_illustrated" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_year_exp" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_super_headline" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_skin" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_high_light_moment" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_family" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_voice_change" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_luck" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_random" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/id_gift_sound_indicator" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_face_indicator" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+    <include android:id="@id/gift_global" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginBottom="2.0dip" layout="@layout/layout_audio_gift_item_icon" />
+</com.audio.ui.audioroom.bottombar.gift.AudioGiftItemIconBar>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainImmersiveContainer android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_top_base_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/FitsWindowsView">
+            <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:layout_height="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_black" app:tbTitle="@string/recommendations_4" app:tbTitleCenter="true" app:tbTitleColor="@color/color1D212C" style="@style/CommonToolbarStyle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_pull_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_top_base_line" />
+    </com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>
+</com.audionew.features.main.ui.MainImmersiveContainer>

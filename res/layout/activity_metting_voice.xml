@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_metting_voice" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" app:tbTitle="@string/string_meet_my_voice" app:tbTitleColor="@color/white" style="@style/CommonToolbarStyle" />
+    <widget.ui.view.MultiStatusLayout android:id="@id/id_meet_multistatusLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mslEmptyLayout="@layout/layout_meet_voice_empty" app:mslFailedLayout="@layout/layout_meet_network_error">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.audio.ui.meet.widget.SquareRelativeLayout android:background="@drawable/bg_metting_voice_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:gravity="center" android:id="@id/id_tv_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/string_meet_voice_introduce_tips" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+                <com.audio.ui.meet.widget.VoiceUserInfoView android:id="@id/id_voice_user_info" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.audio.ui.meet.widget.SquareRelativeLayout>
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color02E8D7" android:id="@id/id_tv_voice_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/colorFFE900" android:id="@id/id_recording_less_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_recording_time_less" android:includeFontPadding="false" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_ll_bottom_iv_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/id_iv_bottom_left" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_clear_record" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.audio.ui.meet.widget.VoiceRecorderView android:id="@id/id_voice_recorder_view" android:layout_width="95.0dip" android:layout_height="95.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_ll_bottom_iv_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/id_iv_bottom_right" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_match_pulish" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_ll_bottom_tv_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white60" android:gravity="center" android:id="@id/id_tv_bottom_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_re_record" android:includeFontPadding="false" android:layout_centerInParent="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white60" android:gravity="center" android:id="@id/id_tv_bottom_middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerInParent="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_ll_bottom_tv_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white60" android:gravity="center" android:id="@id/id_tv_bottom_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_publish" android:includeFontPadding="false" android:layout_centerInParent="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </widget.ui.view.MultiStatusLayout>
+</LinearLayout>

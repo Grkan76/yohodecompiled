@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:background="@drawable/bg_audio_live_user_info_dialog" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_vip" app:failedLayout="@layout/layout_load_network_error" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

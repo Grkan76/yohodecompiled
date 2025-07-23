@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audio.ui.floatview.RippleView android:id="@id/id_ripple" android:visibility="invisible" android:layout_width="120.0dip" android:layout_height="120.0dip" app:rippleColor="#ffffffc9" app:rippleDuration="1000" app:rippleEndAlpha="0.0" app:rippleEndRadius="60.0dip" app:rippleGroupInterval="0" app:rippleInterval="1000" app:rippleNumber="3" app:rippleStartAlpha="0.7" app:rippleStartRadius="40.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_bg" android:background="@drawable/ic_red_packet_breathe_bg" android:layout_width="80.0dip" android:layout_height="80.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <widget.ui.textview.MicoTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/colorFF0066" android:id="@id/id_txt_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/id_bg" app:layout_constraintEnd_toEndOf="@id/id_bg" app:layout_constraintStart_toStartOf="@id/id_bg" app:layout_constraintTop_toTopOf="@id/id_bg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

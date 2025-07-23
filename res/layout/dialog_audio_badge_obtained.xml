@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_dialog_badge_obtained" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.20" android:textColor="@color/colorFFE5D1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:text="@string/string_congratulations" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/string_boom_rocket_got_prize" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_badge" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="5.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:id="@id/id_tv_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_congratulations" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/color2C2622" android:gravity="center" android:id="@id/id_tv_ok" android:background="@drawable/shape_bg_dialog_badge_obtained_ok" android:layout_width="265.0dip" android:layout_height="40.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:text="@string/string_common_confirm" />
+    </LinearLayout>
+</FrameLayout>

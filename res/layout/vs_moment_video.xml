@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.feature.moment.widget.video.MicoPlayerView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="@dimen/moment_list_align_nickname" android:layout_marginEnd="@dimen/moment_list_margin_hor" app:isFullScreen="false" app:playSource="MomentDetail" style="@style/RoundedBorderStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

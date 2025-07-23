@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/holder" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <widget.md.view.layout.MicoTabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" app:micoTabBackground="?selectableItemBackground" app:micoTabIndicatorColor="@color/color00CC3D" app:micoTabIndicatorHeight="4.0dip" app:micoTabIndicatorMarginBottom="6.0dip" app:micoTabIndicatorStyleRounded="true" app:micoTabIndicatorWidth="8.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.16" app:micoTabSelectedTextColor="@color/color1D212C" app:micoTabTextAppearance="@style/TextView.Medium.16" app:micoTabTextColor="@color/colorA6B0BD" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/viewpager_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="42.0dip" android:layout_weight="1.0" layout="@layout/include_viewpager" />
+            <FrameLayout android:layout_gravity="bottom" android:background="@drawable/bg_video_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.ui.button.MicoButton android:layout_gravity="center" android:id="@id/select_video_btn" android:visibility="visible" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/room_video_recommend_button" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/DialogBtnOk" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

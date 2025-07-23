@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.AudioProfileGiftListView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_gift" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/audio_user_profile_gift_list_see_all_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorB0B8CA" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_profile_list_see_all" />
+            <widget.md.view.main.RLImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_profile_morecar_arrow" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.mico.feature.base.ui.widget.GiftWallEntryWidget android:id="@id/id_gift_wall_entry" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/audio_user_profile_gift_list_linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+</com.audio.ui.widget.AudioProfileGiftListView>

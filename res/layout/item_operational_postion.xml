@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.audio.ui.widget.CircleBridgeWebview android:id="@id/id_webview" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:can_touch="false" app:transparent_background="true" />
+</RelativeLayout>

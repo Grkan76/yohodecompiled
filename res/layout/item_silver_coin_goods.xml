@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.framework.ui.widget.AspectRatioRelativeLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_common_white_r10" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="0.86"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_coin_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="8.0dip" android:layout_centerHorizontal="true" app:placeholderImage="@drawable/ic_silver_coin" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:id="@id/id_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/id_coin_iv" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/id_desc_tv" android:layout_centerHorizontal="true">
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="2.0dip" android:layout_marginEnd="2.0dip" app:placeholderImage="@drawable/ic_me_rec_coin" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorA6B0BD" android:id="@id/id_coin_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.mico.framework.ui.widget.AspectRatioRelativeLayout>

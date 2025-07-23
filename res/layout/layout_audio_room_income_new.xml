@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/shape_room_topbar_rect_bg_r10" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_width="12.0dip" android:layout_height="12.0dip" app:placeholderImage="@drawable/ic_me_inc_dim" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_tv_room_income" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" />
+</LinearLayout>

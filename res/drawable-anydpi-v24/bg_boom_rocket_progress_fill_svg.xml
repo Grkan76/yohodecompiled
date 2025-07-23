@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="34.0dip" android:width="281.0dip" android:autoMirrored="false" android:viewportWidth="281.0" android:viewportHeight="34.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff9b20ff" android:pathData="M2,25L2,9L279,9L279,25L265.5,25L261.5,29L246.5,29L242.5,25L2,25Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#fffbd3fd" android:pathData="M243,24l22,0l-4,4l-14,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#fffbd3fd" android:pathData="M241,24l26,0l-4.73,4l-16.55,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff7cf8ff" android:pathData="M18,6l63.5,0l3.5,3l-70.5,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff7cf8ff" android:pathData="M16.62,6l65.75,0l3.62,3l-73,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff391a79" android:pathData="M2,9l277,0l0,15l-277,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M278.5,9.5L278.5,23.5L2.5,23.5L2.5,9.5L278.5,9.5Z" android:strokeColor="@drawable/$bg_boom_rocket_progress_fill_svg__0" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M278.5,9.5L278.5,23.5L2.5,23.5L2.5,9.5L278.5,9.5Z" android:strokeColor="@drawable/$bg_boom_rocket_progress_fill_svg__1" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__2" android:pathData="M5,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__3" android:pathData="M12,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__4" android:pathData="M19,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__5" android:pathData="M26,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__6" android:pathData="M33,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__7" android:pathData="M40,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__8" android:pathData="M47,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__9" android:pathData="M54,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__10" android:pathData="M61,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__11" android:pathData="M68,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__12" android:pathData="M75,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__13" android:pathData="M82,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__14" android:pathData="M89,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__15" android:pathData="M96,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__16" android:pathData="M103,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__17" android:pathData="M110,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__18" android:pathData="M117,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__19" android:pathData="M124,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__20" android:pathData="M131,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__21" android:pathData="M138,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__22" android:pathData="M145,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__23" android:pathData="M152,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__24" android:pathData="M159,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__25" android:pathData="M166,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__26" android:pathData="M173,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__27" android:pathData="M180,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__28" android:pathData="M187,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__29" android:pathData="M194,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__30" android:pathData="M201,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__31" android:pathData="M208,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__32" android:pathData="M215,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__33" android:pathData="M222,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__34" android:pathData="M229,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__35" android:pathData="M236,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__36" android:pathData="M243,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__37" android:pathData="M250,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__38" android:pathData="M257,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__39" android:pathData="M264,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$bg_boom_rocket_progress_fill_svg__40" android:pathData="M271,11.5h5v10h-5z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

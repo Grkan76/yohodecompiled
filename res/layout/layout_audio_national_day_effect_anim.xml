@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.AudioNationalDayEffectAnimView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_1" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_2" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_3" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_4" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_5" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+</com.audio.ui.audioroom.widget.AudioNationalDayEffectAnimView>

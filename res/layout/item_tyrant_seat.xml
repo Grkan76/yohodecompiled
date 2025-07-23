@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="200.0dip" android:layout_height="220.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/bottomLv" android:layout_width="184.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_audio_tyrant_seat_lv1" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/seat" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/empty" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/ic_audio_tyrant_seat_empty_round" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="60.0dip" fresco:roundAsCircle="true" fresco:roundingBorderColor="@color/white" fresco:roundingBorderWidth="1.0dip" />
+</FrameLayout>

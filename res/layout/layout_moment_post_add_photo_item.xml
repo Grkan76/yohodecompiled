@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.SquareFrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_photo" android:background="@drawable/ic_moment_post_add_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundedCornerRadius="8.0dip" />
+</widget.ui.view.SquareFrameLayout>

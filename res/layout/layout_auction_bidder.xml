@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.DecorateAvatarImageView android:id="@id/auction_bidder_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:avatar_height="20.0dip" app:avatar_width="20.0dip" app:decorate_height="20.0dip" app:decorate_width="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.10" android:textSize="8.0sp" android:textColor="@color/white" android:id="@id/auction_bidder_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1200" app:layout_constraintEnd_toEndOf="@id/auction_bidder_avatar" app:layout_constraintStart_toStartOf="@id/auction_bidder_avatar" app:layout_constraintTop_toBottomOf="@id/auction_bidder_avatar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

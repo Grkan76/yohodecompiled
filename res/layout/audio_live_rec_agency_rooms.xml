@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="1.0px" android:layout_height="1.0px" />
+    <include android:id="@id/rec_empty_view" android:visibility="gone" layout="@layout/include_live_list_empty" />
+    <include android:id="@id/rec_error_view" android:visibility="gone" layout="@layout/layout_load_network_error" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:id="@id/rec_agency_rooms_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_recommend" android:layout_marginStart="8.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rec_agency_rooms_rv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    <View android:id="@id/rec_agency_rooms_divider" android:background="@color/colorF5F7F9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.view.SquareFrameLayout android:id="@id/id_sf_root" android:background="@drawable/bg_country_board" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_country_board_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/string_board" />
+        </LinearLayout>
+    </widget.ui.view.SquareFrameLayout>
+</LinearLayout>

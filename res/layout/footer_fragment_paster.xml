@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.widget.emoji.ChildViewPager android:id="@id/paster_pager" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_marginBottom="10.0dip" />
+    <widget.nice.pager.indicator.SlidePageIndicator android:layout_gravity="center_horizontal" android:id="@id/paster_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:spiDefaultColor="@color/emoji_circle_indicator_page_color" app:spiIndicatorHeight="6.0dip" app:spiIndicatorWidth="6.0dip" app:spiInterval="4.0dip" app:spiPreviewCount="4" app:spiRoundAsCircle="true" app:spiSelectedColor="@color/emoji_circle_indicator_fill_color" />
+</LinearLayout>

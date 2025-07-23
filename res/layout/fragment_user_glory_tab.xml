@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="60.0dip">
+        <com.audio.ui.widget.AudioGuinnessRecordLayout android:id="@id/clGuinnessRecord" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <com.audio.ui.widget.AudioProfileHonorTitlesGridView android:id="@id/audio_user_honor_titles_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/audio_user_profile_badge_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_badge_list_view" />
+        <include android:id="@id/audio_user_high_light_moment_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_highlight_moment_view" />
+        <com.audio.ui.widget.AudioProfilePKRecordView android:id="@id/audio_user_pk_record_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <include android:id="@id/audio_user_game_rank_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_game_rank_view" />
+        <include android:id="@id/audio_user_profile_car_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_car_list_view" />
+        <com.mico.feature.me.ui.widget.ProfileGiftIllustratedLayout android:id="@id/clGiftIllustratedLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <include android:id="@id/audio_user_profile_gift_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_gift_list_view" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

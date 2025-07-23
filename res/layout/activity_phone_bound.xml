@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:background="@color/white" app:tbNavigationEnable="true" style="@style/CommonToolbarStyle" />
+    <ImageView android:id="@id/ivBindPhone" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginTop="56.0dip" android:src="@drawable/ic_phone_bound" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_phone_num_info" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorA6B0BD" android:id="@id/tvBindHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_phone_bound" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.24" android:textColor="@color/color1D212C" android:id="@id/id_phone_phone_num_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layoutDirection="ltr" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvItem" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:overScrollMode="never" />
+</LinearLayout>

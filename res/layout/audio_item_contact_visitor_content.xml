@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/live_list_margin" android:layout_marginRight="@dimen/live_list_margin" android:layout_marginStart="@dimen/live_list_margin" android:layout_marginEnd="@dimen/live_list_margin">
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" app:placeholderImage="@color/black" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" style="@style/MDAvatar48Style" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.11" android:textColor="@color/colorA6B0BD" android:ellipsize="end" android:gravity="end" android:layout_gravity="top" android:id="@id/tv_timestamp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <com.audio.ui.widget.AudioVipAgeGenderWealthView style="@style/VipAgeGenderWealthStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_marginStart="72.0dip" style="@style/LineF1F2F6" />
+</FrameLayout>

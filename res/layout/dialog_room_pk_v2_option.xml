@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_toggle_opponent_stream" android:background="@drawable/bg_1d212c_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="30.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_toggle_ally_stream" android:background="@drawable/bg_1d212c_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_surrender" android:background="@drawable/bg_1d212c_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:text="@string/string_audio_pk_give_up" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

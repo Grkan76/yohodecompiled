@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="122.0dip" android:layout_height="142.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/bg" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="12.0dip" app:actualImageResource="@drawable/bg_item_game_ludo_newbie" />
+    <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/item_day_desc" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="77.0dip" android:maxLines="1" android:includeFontPadding="false" app:StrokeStyleable_strokeColor="#ff0883d1" app:StrokeStyleable_strokeWidth="1.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/reward_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="17.0dip" app:actualImageScaleType="fitCenter" app:placeholderImageScaleType="fitCenter" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFF001F61" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/reward_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="105.0dip" android:maxLines="2" android:includeFontPadding="false" />
+</FrameLayout>

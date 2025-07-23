@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/avatar_bg" style="@style/MDAvatar30Style" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/iv_user_avatar" android:layout_width="28.0dip" android:layout_height="28.0dip" app:roundAsCircle="true" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/iv_seat_num" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+</FrameLayout>

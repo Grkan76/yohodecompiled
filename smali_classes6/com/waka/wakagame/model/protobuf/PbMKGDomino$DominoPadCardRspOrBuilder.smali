@@ -1,0 +1,48 @@
+.class public interface abstract Lcom/waka/wakagame/model/protobuf/PbMKGDomino$DominoPadCardRspOrBuilder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/protobuf/e0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/waka/wakagame/model/protobuf/PbMKGDomino;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DominoPadCardRspOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getCardsArray(I)Lcom/waka/wakagame/model/protobuf/PbMKGDomino$DominoCard;
+.end method
+
+.method public abstract getCardsArrayCount()I
+.end method
+
+.method public abstract getCardsArrayList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/waka/wakagame/model/protobuf/PbMKGDomino$DominoCard;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/d0;
+.end method
+
+.method public abstract getRspHead()Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameRspHead;
+.end method
+
+.method public abstract hasRspHead()Z
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

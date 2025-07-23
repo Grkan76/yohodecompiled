@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.family.widget.AudioFamilyGradeTitle android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:id="@id/id_tv_family_grade_title_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/id_iv_family_grade_title_tag" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="4.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/shape_bg_famiy_grade_title_tag" />
+</com.audionew.features.family.widget.AudioFamilyGradeTitle>

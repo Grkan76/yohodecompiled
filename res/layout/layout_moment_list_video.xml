@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.media3.ui.PlayerView android:id="@id/playerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:controller_layout_id="@layout/layout_blank_video_controller" app:playerBackgroundColor="@color/transparent" app:use_controller="true" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/mivCover" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:roundedCornerRadius="8.0dip" />
+    <ProgressBar android:id="@id/loadingView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/video_progress_loading" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_video_play" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

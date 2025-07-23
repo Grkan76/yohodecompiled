@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/honor_title" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/audio_user_profile_honor_titles_more" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorB0B8CA" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_more" />
+            <widget.md.view.main.RLImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_profile_morecar_arrow" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="0.0dip" android:layout_height="10.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_honor_titles" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" />
+</LinearLayout>

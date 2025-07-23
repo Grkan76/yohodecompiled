@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/audio_room_player_vg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/black" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.audioroom.youtube.player.YoutubePlayerView android:id="@id/audio_room_player" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:layout_gravity="center" android:id="@id/audio_room_player_no_video_vs" android:layout="@layout/layout_audio_room_no_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.11" android:textColor="@color/white" android:gravity="center" android:id="@id/audio_room_player_waiting_tv" android:background="@color/black60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/room_video_swich_wait" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.11" android:textColor="@color/white" android:gravity="center" android:id="@id/audio_room_player_cant_watch_tv" android:background="@color/black60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/room_video_only_region" />
+    <include android:id="@id/audio_room_player_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/player_controller" />
+    <View android:layout_gravity="center" android:id="@id/audio_room_player_refreshing_iv" android:background="@drawable/ic_audio_room_video_refresh" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+</androidx.cardview.widget.CardView>

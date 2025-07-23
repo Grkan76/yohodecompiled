@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="112.0dip" android:width="96.0dip" android:autoMirrored="true" android:viewportWidth="96.0" android:viewportHeight="112.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$team_battle_reward_item_bg__0" android:pathData="M94,103L90,107L9,107L2,94L2,57L5,54L5,33L2,30L2,19L10,5L37,5L40,11L91,11L94,15L94,51L91,54L91,81L94,84L94,103Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.49766758" android:fillAlpha="0.49766758" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M36.85,5.25L39.85,11.25L90.88,11.25L93.75,15.08L93.75,50.9L90.75,53.9L90.75,81.1L93.75,84.1L93.75,102.9L89.9,106.75L9.15,106.75L2.25,93.94L2.25,57.1L5.25,54.1L5.25,32.9L2.25,29.9L2.25,19.07L10.15,5.25L36.85,5.25Z" android:strokeColor="@drawable/$team_battle_reward_item_bg__1" android:strokeWidth="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M2,57l0,37.5l7,12.5l8,0" android:strokeColor="@drawable/$team_battle_reward_item_bg__2" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M2,57l0,37.5l7,12.5l8,0" android:strokeColor="@drawable/$team_battle_reward_item_bg__3" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M40,5L53,5L55,8.5L65,8.5L67,5L74.5,5L76.5,2L94,2" android:strokeColor="@drawable/$team_battle_reward_item_bg__4" android:strokeWidth="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M40,7L74.5,7" android:strokeWidth="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M27,107L29,110L71,110L73,107" android:strokeColor="#ffffd4fc" android:strokeWidth="0.5" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M2,19l8,-14l27,0l3,6l5,0" android:strokeColor="@drawable/$team_battle_reward_item_bg__5" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M2,19l8,-14l27,0l3,6l5,0" android:strokeColor="@drawable/$team_battle_reward_item_bg__6" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M86,11l4.5,0l3,4l0,36" android:strokeColor="@drawable/$team_battle_reward_item_bg__7" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M86,11l4.5,0l3,4l0,36" android:strokeColor="@drawable/$team_battle_reward_item_bg__8" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$team_battle_reward_item_bg__9" android:pathData="M79,4L78,6L76,6L77,4L79,4ZM83,4L82,6L80,6L81,4L83,4ZM87,4L86,6L84,6L85,4L87,4ZM91,4L90,6L88,6L89,4L91,4Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffd7fd" android:pathData="M93,77L95,78L95,80L93,79L93,77ZM93,73L95,74L95,76L93,75L93,73ZM93,69L95,70L95,72L93,71L93,69ZM93,65L95,66L95,68L93,67L93,65ZM93,61L95,62L95,64L93,63L93,61ZM93,57L95,58L95,60L93,59L93,57Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffd4fc" android:pathData="M1,51L3,52L3,54L1,53L1,51ZM1,47L3,48L3,50L1,49L1,47ZM1,43L3,44L3,46L1,45L1,43ZM1,39L3,40L3,42L1,41L1,39ZM1,35L3,36L3,38L1,37L1,35ZM1,31L3,32L3,34L1,33L1,31Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M90,81l4,3l0,19l-4,4" android:strokeColor="@drawable/$team_battle_reward_item_bg__10" android:strokeWidth="2.0" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M90,81l4,3l0,19l-4,4" android:strokeColor="@drawable/$team_battle_reward_item_bg__11" android:strokeWidth="2.0" android:fillType="evenOdd" />
+</vector>

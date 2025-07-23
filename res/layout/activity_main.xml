@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_main_root_content" android:clipChildren="false" style="@style/BaseLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.main.RLImageView android:layout_gravity="top" android:id="@id/iv_main_top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_top_home" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <com.audionew.features.main.ui.MainImmersiveContainer android:id="@id/id_frag_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/main_bottom_tab_layout_height" />
+    <View android:layout_gravity="bottom" android:id="@id/id_bottom_line" android:layout_marginBottom="@dimen/main_bottom_tab_layout_height" style="@style/LineF1F2F6" />
+    <include layout="@layout/layout_main_bottom_tab" />
+</FrameLayout>

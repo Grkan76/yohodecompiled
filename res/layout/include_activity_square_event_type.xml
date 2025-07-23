@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatRadioButton android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/selector_activity_square_color" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:button="@null" android:text="@string/string_audio_activity_square_type_theme" android:drawablePadding="5.0dip" android:drawableStart="@drawable/selector_activity_square"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</merge>

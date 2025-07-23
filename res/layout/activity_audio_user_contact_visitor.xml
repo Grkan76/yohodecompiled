@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbExtraOptionIconDisableRTL="true" app:tbNavigationEnable="true" app:tbTitle="@string/string_audio_visitors" style="@style/CommonToolbarStyle" />
+    <View style="@style/LineF1F2F6" />
+    <include layout="@layout/layout_libx_pull_refresh" />
+</LinearLayout>

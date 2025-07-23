@@ -1,0 +1,223 @@
+.class public final Lcom/waka/wakagame/games/g106/widget/SeatMp4Node$Companion;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0004\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "Lcom/waka/wakagame/games/g106/widget/SeatMp4Node$Companion;",
+        "",
+        "()V",
+        "create",
+        "Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;",
+        "wakagame_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/waka/wakagame/games/g106/widget/SeatMp4Node$Companion;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create()Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;
+    .locals 4
+
+    .line 1
+    const-string v0, "images/img_voice_bg.webp"
+
+    .line 2
+    .line 3
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    const/high16 v1, 0x42600000    # 56.0f
+
+    .line 8
+    .line 9
+    const/high16 v2, 0x42840000    # 66.0f
+
+    .line 10
+    .line 11
+    invoke-static {v1, v2, v0}, Lcom/waka/wakagame/games/g106/GameConstant106Kt;->getSpriteDP(FF[Ljava/lang/String;)Lcom/mico/joystick/core/JKSprite;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    const/4 v1, 0x0
+
+    .line 16
+    if-nez v0, :cond_0
+
+    .line 17
+    .line 18
+    return-object v1
+
+    .line 19
+    :cond_0
+    new-instance v2, Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;
+
+    .line 20
+    .line 21
+    invoke-direct {v2, v1}, Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    .line 22
+    .line 23
+    .line 24
+    invoke-static {v2, v0}, Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;->access$setBg$p(Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;Lcom/mico/joystick/core/JKSprite;)V
+
+    .line 25
+    .line 26
+    .line 27
+    invoke-virtual {v2, v0}, Lcom/mico/joystick/core/JKNode;->addChild(Lcom/mico/joystick/core/JKNode;)Z
+
+    .line 28
+    .line 29
+    .line 30
+    invoke-virtual {v0}, Lcom/mico/joystick/core/JKNode;->getWidth()F
+
+    .line 31
+    .line 32
+    .line 33
+    move-result v1
+
+    .line 34
+    invoke-virtual {v0}, Lcom/mico/joystick/core/JKNode;->getHeight()F
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v0
+
+    .line 38
+    invoke-virtual {v2, v1, v0}, Lcom/mico/joystick/core/JKNode;->setSize(FF)V
+
+    .line 39
+    .line 40
+    .line 41
+    new-instance v0, Lcom/waka/wakagame/glue/JKAlphaMp4Sprite;
+
+    .line 42
+    .line 43
+    invoke-direct {v0}, Lcom/waka/wakagame/glue/JKAlphaMp4Sprite;-><init>()V
+
+    .line 44
+    .line 45
+    .line 46
+    sget-object v1, Lcom/mico/joystick/utils/JKL;->INSTANCE:Lcom/mico/joystick/utils/JKL;
+
+    .line 47
+    .line 48
+    const/4 v3, 0x2
+
+    .line 49
+    new-array v3, v3, [F
+
+    .line 50
+    .line 51
+    fill-array-data v3, :array_0
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-virtual {v1, v3}, Lcom/mico/joystick/utils/JKL;->dp2px([F)[F
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v1
+
+    .line 58
+    invoke-virtual {v0, v1}, Lcom/mico/joystick/core/JKSprite;->setFrameLimitSize([F)V
+
+    .line 59
+    .line 60
+    .line 61
+    const/4 v1, 0x1
+
+    .line 62
+    invoke-virtual {v0, v1}, Lcom/mico/joystick/core/JKSprite;->setPremultipliedAlpha(Z)V
+
+    .line 63
+    .line 64
+    .line 65
+    invoke-virtual {v0, v2}, Lcom/waka/wakagame/glue/JKAlphaMp4Sprite;->setListener(Lcom/waka/wakagame/glue/JKAlphaMp4Sprite$Listener;)V
+
+    .line 66
+    .line 67
+    .line 68
+    invoke-virtual {v2, v0}, Lcom/mico/joystick/core/JKNode;->addChild(Lcom/mico/joystick/core/JKNode;)Z
+
+    .line 69
+    .line 70
+    .line 71
+    invoke-static {v2, v0}, Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;->access$setAlphaMp4Sprite$p(Lcom/waka/wakagame/games/g106/widget/SeatMp4Node;Lcom/waka/wakagame/glue/JKAlphaMp4Sprite;)V
+
+    .line 72
+    .line 73
+    .line 74
+    return-object v2
+
+    .line 75
+    :array_0
+    .array-data 4
+        0x42200000    # 40.0f
+        0x42200000    # 40.0f
+    .end array-data
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+.end method

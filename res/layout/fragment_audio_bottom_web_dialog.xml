@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/id_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audio.ui.widget.CircleBridgeWebview android:id="@id/webview" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="180.0dip" android:layout_marginBottom="-16.0dip" app:corner="16.0dip" app:left_bottom="true" app:left_top="true" app:right_bottom="true" app:right_top="true" />
+    <FrameLayout android:id="@id/id_v_close" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="180.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/btn_close_gray_circle_28" />
+    </FrameLayout>
+</RelativeLayout>

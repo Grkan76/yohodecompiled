@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:background="@color/white" app:tbNavigationEnable="true" app:tbTitle="@string/string_gift" style="@style/CommonToolbarStyle" />
+    <View android:id="@id/audio_mall_line_one" android:background="@color/colorF1F2F6" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_refresh_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:emptyLayout="@layout/include_user_gift_list_empty" app:failedLayout="@layout/include_mall_list_error" />
+</LinearLayout>

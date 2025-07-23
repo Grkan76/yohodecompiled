@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/ic_dialog_bg_second_charge" android:layout_width="315.0dip" android:layout_height="410.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_dialog_close_second_charge" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/string_second_charge_dialog_title" android:shadowColor="@color/black85" android:shadowDy="6.0" android:shadowRadius="2.0" android:layout_centerHorizontal="true" style="@style/TextView.Bold.24" />
+        <TextView android:textColor="@color/colorE92B3F" android:gravity="center" android:id="@id/tv_view" android:background="@drawable/shape_btn_dialog_second_charge" android:layout_width="245.0dip" android:layout_height="45.0dip" android:layout_marginBottom="35.0dip" android:text="@string/string_click_here_for_details" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/TextView.Bold.18" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

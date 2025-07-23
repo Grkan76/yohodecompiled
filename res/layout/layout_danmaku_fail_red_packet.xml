@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_barrage_inner_view_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="290.0dip" android:layout_height="41.0dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_bg_fall_red_packet" android:layout_width="fill_parent" android:layout_height="fill_parent" app:actualImageScaleType="fitXY" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/colorFFFF00" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_fall_red_packet_danmaku_content" android:layout_centerInParent="true" android:paddingStart="24.0dip" android:paddingEnd="76.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

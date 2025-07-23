@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:background="@color/white" app:tbNavigationEnable="true" app:tbTitle="@string/profile_edit_title" style="@style/CommonToolbarStyle">
+        <FrameLayout android:layout_gravity="center" android:id="@id/id_save" android:background="@drawable/background_toolbar_navigation" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginEnd="4.0dip">
+            <widget.ui.textview.MicoTextView android:enabled="false" android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/selector_edit_profile_save" android:layout_gravity="center" android:id="@id/id_tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_save" />
+        </FrameLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFFA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/string_head_avatar" android:layout_marginStart="20.0dip" />
+            <include android:id="@id/fl_avatar_container" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="8.0dip" layout="@layout/item_edit_profile_photo" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFF01ACFF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/string_vip9_tips" android:layout_marginStart="20.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFFA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_photo_album" android:layout_marginStart="20.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/id_rcv_photo" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="16.0dip" />
+            <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <widget.ui.textview.MicoTextView android:text="@string/profile_nickname" style="@style/AudioUpdateProfileTipsText" />
+                <widget.ui.textview.MicoTextView android:id="@id/id_tv_name_limit_tips" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/AudioUpdateProfileTipsText" />
+            </RelativeLayout>
+            <widget.ui.textview.MicoEditText android:gravity="center_vertical" android:id="@id/id_et_name" android:layout_height="48.0dip" android:hint="@string/account_new_displayName_hint" android:maxLines="1" android:singleLine="true" android:maxLength="30" style="@style/AudioUpdateProfileEt" />
+            <widget.ui.textview.MicoTextView android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/profile_birthday" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/AudioUpdateProfileTipsText" />
+            <RelativeLayout android:id="@id/rl_birthday" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:id="@id/id_tv_my_birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/id_iv_birthday_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_dark_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_country_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.ui.textview.MicoTextView android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/common_country_region" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/AudioUpdateProfileTipsText" />
+                <RelativeLayout android:id="@id/rl_choose_country" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:id="@id/tv_choose_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+                    <widget.md.view.main.RLImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_dark_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <widget.ui.textview.MicoTextView android:text="@string/string_audio_user_desc" style="@style/AudioUpdateProfileTipsText" />
+                <widget.ui.textview.MicoTextView android:id="@id/id_tv_desc_limit_tips" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/AudioUpdateProfileTipsText" />
+            </RelativeLayout>
+            <widget.ui.textview.MicoEditText android:id="@id/id_et_description" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_height="140.0dip" android:hint="@string/string_audio_user_desc_empty" android:maxLength="400" style="@style/AudioUpdateProfileEt" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

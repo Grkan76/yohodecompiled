@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/md_item_chat_avatar_recv" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clBg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="64.0dip" style="@style/ChatRecvOuterViewStyle">
+        <widget.md.view.main.RLImageView android:id="@id/ivTexture" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="-16.0dip" android:layout_marginBottom="-16.0dip" android:scaleType="center" app:layout_constraintBottom_toBottomOf="@id/apply_cp_card_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/apply_cp_card_content" />
+        <RelativeLayout android:id="@id/apply_cp_card_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/white" android:id="@id/tvCardTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:id="@id/llBtnContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/tvCardTitle">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="center" android:id="@id/tvRefuse" android:background="@drawable/shape_apply_cp_refuse" android:layout_width="86.0dip" android:layout_height="26.0dip" android:text="@string/string_apply_cp_refuse" />
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFF5294" android:gravity="center" android:id="@id/tvAgree" android:background="@drawable/shape_apply_cp_agree" android:layout_width="86.0dip" android:layout_height="26.0dip" android:text="@string/string_apply_cp_agree" />
+            </LinearLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="center" android:id="@id/tvStatus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/tvCardTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

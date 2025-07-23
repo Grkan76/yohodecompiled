@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.tabbar.TabBarLinearLayout android:orientation="horizontal" android:id="@id/id_tab_bar_layout" android:layout_width="wrap_content" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:id="@id/id_num1_tv" android:background="@drawable/selector_red_packet_item" style="@style/RedPacketSendAlert_TextTab" />
+    <Space android:layout_width="10.0dip" android:layout_height="1.0dip" />
+    <widget.ui.textview.MicoTextView android:id="@id/id_num2_tv" android:background="@drawable/selector_red_packet_item" style="@style/RedPacketSendAlert_TextTab" />
+    <Space android:layout_width="10.0dip" android:layout_height="1.0dip" />
+    <widget.ui.textview.MicoTextView android:id="@id/id_num3_tv" android:background="@drawable/selector_red_packet_item" style="@style/RedPacketSendAlert_TextTab" />
+    <Space android:layout_width="10.0dip" android:layout_height="1.0dip" />
+    <widget.ui.textview.MicoTextView android:id="@id/id_num4_tv" android:background="@drawable/selector_red_packet_item" style="@style/RedPacketSendAlert_TextTab" />
+</widget.ui.tabbar.TabBarLinearLayout>

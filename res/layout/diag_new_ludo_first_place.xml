@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:layout_width="300.0dip" android:layout_height="416.0dip" android:layout_marginBottom="40.0dip">
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="300.0dip" android:layout_height="256.0dip">
+            <View android:background="@drawable/ic_new_ludo_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cl_content" android:background="@drawable/bg_new_ludo_dialog_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:textSize="16.0sp" android:textColor="#ff001f61" android:gravity="center" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/string_106_first_place_content" android:textAlignment="center" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_new_ludo_dialog_balance_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                    <ImageView android:id="@id/iv_coin" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:src="@drawable/ic_silver_coin" />
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff001f61" android:id="@id/tv_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.waka.wakagame.native.WakaGameTextView android:textAppearance="@style/TextAppearance.AppCompat.Headline" android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btn_confirm" android:background="@drawable/ic_new_ludo_btn_yellow_long" android:paddingBottom="1.0dip" android:layout_width="260.0dip" android:layout_height="40.0dip" android:layout_marginBottom="28.0dip" android:text="@string/string_105_confirm" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:autoSizeMaxTextSize="18.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeStepGranularity="1.0sp" app:outlineColor="#fff08600" app:outlineWidth="1.0dip" />
+        </RelativeLayout>
+        <com.facebook.drawee.view.SimpleDraweeView android:layout_gravity="top" android:id="@id/sdv_title" android:layout_width="300.0dip" android:layout_height="200.0dip" app:placeholderImage="@drawable/ic_new_ludo_first_place_title" />
+    </FrameLayout>
+</FrameLayout>

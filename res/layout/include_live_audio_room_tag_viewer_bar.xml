@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_live_lock_small" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.11" android:textColor="@color/white60" android:ellipsize="end" android:id="@id/tv_anchor_user_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="100.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" android:layout_marginEnd="4.0dip" />
+</LinearLayout>

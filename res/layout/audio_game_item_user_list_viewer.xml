@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_user_avatar_iv" app:roundAsCircle="true" style="@style/MDAvatar30Style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_f5f7f9_r4" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color303030" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/string_notice" android:layout_marginStart="12.0dip" />
+    <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:layout_gravity="end|center" android:id="@id/id_tv_notice_total_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:layout_marginEnd="30.0dip" app:tipsFixPadding="8.0dip" app:tipsRadius="10.0dip" app:tipsSolidColor="@color/colorFF0066" />
+    <FrameLayout android:layout_gravity="end|center" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="2.0dip" android:layout_marginEnd="2.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/id_iv_notice_arrow" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+    </FrameLayout>
+</FrameLayout>

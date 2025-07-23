@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="com.google.firebase.crashlytics.build_ids_arch">
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_build_id">
+        <item>837cf37630fee3304cd6b91a083d811b88716782</item>
+        <item>f6c1b738554cba470a9765a5049dc2c51c49b918</item>
+        <item>3eb287de5f02349476c291253571dfb07e0fe6e2</item>
+        <item>45731423cde83c0f80de665dc66ec9ec632c61e6</item>
+        <item>d30e371976d941931f5f2a1b684de055e65c894a</item>
+        <item>6f0cd8b639a1a9704a8e0d8fbcc0444015ec9cd8</item>
+        <item>9c090611aaa8fda7c0193c3354ba914134289a8b</item>
+        <item>07a1fe125a24eaa4dad87d2fa8b13654bd90e48c</item>
+        <item>b4815e7e67fb5641e7b3dccc784620516aef912d</item>
+        <item>0c96a57bbeea2df0cc7564dae4539d5969be35dc</item>
+        <item>15a4c9f0b3a5f66f305add0fb565ade5aa730910</item>
+        <item>ad235abfa5523906716ccd2839a2e8bb6d881a7a</item>
+        <item>d738c05a96f5ed2512f852359b4e0c5cec734cb6</item>
+        <item>b32a41bb1bc7fde218c901cb0a36eac833fae5c7</item>
+        <item>1f739e5226ca98f1df06e9d7c04e5c143d33d81c</item>
+        <item>512153c1853c1e341db6c32ce2dc3f3cc138286e</item>
+        <item>6bc68a97269baaa7f7cf0b81e17b1e63994809a5</item>
+        <item>4761ba6a64443f895d03e0ba91f550a52c1d6b80</item>
+        <item>470a3f35d4b40aa7f436d4388c79eb2f2ebbe063</item>
+        <item>c6ef0802be059f5f59b23f1205d040dbc5b1ccad</item>
+        <item>b576045738f7bafdb420a57114ebac81b04640e4</item>
+        <item>c98a293fe9dcfd39aff17c29c504d6de0f77ef62</item>
+        <item>a52382c7006624e3c6b046559d5d28366561eed9</item>
+        <item>7bf1e4e08ae33b809596979901acea0795e742d3</item>
+        <item>91ad17f50ff3c08496160eeef6914722ff4e6c5f</item>
+        <item>12471a2eeaa38d6c58846cd2af73e680bb06b2f4</item>
+        <item>e533ab3e5f67814bc8afae5bfc3f6a10e5018e8d</item>
+        <item>710bcda157509455b642fc7f8e00bd8dc1418a5e</item>
+        <item>f16bd0ca14af3d77b1a7a78eac504e641e04b9db</item>
+        <item>dbc59cf2c739ec98edd96bb93bad59fa709c2739</item>
+        <item>4f7b8c2f0fcfc33380736f9227654f5c41cd5084</item>
+        <item>cb733a319096588783d9b79bbdb2b2493884fa35</item>
+        <item>9c376dcc5dfeada020b90fdbb4c4388225bb7d02</item>
+        <item>837cf37630fee3304cd6b91a083d811b88716782</item>
+        <item>73c5536dd4f3e5e0866309a02fbdd706e2a440ce</item>
+        <item>e5c5ec545e539ad1c35a0346daf7fd7d6170b198</item>
+        <item>360148cc4785a88639fe4e8d8479435b85d5cda3</item>
+        <item>230eb15fbe123b8d9c9af7603713f4ef38718788</item>
+        <item>ab7a45916716d103e90661b9a687948fbcfa4c34</item>
+        <item>863d4090b5c94884769fc945315c2a90b00d1dca</item>
+        <item>3eb287de5f02349476c291253571dfb07e0fe6e2</item>
+        <item>bc9dbeaf5e5161944ff8d4d214ca102973bcd9f6</item>
+        <item>5754cbb856e8ce5504d9d719f1c06dac34fce371</item>
+        <item>a1f4b25cd422d1131429a5a3fd4cf9fdc18ea727</item>
+        <item>c2bbe5fe2073926b9c4a76865c647defabe31f52</item>
+        <item>00000000000000000000000000000000</item>
+        <item>8bf479f1d5be6f32f7e7ce42400cb8f855df7d7d</item>
+        <item>391fe9400bc3695967c9cc76b9905894a6a9c096</item>
+        <item>93d7fa7c1bfc2789cf55a8b6dde2333b26f432bd</item>
+        <item>fae8688be5108155793ea60ef47c530baf1e9097</item>
+        <item>2774aa23d01c917f7ea3146c267a071b99f1c2f7</item>
+        <item>c3e778e2c5327b011fe2284f57d2e79eb2e3c73c</item>
+        <item>c2c541cc4337a0fc28271329ef238d6bddf6d70d</item>
+        <item>3028c47a341195cf5ce70f1dfc56a981a3e1aee7</item>
+        <item>45731423cde83c0f80de665dc66ec9ec632c61e6</item>
+        <item>30431471c8d0ac3dfcbcba3d0cfb5df14ed7cd36</item>
+        <item>dbd34365b14724e41d8d7c74c3d15d2f779c0d71</item>
+        <item>64345eddfbfe5e8bb1781d3bd82a583d642459ec</item>
+        <item>99775576f1f014c0722179fa8ecab83d1ad7e81b</item>
+        <item>4dbe37d42008145c7d9a873223a4ee609ca6e7a6</item>
+        <item>de4cd35f9e6abc2153e7de8425b5a220a41dcae7</item>
+        <item>46589b171d36f4814cf53d82709fbcacd5990866</item>
+        <item>5385a63b71604bd6a379cd110e3b162dad4e73eb</item>
+        <item>0742f6d8bc8bc76c62bf282649203829a4b57536</item>
+        <item>4bed386578b2ad195246b6bcfdccbcaed9e7f7a3</item>
+        <item>047f30600056e573ba7b8ad220a8a25df8b046c8</item>
+        <item>f603366c198a6d6793fdb734169c0bb0e71081bc</item>
+        <item>91a7e6d14dd08e589e17d4ae406b30bc2fe9a815</item>
+        <item>f029ef74e5dfc91e3c97996def27d9826629b69a</item>
+        <item>d26711692676c432768bb98c03ba7b716af1fcf8</item>
+        <item>cd07c4b83f6730bfb264b8da22034befd6669a22</item>
+        <item>95e0126c703dbccd2ec383d7888091a0515c8c5f</item>
+        <item>bcbb9efcad5cceff1087356b223e769805179445</item>
+        <item>0ad153e1e1b3ccf4c2b284226e295c409b392fb9</item>
+        <item>52731036e9d00e433ecbe3c23c71e38733765ec7</item>
+        <item>c12b008316d80547c976977577d7dade021f88f7</item>
+        <item>3a5fdeda2e3341815990a92f56ba36a49c078e57</item>
+        <item>cbac6cb0f74249915b7cb2798e7b1672a969d448</item>
+        <item>c1522758080d86846e6483f24edcc3a0f01c3d14</item>
+        <item>cc645b29f63344482fa917a55385a703e5f64979</item>
+        <item>00000000000000000000000000000000</item>
+        <item>cc76900aaea9546ea89daacc3c961f4dfc9fdd74</item>
+        <item>fe48df9b6b8cf595f7bce5099177884824f660ce</item>
+        <item>9ef759c1b074d22ac3f02fb442d297fc3c1aa3a9</item>
+        <item>352afc779189eb554333530d462aaa54aaafe1ec</item>
+        <item>bb7068907600144855e59a761eba274df0e0c4d0</item>
+        <item>9e0518c9ce91d2051d743b2220ae7d61318d55de</item>
+        <item>17db37bd6770ac00dd2d1d2828839fd23a7959a3</item>
+        <item>69157c919753d0c9e22599b5de35446702e6e8fb</item>
+        <item>33c421728919ab981de4822de228a25de4878e47</item>
+        <item>ab7c5caf201f0d75bc58e90e5deea13b6c4a4029</item>
+        <item>ccde7bae8b4d37c829f55bce1e7df2bda06e16c6</item>
+        <item>3607f9c3b67c1c5b760396f19ae9b33db832be5f</item>
+        <item>0da82722c95ec8827f133f0d1abfb38f0e6fc085</item>
+        <item>7c2c974468ee154ee725b707b8362578eff54d66</item>
+        <item>f35e1ecf6d21465a466e76144b2f3e6bbd569875</item>
+        <item>edcfb84dda68deb24e51326a805e807b253216bb</item>
+        <item>114fa206fe963032d541cbcab0bc9374406cfd63</item>
+        <item>8411b301c9aafef50292dca701d9bc8ce7f2172c</item>
+        <item>9eb6c8328d361f99d2044701729b0f1e17401678</item>
+        <item>a0f17680464443cb0467eebb5ed5120983e17321</item>
+        <item>b4db07f33c144b46b571f3b89bb8e42ba1f29b59</item>
+        <item>6baf6ca4015db6f443e6ecaa52db9f7a80cecb95</item>
+        <item>b64c4b126e94cf565a3d863390d178b0581acb13</item>
+        <item>15929186478b2e38503d703fc4a0907cce5d028c</item>
+        <item>0bdf6d4d89a762e683673c273596754e58c17ed7</item>
+        <item>c4687fdbc658516c576f96515da61011fa760877</item>
+        <item>e08fe320d9122d8b5ef80381b3eaf27b469cd3c9</item>
+        <item>e92357770d2ce79a7bfd3cc88a7d426e966a3ff3</item>
+        <item>23e542f9c1a6793b6cc14238eebc1a67acae15ac</item>
+        <item>a2ee8b05bbe61f51ea4d569917e78bdeccd672fe</item>
+        <item>27f147289898a671e7026a25c1d34f55beea1cb9</item>
+        <item>71059c28953fbaf52ac30299d5a905cb443008c7</item>
+        <item>a25c2f595dd648c2591d808e568b9b8f555d77a4</item>
+        <item>84828517ff061fe56fd153cebf581ac438e6ce12</item>
+        <item>cf60dc0a5664876a021857e4948f6798ee0ca150</item>
+        <item>b652ea8db0a9fd1ac68ba66c82651c5eb557c330</item>
+        <item>be69de72beb3bc91b7f19a1eaa35a3193373dc3a</item>
+        <item>72289f67ef4562567f48913dc917c38b120f0c25</item>
+        <item>26cc74220ea0327520c7cc941b4350a30ce9bf63</item>
+        <item>db7feb418e64b077b63a9d469728c3f254bf8505</item>
+        <item>a00a50b5c2269f82c5db25d2041ea5c8f99783a8</item>
+        <item>8453e67dc3578671a99b1fe16ff183b79d10750b</item>
+        <item>741bccba05e9c531c564426a902d75b6cf408731</item>
+        <item>ce02ff23803b6435569493719d87fe2c3133e374</item>
+        <item>701df5b603d29978dffe7cb2f9fb26507232face</item>
+        <item>d48ebe479fddce1e5eec8087c909710d02f6b3ef</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_lib">
+        <item>libturingpri_mini.so</item>
+        <item>libsobot.so</item>
+        <item>libffavc.so</item>
+        <item>libpag.so</item>
+        <item>libxhook_lib.so</item>
+        <item>libmdig.so</item>
+        <item>libipdetector.so</item>
+        <item>libmlog.so</item>
+        <item>libsobot.so</item>
+        <item>libffavc.so</item>
+        <item>libimagepipeline.so</item>
+        <item>libkoom-fast-dump.so</item>
+        <item>libmnet.so</item>
+        <item>libstatic-webp.so</item>
+        <item>libgifimage.so</item>
+        <item>libphysics.so</item>
+        <item>libconscrypt_jni.so</item>
+        <item>libkoom-strip-dump.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libnative-filters.so</item>
+        <item>libpag.so</item>
+        <item>libmmkv.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libkwai-android-base.so</item>
+        <item>libc++_shared.so</item>
+        <item>libZegoLiveRoom.so</item>
+        <item>libnative-imagetranscoder.so</item>
+        <item>libbind-core.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libtoolChecker.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libxhook_lib.so</item>
+        <item>libturingpri_mini.so</item>
+        <item>libmdig.so</item>
+        <item>libipdetector.so</item>
+        <item>libmlog.so</item>
+        <item>libnativebytebuffer.so</item>
+        <item>libnativebitmap.so</item>
+        <item>libsobot.so</item>
+        <item>libffavc.so</item>
+        <item>libimagepipeline.so</item>
+        <item>libkoom-fast-dump.so</item>
+        <item>libmnet.so</item>
+        <item>libstatic-webp.so</item>
+        <item>libshadowhook_nothing.so</item>
+        <item>liblarge-heap-opt.so</item>
+        <item>libgifimage.so</item>
+        <item>libphysics.so</item>
+        <item>libconscrypt_jni.so</item>
+        <item>libkoom-strip-dump.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libnative-filters.so</item>
+        <item>libpag.so</item>
+        <item>libmmkv.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libkwai-android-base.so</item>
+        <item>libc++_shared.so</item>
+        <item>libZegoLiveRoom.so</item>
+        <item>libnative-imagetranscoder.so</item>
+        <item>libbind-core.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libshadowhook.so</item>
+        <item>libtoolChecker.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libxhook_lib.so</item>
+        <item>libturingpri_mini.so</item>
+        <item>libmdig.so</item>
+        <item>libipdetector.so</item>
+        <item>libmlog.so</item>
+        <item>libnativebytebuffer.so</item>
+        <item>libnativebitmap.so</item>
+        <item>libsobot.so</item>
+        <item>libffavc.so</item>
+        <item>libimagepipeline.so</item>
+        <item>libkoom-native.so</item>
+        <item>libkoom-fast-dump.so</item>
+        <item>libmnet.so</item>
+        <item>libstatic-webp.so</item>
+        <item>libshadowhook_nothing.so</item>
+        <item>liblarge-heap-opt.so</item>
+        <item>libgifimage.so</item>
+        <item>libphysics.so</item>
+        <item>libconscrypt_jni.so</item>
+        <item>libkoom-strip-dump.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libnative-filters.so</item>
+        <item>libpag.so</item>
+        <item>libmmkv.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libkwai-android-base.so</item>
+        <item>libc++_shared.so</item>
+        <item>libZegoLiveRoom.so</item>
+        <item>libnative-imagetranscoder.so</item>
+        <item>libbind-core.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libshadowhook.so</item>
+        <item>libtoolChecker.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libxhook_lib.so</item>
+        <item>libmdig.so</item>
+        <item>libipdetector.so</item>
+        <item>libmlog.so</item>
+        <item>libsobot.so</item>
+        <item>libimagepipeline.so</item>
+        <item>libkoom-fast-dump.so</item>
+        <item>libmnet.so</item>
+        <item>libstatic-webp.so</item>
+        <item>libgifimage.so</item>
+        <item>libphysics.so</item>
+        <item>libconscrypt_jni.so</item>
+        <item>libkoom-strip-dump.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libnative-filters.so</item>
+        <item>libmmkv.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libkwai-android-base.so</item>
+        <item>libc++_shared.so</item>
+        <item>libZegoLiveRoom.so</item>
+        <item>libnative-imagetranscoder.so</item>
+        <item>libbind-core.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libtoolChecker.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="meet_filter_age">
+        <item>18</item>
+        <item>54</item>
+    </integer-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="phone_country_codes">
+        <item>376:AD:Andorra:A</item>
+        <item>971:AE:United Arab Emirates:U</item>
+        <item>93:AF:Afghanistan:A</item>
+        <item>1:AG:Antigua:A</item>
+        <item>1:AI:Anguilla:A</item>
+        <item>355:AL:Albania:A</item>
+        <item>374:AM:Armenia:A</item>
+        <item>244:AO:Angola:A</item>
+        <item>54:AR:Argentina:A</item>
+        <item>1:AS:American Samoa:A</item>
+        <item>43:AT:Austria:A</item>
+        <item>61:AU:Australia:A</item>
+        <item>297:AW:Aruba:A</item>
+        <item>994:AZ:Azerbaijan:A</item>
+        <item>387:BA:Bosnia and Herzegovina:B</item>
+        <item>1:BB:Barbados:B</item>
+        <item>880:BD:Bangladesh:B</item>
+        <item>32:BE:Belgium:B</item>
+        <item>226:BF:Burkina Faso:B</item>
+        <item>359:BG:Bulgaria:B</item>
+        <item>973:BH:Bahrain:B</item>
+        <item>257:BI:Burundi:B</item>
+        <item>229:BJ:Benin:B</item>
+        <item>1:BM:Bermuda:B</item>
+        <item>673:BN:Brunei:B</item>
+        <item>591:BO:Bolivia:B</item>
+        <item>599:BQ:Bonaire, Sint Eustatius and Saba:B</item>
+        <item>55:BR:Brazil:B</item>
+        <item>1:BS:The Bahamas:T</item>
+        <item>975:BT:Bhutan:B</item>
+        <item>267:BW:Botswana:B</item>
+        <item>375:BY:Belarus:B</item>
+        <item>501:BZ:Belize:B</item>
+        <item>1:CA:Canada:C</item>
+        <item>243:CD:Democratic Republic of the Congo:D</item>
+        <item>236:CF:Central African Republic:C</item>
+        <item>242:CG:Republic of the Congo:R</item>
+        <item>41:CH:Switzerland:S</item>
+        <item>"225:CI:Côte d'Ivoire:C"</item>
+        <item>682:CK:Cook Islands:C</item>
+        <item>56:CL:Chile:C</item>
+        <item>237:CM:Cameroon:C</item>
+        <item>86:CN:China:C</item>
+        <item>57:CO:Colombia:C</item>
+        <item>506:CR:Costa Rica:C</item>
+        <item>53:CU:Cuba:C</item>
+        <item>238:CV:Cape Verde:C</item>
+        <item>599:CW:Curaçao:C</item>
+        <item>357:CY:Cyprus:C</item>
+        <item>420:CZ:Czech Republic:C</item>
+        <item>49:DE:Germany:G</item>
+        <item>253:DJ:Djibouti:D</item>
+        <item>45:DK:Denmark:D</item>
+        <item>1:DM:Dominica:D</item>
+        <item>1:DO:Dominican Republic:D</item>
+        <item>213:DZ:Algeria:A</item>
+        <item>593:EC:Ecuador:E</item>
+        <item>372:EE:Estonia:E</item>
+        <item>20:EG:Egypt:E</item>
+        <item>212:EH:Western Sahara:W</item>
+        <item>291:ER:Eritrea:E</item>
+        <item>34:ES:Spain:S</item>
+        <item>251:ET:Ethiopia:E</item>
+        <item>358:FI:Finland:F</item>
+        <item>679:FJ:Fiji:F</item>
+        <item>500:FK:Falkland Islands:F</item>
+        <item>691:FM:Federated States of Micronesia:F</item>
+        <item>298:FO:Faroe Islands:F</item>
+        <item>33:FR:France:F</item>
+        <item>241:GA:Gabon:G</item>
+        <item>44:GB:United Kingdom:U</item>
+        <item>1:GD:Grenada:G</item>
+        <item>995:GE:Georgia:G</item>
+        <item>594:GF:French Guiana:F</item>
+        <item>44:GG:Guernsey:G</item>
+        <item>233:GH:Ghana:G</item>
+        <item>350:GI:Gibraltar:G</item>
+        <item>299:GL:Greenland:G</item>
+        <item>220:GM:The Gambia:T</item>
+        <item>224:GN:Guinea:G</item>
+        <item>590:GP:Guadeloupe:G</item>
+        <item>240:GQ:Equatorial Guinea:E</item>
+        <item>30:GR:Greece:G</item>
+        <item>502:GT:Guatemala:G</item>
+        <item>1:GU:Guam:G</item>
+        <item>245:GW:Guinea-Bissau:G</item>
+        <item>592:GY:Guyana:G</item>
+        <item>852:HK:Hong Kong:H</item>
+        <item>504:HN:Honduras:H</item>
+        <item>385:HR:Croatia:C</item>
+        <item>509:HT:Haiti:H</item>
+        <item>36:HU:Hungary:H</item>
+        <item>62:ID:Indonesia:I</item>
+        <item>353:IE:Ireland:I</item>
+        <item>972:IL:Israel:I</item>
+        <item>44:IM:Isle Of Man:I</item>
+        <item>91:IN:India:I</item>
+        <item>246:IO:British Indian Ocean Territory:B</item>
+        <item>964:IQ:Iraq:I</item>
+        <item>98:IR:Iran:I</item>
+        <item>354:IS:Iceland:I</item>
+        <item>39:IT:Italy:I</item>
+        <item>44:JE:Jersey:J</item>
+        <item>1:JM:Jamaica:J</item>
+        <item>962:JO:Jordan:J</item>
+        <item>81:JP:Japan:J</item>
+        <item>254:KE:Kenya:K</item>
+        <item>996:KG:Kyrgyzstan:K</item>
+        <item>855:KH:Cambodia:C</item>
+        <item>686:KI:Kiribati:K</item>
+        <item>269:KM:Comoros:C</item>
+        <item>1:KN:Saint Kitts and Nevis:S</item>
+        <item>850:KP:North Korea:N</item>
+        <item>82:KR:South Korea:S</item>
+        <item>965:KW:Kuwait:K</item>
+        <item>1:KY:Cayman Islands:C</item>
+        <item>7:KZ:Kazakhstan:K</item>
+        <item>856:LA:Laos:L</item>
+        <item>961:LB:Lebanon:L</item>
+        <item>1:LC:St. Lucia:S</item>
+        <item>423:LI:Liechtenstein:L</item>
+        <item>94:LK:Sri Lanka:S</item>
+        <item>231:LR:Liberia:L</item>
+        <item>266:LS:Lesotho:L</item>
+        <item>370:LT:Lithuania:L</item>
+        <item>352:LU:Luxembourg:L</item>
+        <item>371:LV:Latvia:L</item>
+        <item>218:LY:Libya:L</item>
+        <item>212:MA:Morocco:M</item>
+        <item>377:MC:Monaco:M</item>
+        <item>373:MD:Moldova:M</item>
+        <item>382:ME:Montenegro:M</item>
+        <item>261:MG:Madagascar:M</item>
+        <item>692:MH:Marshall Islands:M</item>
+        <item>389:MK:Macedonia:M</item>
+        <item>223:ML:Mali:M</item>
+        <item>95:MM:Myanmar:M</item>
+        <item>976:MN:Mongolia:M</item>
+        <item>853:MO:Macau:M</item>
+        <item>1:MP:Northern Mariana Islands:N</item>
+        <item>596:MQ:Martinique:M</item>
+        <item>222:MR:Mauritania:M</item>
+        <item>1:MS:Montserrat:M</item>
+        <item>356:MT:Malta:M</item>
+        <item>230:MU:Mauritius:M</item>
+        <item>960:MV:Maldives:M</item>
+        <item>265:MW:Malawi:M</item>
+        <item>52:MX:Mexico:M</item>
+        <item>60:MY:Malaysia:M</item>
+        <item>258:MZ:Mozambique:M</item>
+        <item>264:NA:Namibia:N</item>
+        <item>687:NC:New Caledonia:N</item>
+        <item>227:NE:Niger:N</item>
+        <item>672:NF:Norfolk Island:N</item>
+        <item>234:NG:Nigeria:N</item>
+        <item>505:NI:Nicaragua:N</item>
+        <item>31:NL:Netherlands:N</item>
+        <item>47:NO:Norway:N</item>
+        <item>977:NP:Nepal:N</item>
+        <item>674:NR:Nauru:N</item>
+        <item>683:NU:Niue:N</item>
+        <item>64:NZ:New Zealand:N</item>
+        <item>968:OM:Oman:O</item>
+        <item>507:PA:Panama:P</item>
+        <item>51:PE:Peru:P</item>
+        <item>689:PF:French Polynesia:F</item>
+        <item>675:PG:Papua New Guinea:P</item>
+        <item>63:PH:Philippines:P</item>
+        <item>92:PK:Pakistan:P</item>
+        <item>48:PL:Poland:P</item>
+        <item>508:PM:Saint Pierre and Miquelon:S</item>
+        <item>1:PR:Puerto Rico:P</item>
+        <item>970:PS:Palestine:P</item>
+        <item>351:PT:Portugal:P</item>
+        <item>680:PW:Palau:P</item>
+        <item>595:PY:Paraguay:P</item>
+        <item>974:QA:Qatar:Q</item>
+        <item>262:RE:Réunion:R</item>
+        <item>40:RO:Romania:R</item>
+        <item>381:RS:Serbia:S</item>
+        <item>250:RW:Rwanda:R</item>
+        <item>966:SA:Saudi Arabia:S</item>
+        <item>677:SB:Solomon Islands:S</item>
+        <item>248:SC:Seychelles:S</item>
+        <item>249:SD:Sudan:S</item>
+        <item>46:SE:Sweden:S</item>
+        <item>65:SG:Singapore:S</item>
+        <item>290:SH:Saint Helena:S</item>
+        <item>386:SI:Slovenia:S</item>
+        <item>421:SK:Slovakia:S</item>
+        <item>232:SL:Sierra Leone:S</item>
+        <item>378:SM:San Marino:S</item>
+        <item>221:SN:Senegal:S</item>
+        <item>252:SO:Somalia:S</item>
+        <item>597:SR:Suriname:S</item>
+        <item>211:SS:South Sudan:S</item>
+        <item>239:ST:Sao Tome and Principe:S</item>
+        <item>503:SV:El Salvador:E</item>
+        <item>1:SX:Sint Maarten:S</item>
+        <item>963:SY:Syria:S</item>
+        <item>268:SZ:Swaziland:S</item>
+        <item>1:TC:Turks and Caicos Islands:T</item>
+        <item>235:TD:Chad:C</item>
+        <item>228:TG:Togo:T</item>
+        <item>66:TH:Thailand:T</item>
+        <item>992:TJ:Tajikistan:T</item>
+        <item>690:TK:Tokelau:T</item>
+        <item>670:TL:Timor-Leste:T</item>
+        <item>993:TM:Turkmenistan:T</item>
+        <item>216:TN:Tunisia:T</item>
+        <item>676:TO:Tonga:T</item>
+        <item>90:TR:Turkey:T</item>
+        <item>1:TT:Trinidad and Tobago:T</item>
+        <item>688:TV:Tuvalu:T</item>
+        <item>886:TW:Taiwan:T</item>
+        <item>255:TZ:Tanzania:T</item>
+        <item>380:UA:Ukraine:U</item>
+        <item>256:UG:Uganda:U</item>
+        <item>1:US:United States:U</item>
+        <item>598:UY:Uruguay:U</item>
+        <item>998:UZ:Uzbekistan:U</item>
+        <item>1:VC:Saint Vincent and the Grenadines:S</item>
+        <item>58:VE:Venezuela:V</item>
+        <item>1:VG:British Virgin Islands:B</item>
+        <item>1:VI:US Virgin Islands:U</item>
+        <item>84:VN:Vietnam:V</item>
+        <item>678:VU:Vanuatu:V</item>
+        <item>681:WF:Wallis and Futuna:W</item>
+        <item>685:WS:Samoa:S</item>
+        <item>967:YE:Yemen:Y</item>
+        <item>262:YT:Mayotte:M</item>
+        <item>27:ZA:South Africa:S</item>
+        <item>260:ZM:Zambia:Z</item>
+        <item>263:ZW:Zimbabwe:Z</item>
+    </string-array>
+    <string-array name="phone_country_codes_default">
+        <item>971:AE:United Arab Emirates:U</item>
+        <item>973:BH:Bahrain:B</item>
+        <item>66:TH:Thailand:T</item>
+        <item>91:IN:India:I</item>
+        <item>92:PK:Pakistan:P</item>
+        <item>90:TR:Turkey:T</item>
+        <item>84:VN:Vietnam:V</item>
+        <item>62:ID:Indonesia:I</item>
+        <item>964:IQ:Iraq:I</item>
+        <item>965:KW:Kuwait:K</item>
+        <item>968:OM:Oman:O</item>
+        <item>974:QA:Qatar:Q</item>
+        <item>20:EG:Egypt:E</item>
+        <item>63:PH:Philippines:P</item>
+        <item>49:DE:Germany:G</item>
+    </string-array>
+    <string-array name="phone_country_title">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="snap_connect_scopes">
+        <item>https://auth.snapchat.com/oauth2/api/user.display_name</item>
+        <item>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</item>
+    </string-array>
+    <array name="sobot_fileEndingAll" />
+    <string-array name="sobot_fileEndingAudio">
+        <item>.mp3</item>
+        <item>.wav</item>
+    </string-array>
+    <string-array name="sobot_fileEndingExcel">
+        <item>.xls</item>
+        <item>.xlsx</item>
+    </string-array>
+    <string-array name="sobot_fileEndingImage">
+        <item>.png</item>
+        <item>.gif</item>
+        <item>.jpg</item>
+        <item>.jpeg</item>
+        <item>.bmp</item>
+    </string-array>
+    <string-array name="sobot_fileEndingPPT">
+        <item>.ppt</item>
+        <item>.pptx</item>
+    </string-array>
+    <string-array name="sobot_fileEndingPackage">
+        <item>.zip</item>
+        <item>.rar</item>
+    </string-array>
+    <string-array name="sobot_fileEndingPdf">
+        <item>.pdf</item>
+    </string-array>
+    <string-array name="sobot_fileEndingText">
+        <item>.txt</item>
+    </string-array>
+    <string-array name="sobot_fileEndingVideo">
+        <item>.mp4</item>
+        <item>.rmvb</item>
+        <item>.avi</item>
+        <item>.flv</item>
+    </string-array>
+    <string-array name="sobot_fileEndingWord">
+        <item>.doc</item>
+        <item>.docx</item>
+    </string-array>
+</resources>

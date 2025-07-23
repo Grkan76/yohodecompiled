@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_new_fl" android:background="@drawable/ic_me_mall_list_item_new" android:clipChildren="false" android:clipToPadding="false" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="-10.0dip" android:rotation="@integer/cover_rotate" android:layout_marginStart="-10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_new" android:layout_width="23.0dip" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/string_new" android:maxLines="1" app:autoSizeMaxTextSize="10.0sp" app:autoSizeMinTextSize="7.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+</FrameLayout>

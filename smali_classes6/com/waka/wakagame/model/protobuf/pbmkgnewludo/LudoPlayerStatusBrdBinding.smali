@@ -1,0 +1,470 @@
+.class public final Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\u0008\u0086\u0008\u0018\u0000 \u00192\u00020\u0001:\u0001\u0019B\u001b\u0012\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u0003\u0012\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0002\u0010\u0006J\t\u0010\u000f\u001a\u00020\u0003H\u00c6\u0003J\u000b\u0010\u0010\u001a\u0004\u0018\u00010\u0005H\u00c6\u0003J\u001f\u0010\u0011\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u0005H\u00c6\u0001J\u0013\u0010\u0012\u001a\u00020\u00132\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\t\u0010\u0015\u001a\u00020\u0016H\u00d6\u0001J\t\u0010\u0017\u001a\u00020\u0018H\u00d6\u0001R\u001c\u0010\u0004\u001a\u0004\u0018\u00010\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u000c\"\u0004\u0008\r\u0010\u000e\u00a8\u0006\u001a"
+    }
+    d2 = {
+        "Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;",
+        "",
+        "uid",
+        "",
+        "statusValue",
+        "Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;",
+        "(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V",
+        "getStatusValue",
+        "()Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;",
+        "setStatusValue",
+        "(Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V",
+        "getUid",
+        "()J",
+        "setUid",
+        "(J)V",
+        "component1",
+        "component2",
+        "copy",
+        "equals",
+        "",
+        "other",
+        "hashCode",
+        "",
+        "toString",
+        "",
+        "Companion",
+        "wakagame_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final Companion:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# instance fields
+.field private statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+.field private uid:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;-><init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    sput-object v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->Companion:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 6
+
+    .line 1
+    const/4 v4, 0x3
+
+    const/4 v5, 0x0
+
+    const-wide/16 v1, 0x0
+
+    const/4 v3, 0x0
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v5}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;-><init>(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 3
+    iput-wide p1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    .line 4
+    iput-object p3, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x1
+
+    if-eqz p5, :cond_0
+
+    const-wide/16 p1, 0x0
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x2
+
+    if-eqz p4, :cond_1
+
+    const/4 p3, 0x0
+
+    .line 5
+    :cond_1
+    invoke-direct {p0, p1, p2, p3}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;-><init>(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V
+
+    return-void
+.end method
+
+.method public static final convert(Lcom/google/protobuf/ByteString;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+    .locals 1
+    .param p0    # Lcom/google/protobuf/ByteString;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    sget-object v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->Companion:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+
+    invoke-virtual {v0, p0}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;->convert(Lcom/google/protobuf/ByteString;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final convert(Lcom/waka/wakagame/model/protobuf/PbMKGNewLudo$LudoPlayerStatusBrd;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+    .locals 1
+    .param p0    # Lcom/waka/wakagame/model/protobuf/PbMKGNewLudo$LudoPlayerStatusBrd;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 2
+    sget-object v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->Companion:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+
+    invoke-virtual {v0, p0}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;->convert(Lcom/waka/wakagame/model/protobuf/PbMKGNewLudo$LudoPlayerStatusBrd;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final convert([B)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+    .locals 1
+    .param p0    # [B
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 3
+    sget-object v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->Companion:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;
+
+    invoke-virtual {v0, p0}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding$Companion;->convert([B)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic copy$default(Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;ILjava/lang/Object;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x1
+
+    if-eqz p5, :cond_0
+
+    iget-wide p1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x2
+
+    if-eqz p4, :cond_1
+
+    iget-object p3, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    :cond_1
+    invoke-virtual {p0, p1, p2, p3}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->copy(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final component1()J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    return-wide v0
+.end method
+
+.method public final component2()Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+    .locals 1
+
+    iget-object v0, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    return-object v0
+.end method
+
+.method public final copy(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    new-instance v0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    invoke-direct {v0, p1, p2, p3}, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;-><init>(JLcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V
+
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;
+
+    iget-wide v3, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    iget-wide v5, p1, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    cmp-long v1, v3, v5
+
+    if-eqz v1, :cond_2
+
+    return v2
+
+    :cond_2
+    iget-object v1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    iget-object p1, p1, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    if-eq v1, p1, :cond_3
+
+    return v2
+
+    :cond_3
+    return v0
+.end method
+
+.method public final getStatusValue()Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public final getUid()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    .line 2
+    .line 3
+    return-wide v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public hashCode()I
+    .locals 2
+
+    iget-wide v0, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/G;->a(J)I
+
+    move-result v0
+
+    mul-int/lit8 v0, v0, 0x1f
+
+    iget-object v1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    if-nez v1, :cond_0
+
+    const/4 v1, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
+
+    move-result v1
+
+    :goto_0
+    add-int/2addr v0, v1
+
+    return v0
+.end method
+
+.method public final setStatusValue(Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public final setUid(J)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "LudoPlayerStatusBrdBinding(uid="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-wide v1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->uid:J
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, ", statusValue="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBrdBinding;->statusValue:Lcom/waka/wakagame/model/protobuf/pbmkgnewludo/LudoPlayerStatusBinding;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const/16 v1, 0x29
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

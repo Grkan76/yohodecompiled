@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/id_menu_profile_report" android:orderInCategory="100" android:title="@string/string_audio_report" app:showAsAction="never" />
+    <item android:id="@id/id_menu_profile_remove_friend" android:orderInCategory="100" android:title="@string/string_audio_remove_friend" app:showAsAction="never" />
+    <item android:id="@id/id_menu_profile_block_unblock" android:orderInCategory="100" android:title="@string/string_audio_block" app:showAsAction="never" />
+    <item android:id="@id/id_menu_profile_block_room_msg" android:orderInCategory="100" android:title="@string/block_choice" app:showAsAction="never" />
+</menu>

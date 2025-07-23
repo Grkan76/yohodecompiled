@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<libx.android.design.core.touchintercept.DisallowInterceptConstraintLayout android:background="@drawable/bg_common_white_top_r8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_parent_tab_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/iv_custom_sticker_question" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_gravity="start|center|top" android:id="@id/fl_tab_container" android:layout_width="wrap_content" android:layout_height="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <widget.md.view.layout.RtlMicoTabLayout android:id="@id/table_sticker_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_marginStart="16.0dip" app:micoTabGravity="center" app:micoTabIndicatorColor="@color/white" app:micoTabIndicatorHeight="4.0dip" app:micoTabIndicatorStyleRounded="true" app:micoTabIndicatorWidth="8.0dip" app:micoTabMarginTop="8.0dip" app:micoTabMinWidth="0.0dip" app:micoTabPaddingEnd="1.0dip" app:micoTabPaddingStart="1.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.16" app:micoTabTextAppearance="@style/TextView.Medium.14" />
+        </FrameLayout>
+    </FrameLayout>
+    <widget.md.view.main.RLImageView android:id="@id/iv_custom_sticker_question" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_question_black" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/id_audio_sticker_pager2" android:layout_width="fill_parent" android:layout_height="220.0dip" app:layout_constraintTop_toBottomOf="@id/fl_parent_tab_container" />
+</libx.android.design.core.touchintercept.DisallowInterceptConstraintLayout>

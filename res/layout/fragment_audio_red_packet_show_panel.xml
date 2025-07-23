@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/id_view_pager" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/id_preview_iv" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_red_packet_previous" app:layout_constraintBottom_toBottomOf="@id/id_view_pager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/id_view_pager" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/id_next_iv" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_red_packet_next" app:layout_constraintBottom_toBottomOf="@id/id_preview_iv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/id_preview_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

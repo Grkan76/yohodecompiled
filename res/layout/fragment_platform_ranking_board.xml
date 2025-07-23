@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/id_ranking_board_second_tab_container" android:background="@drawable/bg_white8_r20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/id_ranking_period_indicator" android:layout_width="106.0dip" android:layout_height="32.0dip" android:translationX="0.0dip" />
+            <widget.ui.tabbar.TabBarLinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/id_ranking_board_second_tabbar" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_centerHorizontal="true" android:measureWithLargestChild="true">
+                <com.audio.ui.ranking.widget.ClickWrapperFrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:clickChildId="@id/id_platform_rb_tab_daily">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/selector_platform_ranking_board_tab_second" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/id_platform_rb_tab_daily" android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="90.0dip" android:text="@string/string_audio_board_daily" android:maxLines="1" />
+                </com.audio.ui.ranking.widget.ClickWrapperFrameLayout>
+                <com.audio.ui.ranking.widget.ClickWrapperFrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:clickChildId="@id/id_platform_rb_tab_weekly">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/selector_platform_ranking_board_tab_second" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/id_platform_rb_tab_weekly" android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="90.0dip" android:text="@string/string_audio_board_weekly" android:maxLines="1" />
+                </com.audio.ui.ranking.widget.ClickWrapperFrameLayout>
+                <com.audio.ui.ranking.widget.ClickWrapperFrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:clickChildId="@id/id_platform_rb_tab_monthly">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/selector_platform_ranking_board_tab_second" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/id_platform_rb_tab_monthly" android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="90.0dip" android:text="@string/string_audio_board_monthly" android:maxLines="1" />
+                </com.audio.ui.ranking.widget.ClickWrapperFrameLayout>
+            </widget.ui.tabbar.TabBarLinearLayout>
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="60.0dip" android:layout_weight="1.0">
+        <include layout="@layout/include_ranking_board_viewpager_round" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color833202" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/id_last_tv" android:background="@drawable/shape_rank_last_tab_bg_circle" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="130.0dip" android:minWidth="80.0dip" android:text="@string/string_last_week" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/ll_anonymous_toggle" android:background="@drawable/bg_black80_r100" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="140.0dip" android:layout_marginEnd="8.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tv_toggle_anonymous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_switch_anonymous" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

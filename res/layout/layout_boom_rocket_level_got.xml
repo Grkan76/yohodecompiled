@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/string_boom_rocket_got_prize" android:layout_marginStart="16.0dip" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_bg" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:layout_marginStart="6.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:layout_width="19.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_boom_rocket_prize_got" />
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.20" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/id_tv_prize_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="x 1" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/id_tv_prize_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

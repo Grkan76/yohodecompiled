@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.NiceTabLayout android:orientation="vertical" android:id="@id/id_live_tab_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:ntlCheckTheme="@bool/main_live_nice_tab_layout_check_theme" app:ntlTabPaddingEnd="8.0dip" app:ntlTabPaddingStart="8.0dip" style="@style/AudioNiceTabLiveStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:id="@id/id_live_tab_related" android:text="@string/string_audio_live_list_related" style="@style/HomeTabLayout_Item" />
+    <widget.ui.textview.MicoTextView android:textColor="@color/color1D212C" android:id="@id/id_live_tab_hot" android:text="@string/string_audio_live_list_hot" style="@style/HomeTabLayout_Item" />
+    <widget.ui.textview.MicoTextView android:id="@id/id_live_tab_pubg" android:visibility="gone" android:text="@string/string_pubg" style="@style/HomeTabLayout_Item" />
+    <FrameLayout android:id="@id/id_live_tab_nearby" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoTextView android:id="@id/id_live_tab_nearby_tv" android:text="@string/string_nearby" style="@style/HomeTabLayout_Item" />
+        <ImageView android:layout_gravity="end" android:id="@id/id_explore_tips_iv" style="@style/RedPointStyle" />
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:id="@id/id_live_tab_game" android:visibility="gone" android:text="@string/main_tab_games" style="@style/HomeTabLayout_Item" />
+</com.audio.ui.widget.NiceTabLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorA6B0BD" android:gravity="center_horizontal" android:layout_gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/xlistview_footer_hint_normal" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" />
+    <widget.ui.view.ProgressView android:layout_gravity="center" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:progressColor="@color/colorAudioPrimary" app:progressSize="2.0dip" />
+</FrameLayout>

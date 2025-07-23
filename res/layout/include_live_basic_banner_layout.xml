@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveBasicBannerLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="0.3323"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.AutoViewPager android:id="@id/banner_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.audio.ui.widget.LivePageIndicator android:layout_gravity="bottom|center" android:id="@id/banner_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:lpiDefaultColor="@color/white60" app:lpiIndicatorActiveWidth="8.0dip" app:lpiIndicatorSize="5.0dip" app:lpiPreviewCount="4" app:lpiSelectedColor="@color/white" app:lpiSlideActive="true" app:lpiSpacing="4.0dip" />
+</com.audio.ui.widget.LiveBasicBannerLayout>

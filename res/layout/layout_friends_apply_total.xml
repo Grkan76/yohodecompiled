@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/id_apply_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="72.0dip" style="@style/MDContentClickStyle">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_chat_new_friend_apply" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color3296FB" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_friends_request" android:textAlignment="viewStart" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_notice_count_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:tipsFixPadding="8.0dip" app:tipsRadius="10.0dip" app:tipsSolidColor="@color/colorFF0066" />
+        <widget.md.view.main.RLImageView android:id="@id/iv_apply_friend_head_arrow" android:background="@drawable/ic_chat_new_friend_apply_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

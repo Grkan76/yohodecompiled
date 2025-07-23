@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="112.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom|center" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/ludo_sign_in_item_light" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="bottom|center" android:id="@id/reward_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginBottom="24.0dip" app:actualImageScaleType="fitCenter" app:placeholderImageScaleType="fitCenter" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="start" android:id="@id/reward_piece" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="8.0dip" app:actualImageScaleType="fitCenter" app:placeholderImageScaleType="fitCenter" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color0065FF" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/reward_num" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:includeFontPadding="false" />
+</FrameLayout>

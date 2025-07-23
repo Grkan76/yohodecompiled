@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.main.BottomTabLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/id_bottom_bar" android:focusable="true" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_main_tab_live" style="@style/MainTabLayout">
+            <com.mico.framework.ui.widget.TabSwitchImageViewContainer android:id="@id/home_tab_container" app:tsi_acton="@drawable/ic_tabbar_live_a" app:tsi_normal="@drawable/ic_tabbar_live_n" app:tsi_select="@drawable/ic_tabbar_live_s" style="@style/MainTabLayout.Icon" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_main_tab_discovery" style="@style/MainTabLayout">
+            <ImageView android:id="@id/iv_discover" android:src="@drawable/selector_md_tab_discover" style="@style/MainTabLayout.Icon" />
+            <ImageView android:layout_gravity="end" android:id="@id/id_explore_tips_iv" app:layout_constraintEnd_toEndOf="@id/iv_discover" app:layout_constraintTop_toTopOf="@id/iv_discover" style="@style/RedPointStyle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_main_tab_moment" android:visibility="gone" android:clipChildren="false" style="@style/MainTabLayout">
+            <ImageView android:id="@id/iv_moment" android:src="@drawable/selector_md_tab_moment" style="@style/MainTabLayout.Icon" />
+            <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/tv_moment_tip_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="@id/iv_moment" app:layout_constraintStart_toEndOf="@id/iv_moment" app:layout_constraintTop_toTopOf="parent" app:tipsBorderColor="@color/white" app:tipsBorderWidth="2.0dip" app:tipsFixPadding="8.0dip" app:tipsRadius="12.0dip" app:tipsSolidColor="@color/colorFF0066" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_main_tab_chat" android:clipChildren="false" style="@style/MainTabLayout">
+            <ImageView android:id="@id/iv_chats" android:src="@drawable/selector_md_tab_chat" style="@style/MainTabLayout.Icon" />
+            <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_chat_tip_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="@id/iv_chats" app:layout_constraintStart_toEndOf="@id/iv_chats" app:layout_constraintTop_toTopOf="parent" app:tipsBorderColor="@color/white" app:tipsBorderWidth="2.0dip" app:tipsFixPadding="8.0dip" app:tipsRadius="12.0dip" app:tipsSolidColor="@color/colorFF0066" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id_main_tab_me" android:clipChildren="false" style="@style/MainTabLayout">
+            <ImageView android:id="@id/iv_me" android:src="@drawable/selector_md_tab_me" style="@style/MainTabLayout.Icon" />
+            <ImageView android:id="@id/id_main_tab_tips_iv" app:layout_constraintEnd_toEndOf="@id/iv_me" app:layout_constraintTop_toTopOf="@id/iv_me" style="@style/RedPointStyle" />
+            <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_me_tip_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="@id/iv_me" app:layout_constraintStart_toEndOf="@id/iv_me" app:layout_constraintTop_toTopOf="parent" app:tipsBorderColor="@color/white" app:tipsBorderWidth="2.0dip" app:tipsFixPadding="8.0dip" app:tipsRadius="12.0dip" app:tipsSolidColor="@color/colorFF0066" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </widget.md.view.main.BottomTabLayout>
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/game_msg_inpout_voice_dialog_bg" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="-20.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ic_chat_recording_voice_top" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.audionew.features.chat.widget.RecordVoiceView android:id="@id/id_record_view_left" android:layout_width="0.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:layout_marginStart="10.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/white" android:id="@id/id_record_voice_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="00:00" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+            <com.audionew.features.chat.widget.RecordVoiceView android:id="@id/id_record_view_right" android:layout_width="0.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/id_voice_tip_view" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+            <ImageView android:layout_gravity="start|center" android:id="@id/id_record_status_tip_iv" android:layout_width="18.0dip" android:layout_height="27.0dip" android:src="@drawable/ic_chat_voice_status_icon" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/id_record_status_tip_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:maxLines="1" android:singleLine="true" android:layout_marginStart="26.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/DialogGiftLayoutStyle">
+        <widget.ui.textview.MicoTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/color1D212C" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/permission_open_mico" />
+        <widget.ui.textview.MicoTextView android:textSize="15.0sp" android:textColor="@color/colorA6B0BD" android:id="@id/permission_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/permission_ll_storage" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_iv_storage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:src="@null" android:layout_marginStart="8.0dip" />
+                <widget.ui.textview.MicoTextView android:textSize="14.0sp" android:textColor="@color/colorA6B0BD" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:text="@string/permission_request_storage" android:layout_marginStart="14.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/permission_ll_phone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_iv_phone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:src="@null" android:layout_marginStart="8.0dip" />
+                <widget.ui.textview.MicoTextView android:textSize="14.0sp" android:textColor="@color/colorA6B0BD" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:text="@string/permission_request_phone" android:layout_marginStart="14.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:textSize="14.0sp" android:textColor="@color/color6050FF" android:layout_gravity="end" android:id="@id/permission_btn" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/string_next_step" style="@style/MDDialogButton" />
+    </LinearLayout>
+</RelativeLayout>

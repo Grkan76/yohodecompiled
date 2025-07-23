@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="109.0dip" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.main.RLImageView android:layout_width="109.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_team_battle_timer_bg" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_preparation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.Italic.12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_pk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_pk" android:layout_marginEnd="5.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:text="@string/string_team_battle_set_team_battle_setting" android:maxLines="1" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="11.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_help" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_nav_help_24_w" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

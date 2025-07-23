@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/battle_royale_start_view" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="182.0dip" android:layout_marginTop="260.0dip" android:scaleType="fitCenter" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/bullets_fly_view" android:visibility="gone" android:layout_width="360.0dip" android:layout_height="182.0dip" android:layout_marginTop="260.0dip" android:scaleType="fitCenter" />
+    <FrameLayout android:id="@id/id_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="106.0dip" android:layout_marginTop="@dimen/room_mode_bar_margin_top">
+        <FrameLayout android:layout_gravity="center|top" android:clipChildren="false" android:clipToPadding="false" android:layout_width="327.0dip" android:layout_height="wrap_content">
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center|top" android:background="@drawable/bg_live_br" android:layout_width="327.0dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="start|bottom|center" android:id="@id/rule" android:background="@drawable/ic_br_rule" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" />
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="end|bottom|center" android:id="@id/close" android:background="@drawable/ic_br_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <com.audio.ui.audioroom.battleroyale.BattleRoyaleTimerView android:layout_gravity="center" android:id="@id/battle_time_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/join_now" android:background="@drawable/btn_br_join" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_battle_royale_join_now" android:shadowColor="@color/white_trans_50" android:shadowDy="1.0" android:shadowRadius="1.0" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/start" android:background="@drawable/btn_br_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_battle_royale_start" android:shadowColor="@color/white_trans_50" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <ViewStub android:id="@id/battle_royale_guide_layout_vs" android:visibility="gone" android:layout="@layout/battle_royale_rule_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

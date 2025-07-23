@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.MultiStatusLayout android:id="@id/id_boom_rocket_level_multi" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mslFailedLayout="@layout/layout_boom_rocket_network_error" app:mslLoadingLayout="@layout/layout_boom_rocket_loading"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/id_ll_diamond" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" layout="@layout/layout_boom_rocket_level_fragment_diamond" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/colorFFEA00" android:layout_gravity="center_horizontal" android:id="@id/id_tv_level" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="54.0dip" android:layout_marginBottom="49.0dip" android:text="@string/string_boom_rocket_boomed_tips" />
+        <include android:id="@id/id_ll_users" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/layout_boom_rocket_level_top" />
+        <include android:id="@id/id_ll_got" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/layout_boom_rocket_level_got" />
+        <include android:id="@id/id_ll_prizes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" layout="@layout/layout_boom_rocket_level_prize" />
+        <View android:id="@id/id_v_empty" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:id="@id/id_ll_bottom_current" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="11.0dip" layout="@layout/layout_boom_rocket_bottom_current_tips" />
+        <include android:id="@id/id_ll_bottom_next" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="11.0dip" layout="@layout/layout_boom_rocket_bottom_next_tips" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFFEA00" android:gravity="center" android:id="@id/id_tv_noreward_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="16.0dip" android:text="@string/string_boom_rocket_uncontribut_tips" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</widget.ui.view.MultiStatusLayout>

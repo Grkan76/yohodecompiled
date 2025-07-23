@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/common_progress_rl" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.ProgressView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" app:progressColor="@color/white" app:progressSize="3.0dip" />
+</FrameLayout>

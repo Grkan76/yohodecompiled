@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <widget.ui.ratio.RatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="88.0dip" app:ratio="0.35">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pic_guide_cp_level_03" android:scaleType="fitXY" />
+        </widget.ui.ratio.RatioFrameLayout>
+        <com.audio.ui.friendship.ui.BubbleLayout android:layout_gravity="end" android:id="@id/id_audio_fast_game_guide_tips_bl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginEnd="16.0dip" app:bubbleBorderColor="@color/white" app:bubbleBorderSize="1.0dip" app:bubbleColor="@color/transparent" app:bubbleRadius="8.0dip" app:lookAt="top" app:lookLength="10.0dip" app:lookPosition="240.0dip" app:lookWidth="20.0dip">
+            <widget.ui.textview.MicoTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/id_audio_cp_guide_tips_03" android:layout_width="264.0dip" android:layout_height="wrap_content" android:text="@string/string_audio_cp_guide_tips_03" />
+        </com.audio.ui.friendship.ui.BubbleLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/audio_guide_next_03" android:background="@drawable/shape_bg_fast_game_next" android:layout_width="168.0dip" android:layout_height="45.0dip" android:layout_marginTop="276.0dip" android:text="@string/string_next" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

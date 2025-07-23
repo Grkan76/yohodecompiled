@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/audio_room_mode_set_battle_royale_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/selector_audio_team_fight_set_join_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/string_team_battle_set_time" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_auction_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/audio_room_mode_set_team_battle_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/selector_audio_team_fight_set_join_item" android:id="@id/audio_room_mode_set_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/string_team_battle_set_time" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_relation_duration" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorF64B5D" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/auction_start_set_tips" />
+</LinearLayout>

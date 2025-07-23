@@ -1,0 +1,38 @@
+.class public final synthetic Lcom/waka/wakagame/games/g105/widget/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/mico/joystick/ui/JKUITouchableRect$OnActionEventListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/waka/wakagame/games/g105/widget/SurrenderNode;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/waka/wakagame/games/g105/widget/SurrenderNode;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/waka/wakagame/games/g105/widget/c;->a:Lcom/waka/wakagame/games/g105/widget/SurrenderNode;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onActionEvent(Lcom/mico/joystick/ui/JKUITouchableRect;Lcom/mico/joystick/core/JKTouchEvent;I)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/waka/wakagame/games/g105/widget/c;->a:Lcom/waka/wakagame/games/g105/widget/SurrenderNode;
+
+    invoke-static {v0, p1, p2, p3}, Lcom/waka/wakagame/games/g105/widget/SurrenderNode$Companion;->a(Lcom/waka/wakagame/games/g105/widget/SurrenderNode;Lcom/mico/joystick/ui/JKUITouchableRect;Lcom/mico/joystick/core/JKTouchEvent;I)Z
+
+    move-result p1
+
+    return p1
+.end method

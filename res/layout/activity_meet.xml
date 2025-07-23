@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_metting_voice" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" app:tbTitle="@string/string_meet" app:tbTitleColor="@color/white" style="@style/CommonToolbarStyle">
+        <FrameLayout android:id="@id/meet_my_voice_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarBtnFrameStyle">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:layout_gravity="center" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_my_voice" style="@style/ToolbarBtnTextStyle" />
+        </FrameLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <FrameLayout android:id="@id/meet_fragment_container_fl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

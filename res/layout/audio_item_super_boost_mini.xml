@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/avatar_user" android:layout_width="104.0dip" android:layout_height="104.0dip" app:roundAsCircle="true" />
+        <FrameLayout android:layout_gravity="bottom|center" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="78.0dip">
+            <com.audio.ui.floatview.RippleView android:id="@id/id_ripple" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:rippleAsRing="true" app:rippleColor="@color/colorFFAA00" app:rippleDuration="1700" app:rippleEndAlpha="0.0" app:rippleEndRadius="25.0dip" app:rippleGroupInterval="0" app:rippleInterval="900" app:rippleNumber="2" app:rippleStartAlpha="1.0" app:rippleStartRadius="17.0dip" />
+            <ImageView android:layout_gravity="center" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_explore_dialog_boost" />
+        </FrameLayout>
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorFFAA00" android:ellipsize="end" android:gravity="center" android:id="@id/service_left_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" android:maxLines="1" />
+</LinearLayout>

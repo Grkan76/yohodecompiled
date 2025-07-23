@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/bg_common_white_top_r8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="32.0dip" style="@style/MDEmptyLayoutStyle">
+        <widget.md.view.main.FailedImageView android:id="@id/id_load_refresh" android:layout_width="48.0dip" android:layout_height="48.0dip" style="@style/EmptyLayoutIconStyle" />
+        <widget.ui.textview.MicoTextView android:text="@string/string_load_network_error" style="@style/EmptyLayoutTextStyle" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.megaphone.AudioRoomSuperWinnerTyfonView android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="300.0dip" android:layout_height="fill_parent">
+        <View android:layout_gravity="center_vertical" android:id="@id/id_background_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_background_effect_iv" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_rl_nty_click_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="19.0dip" android:layout_marginRight="15.0dip" android:layout_centerVertical="true" android:layout_marginStart="19.0dip" android:layout_marginEnd="15.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_user_avatar_iv" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_centerVertical="true" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="1.0dip" style="@style/MDAvatar40Style" />
+            <ImageView android:id="@id/id_iv_room_privacy_flag" android:background="@drawable/ic_room_privacy" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignRight="@id/id_user_avatar_iv" android:layout_alignBottom="@id/id_user_avatar_iv" android:layout_alignEnd="@id/id_user_avatar_iv" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="56.0dip" android:layout_toRightOf="@id/id_user_avatar_iv" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="56.0dip" android:layout_toEndOf="@id/id_user_avatar_iv">
+                <include android:id="@id/include_label" layout="@layout/include_layout_world_notify_lable" />
+                <com.audio.ui.audioroom.widget.megaphone.MegaphoneScrollLayout android:id="@id/id_megaphone_txt_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:requiresFadingEdge="horizontal">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/id_tv_receive_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                </com.audio.ui.audioroom.widget.megaphone.MegaphoneScrollLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <widget.md.view.main.RLImageView android:id="@id/id_gift_icon_iv" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.audio.ui.audioroom.widget.megaphone.AudioRoomSuperWinnerTyfonView>

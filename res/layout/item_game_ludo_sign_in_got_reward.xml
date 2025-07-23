@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="80.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/reward_image" android:layout_width="80.0dip" android:layout_height="120.0dip" app:actualImageScaleType="fitCenter" app:placeholderImageScaleType="fitCenter" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="start" android:id="@id/reward_piece" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" app:actualImageScaleType="fitCenter" app:placeholderImageScaleType="fitCenter" />
+    <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.24" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/reward_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:includeFontPadding="false" app:StrokeStyleable_strokeColor="@color/black" app:StrokeStyleable_strokeWidth="1.0dip" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginTop="150.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/reward_image" app:libx_borderColor="#33ffffff" app:libx_borderWidth="1.0dip" app:libx_roundRadius="22.0dip" app:libx_solidColor="#66000000">
+        <com.audio.ui.widget.AutoMarqueeTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/reward_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:marqueeRepeatLimit="marquee_forever" />
+    </FrameLayout>
+</FrameLayout>

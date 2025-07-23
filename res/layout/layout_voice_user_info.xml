@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_iv_play" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/selector_match_play" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    <ProgressBar android:id="@id/id_iv_progress" android:visibility="gone" android:layout_marginTop="21.0dip" android:layout_marginEnd="21.0dip" android:layout_alignParentEnd="true" style="@style/ProgressLoadingVoiceStyle" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip">
+        <com.mico.framework.ui.image.widget.MicoImageView android:scaleType="centerCrop" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="2.0dip" style="@style/MDAvatar106Style" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:ellipsize="end" android:id="@id/id_user_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="30.0dip" android:maxLines="1" android:singleLine="true" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_ll_info_sex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@id/id_iv_sex" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/selector_match_user_sex" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white60" android:id="@id/id_user_address_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_ll_online" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+            <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/shape_online" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_match_online" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_ll_live" android:background="@drawable/shape_match_live_bg" android:visibility="gone" android:layout_width="76.0dip" android:layout_height="28.0dip" android:layout_marginTop="19.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" android:id="@id/id_iv_live" android:layout_width="10.0dip" android:layout_height="10.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/color03FDD7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_match_live" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color02E8D7" android:id="@id/id_tv_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.audio.ui.meet.widget.VoicePlayVolumeView android:id="@id/id_voice_play_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

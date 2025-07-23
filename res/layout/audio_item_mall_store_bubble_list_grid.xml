@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/audio_item_mall_list_root_layout" android:background="@drawable/bg_audio_mall_list_item" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_mall_time" android:paddingStart="8.0dip" android:paddingEnd="4.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorB0B8CA" android:ellipsize="end" android:gravity="start|center" android:id="@id/audio_item_mall_list_time_tv" android:layout_width="0.0dip" android:layout_height="14.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        <widget.ui.textview.MicoTextView android:id="@id/tv_discount" android:visibility="gone" style="@style/MallDiscountShadowTextView" />
+    </LinearLayout>
+    <FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="146.5dip" android:layout_height="38.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="14.0dip" android:weightSum="10.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/id_empty_iv" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="-15.0dip" android:src="@drawable/ic_me_package_empty" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/audio_item_mine_list_car_iv" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.13" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/id_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Hello" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_coin_iv" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" android:layout_marginEnd="5.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color1D212C" android:id="@id/audio_item_mall_list_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.ui.button.MicoButton android:textAppearance="@style/TextView.Bold.12" android:gravity="center" android:id="@id/audio_item_mall_list_buy_btn" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="9.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="9.0dip" style="@style/AudioPrimaryFeedbackNormalBtnR4" />
+        <widget.ui.button.MicoButton android:textAppearance="@style/TextView.Bold.12" android:gravity="center" android:id="@id/audio_item_mall_list_send_btn" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:text="@string/string_audio_give_goods" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" style="@style/AudioPrimaryFeedbackStrokeBtnR4" />
+    </LinearLayout>
+</LinearLayout>

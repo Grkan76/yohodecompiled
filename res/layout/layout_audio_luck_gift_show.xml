@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.AudioRoomLuckGiftShowBar android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_ll_content" android:background="@drawable/bg_danmaku_luck_gift" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip">
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_centerVertical="true" android:layout_marginStart="3.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="1.0dip" style="@style/MDAvatar36Style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="7.0dip" android:layout_marginEnd="32.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/id_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="90.0dip" android:text="" android:singleLine="true" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.10" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_send" />
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_gift" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.10" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_jackpot_win" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/id_fl_superwin" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginStart="-32.0dip" android:layout_toEndOf="@id/id_ll_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_superwin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/colorFFFF00" android:layout_gravity="center_horizontal" android:id="@id/id_tv_superwin_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/id_fl_bigwin" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginStart="-32.0dip" android:layout_toEndOf="@id/id_ll_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_bigwin" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/colorFFFF00" android:layout_gravity="center_horizontal" android:id="@id/id_tv_bigwin_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/id_fl_win" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginStart="-30.0dip" android:layout_toEndOf="@id/id_ll_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_win" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/colorFFFF00" android:id="@id/id_tv_win_times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <ImageView android:id="@id/id_iv_coin" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_coin_12" />
+        </LinearLayout>
+    </FrameLayout>
+</com.audio.ui.audioroom.widget.AudioRoomLuckGiftShowBar>

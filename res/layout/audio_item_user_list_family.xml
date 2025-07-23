@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/live_list_margin" android:layout_marginRight="@dimen/live_list_margin" android:layout_marginStart="@dimen/live_list_margin" android:layout_marginEnd="@dimen/live_list_margin">
+        <com.audio.ui.widget.MicoRhombusImageView android:layout_gravity="center_vertical" android:id="@id/id_iv_family_cover" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" />
+                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_iv_badge" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginStart="4.0dip" app:placeholderImage="@drawable/ic_family_small_badge_2_1" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_tv_family_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:alpha="0.6" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" style="@style/LineF1F2F6" />
+</FrameLayout>

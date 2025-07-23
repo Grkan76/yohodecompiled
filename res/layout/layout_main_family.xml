@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shape_hot_family" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.md.view.main.RLImageView android:layout_gravity="end" android:id="@id/ivFamilyEntryIcon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_hot_family" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="#ff935bff" android:layout_gravity="start|center" android:id="@id/tvFamilyName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_family" android:layout_marginStart="8.0dip" />
+</FrameLayout>

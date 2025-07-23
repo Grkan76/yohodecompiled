@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_audio_live_new_live" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_home_rank_cup" android:layout_marginStart="12.0dip" android:layout_marginEnd="4.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:layout_gravity="center_vertical" android:id="@id/id_tv_ranking_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:layout_gravity="center_vertical" android:id="@id/v_top1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/item_ranking_user_avatar_top1" />
+    <include android:layout_gravity="center_vertical" android:id="@id/v_top2" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/item_ranking_user_avatar_top2" />
+    <include android:layout_gravity="center_vertical" android:id="@id/v_top3" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/item_ranking_user_avatar_top3" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_board_right_arrow" android:layout_marginStart="6.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

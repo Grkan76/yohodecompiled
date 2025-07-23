@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_common_dialog_root" android:background="@color/black50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/fl_common_dialog_container" android:background="@drawable/bg_dialog_audio_room_common" android:layout_width="fill_parent" android:layout_height="400.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <FrameLayout android:id="@id/fl_webview_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_common_dialog_center" android:background="@drawable/bg_dialog_audio_room_common" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="end" android:id="@id/iv_common_dialog_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ic_live_close_circle" android:layout_marginEnd="8.0dip" />
+    </FrameLayout>
+</FrameLayout>

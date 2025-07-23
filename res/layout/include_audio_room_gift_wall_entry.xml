@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.audioroom.gift.wall.AudioRoomGiftWallEntryWidget android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/bg_audio_room_giftwall_entry" android:layout_width="wrap_content" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.md.view.main.RLImageView android:layout_gravity="center_vertical" android:id="@id/iv_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_audio_room_gift_wall_entry" android:layout_marginStart="6.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFFE5B3" android:ellipsize="end" android:id="@id/tv_gift_wall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="128.0dip" android:text="@string/limited_gift_wall_audio_room_entry" android:maxLines="1" android:textDirection="locale" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFFE5B3" android:id="@id/tv_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="locale" />
+    </LinearLayout>
+</com.audionew.features.audioroom.gift.wall.AudioRoomGiftWallEntryWidget>

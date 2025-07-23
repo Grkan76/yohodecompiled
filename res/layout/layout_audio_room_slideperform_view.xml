@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.roomslide.LiveRoomSlideTransformView android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:placeholderImage="@drawable/ic_audio_room_default_cover" app:placeholderImageScaleType="centerCrop" />
+</com.audio.ui.audioroom.roomslide.LiveRoomSlideTransformView>

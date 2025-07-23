@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_root_layout" android:background="@color/black87" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.opensource.svgaplayer.SVGAImageView android:layout_gravity="end|bottom|center" android:id="@id/dialog_new_user_task_reward_god_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:autoPlay="true" app:loopCount="1" app:source="aladdin.svga" />
+    </LinearLayout>
+</FrameLayout>

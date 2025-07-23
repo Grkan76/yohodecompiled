@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/md_item_chat_avatar_recv" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_marginRight="0.0dip" android:layout_marginEnd="0.0dip" style="@style/ChatRecvOuterViewStyle">
+        <LinearLayout android:orientation="vertical" android:id="@id/chatting_card_content" android:paddingLeft="15.0dip" android:paddingTop="12.0dip" android:paddingRight="15.0dip" android:paddingBottom="12.0dip" android:minWidth="0.0dip" android:minHeight="40.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ChatContentViewStyle">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/color1D212C" android:id="@id/chatting_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="208.0dip" />
+            <ViewStub android:id="@id/chatting_translate_result_line_vs" android:layout="@layout/md_item_chat_translate_result_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+            <ViewStub android:id="@id/chatting_translate_result_text_vs" android:layout="@layout/md_item_chat_translate_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+        <ViewStub android:id="@id/chatting_translate_tip_vs" android:layout="@layout/md_item_chat_translate_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="15.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/chatting_card_content" />
+        <ViewStub android:id="@id/chatting_paid_msg_tag" android:layout="@layout/md_item_chat_msg_paid_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/chatting_card_content" app:layout_constraintStart_toEndOf="@id/chatting_card_content" app:layout_constraintTop_toTopOf="@id/chatting_card_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

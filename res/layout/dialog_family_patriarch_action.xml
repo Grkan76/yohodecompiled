@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_white_top_r8" android:padding="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="center" android:id="@id/id_edit_profile" android:background="@drawable/bg_audio_family_exit_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/string_edit_profile" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="center" android:id="@id/id_request_settings" android:background="@drawable/bg_audio_family_exit_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="8.0dip" android:text="@string/string_family_request_setting" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="center" android:id="@id/id_disband_family" android:background="@drawable/bg_audio_family_exit_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="8.0dip" android:text="@string/disband_family" />
+</LinearLayout>

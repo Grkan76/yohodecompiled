@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/id_error_root_ll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_refresh_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_home_ref" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/colorCBD1DD" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_load_network_error" />
+</LinearLayout>

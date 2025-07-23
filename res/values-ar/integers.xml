@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="angle_135">-225</integer>
+    <integer name="angle_hor">180</integer>
+    <integer name="cover_rotate">45</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_title_close_gray" style="@style/CommonToolbarStyle">
+        <widget.md.view.layout.MicoTabLayout android:layout_gravity="start|center" android:id="@id/id_tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="45.0dip" app:micoTabIndicatorMarginBottom="6.0dip" app:micoTabPaddingEnd="12.0dip" app:micoTabPaddingStart="12.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.1D212C.16" app:micoTabTextAppearance="@style/TextView.Regular.A6B0BD.15" style="@style/AudioTableLayoutNormalStyle" />
+    </widget.md.view.layout.CommonToolbar>
+    <include android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/activity_webview_content" />
+</LinearLayout>

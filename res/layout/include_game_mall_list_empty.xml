@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_mall_list_error_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_game_mall_no_data" android:layout_above="@id/id_mall_list_error_tv" android:layout_centerHorizontal="true" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white50" android:id="@id/id_mall_list_error_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_data_available" android:layout_centerInParent="true" style="@style/EmptyLayoutTextStyle" />
+</RelativeLayout>

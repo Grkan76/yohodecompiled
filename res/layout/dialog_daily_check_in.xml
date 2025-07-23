@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/window_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/daily_check_in_fl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <FrameLayout android:layout_gravity="top" android:id="@id/id_content_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_bg_color" android:background="@drawable/bg_daily_dialog_check_in" android:layout_width="fill_parent" android:layout_height="340.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/check_in_list" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="fill_parent" android:layout_height="114.0dip" android:layout_marginTop="70.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                            <include android:id="@id/id_ll_daily_task_sign_in_item_6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="1.0" android:layout_marginEnd="2.0dip" layout="@layout/item_daily_check_in" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <include android:id="@id/id_ll_daily_task_sign_in_item_7" android:layout_width="71.0dip" android:layout_height="fill_parent" layout="@layout/item_daily_check_in_7" />
+                </LinearLayout>
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/have_check_in_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/string_daily_have_check_in_numbers" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:id="@id/id_tv_check_in" android:background="@drawable/bg_daily_task_check_in" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="24.0dip" android:text="@string/string_daily_task_check" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/has_check_in_success_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/daily_check_reward_item_1" layout="@layout/daily_check_in_reward_item" />
+                    <include android:id="@id/daily_check_reward_item_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginStart="32.0dip" layout="@layout/daily_check_in_reward_item" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/reward_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" />
+                </LinearLayout>
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color65300F" android:layout_gravity="center" android:id="@id/sign_in_success_tips" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" android:text="--" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color65300F" android:layout_gravity="center" android:id="@id/second_tips" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:text="--" />
+            </LinearLayout>
+        </FrameLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color65300F" android:gravity="center" android:layout_gravity="center|top" android:id="@id/check_in_title" android:background="@drawable/bg_dialog_check_title1" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="80.0dip" android:text="@string/string_daily_check_in_dialog_title" />
+        <com.audio.ui.widget.SignInStarAnimView android:layout_gravity="center|top" android:id="@id/star_anim" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="340.0dip" />
+    </FrameLayout>
+    <ImageView android:id="@id/id_iv_close" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/ic_daily_dialog_close" android:layout_below="@id/daily_check_in_fl" android:layout_centerInParent="true" />
+</RelativeLayout>

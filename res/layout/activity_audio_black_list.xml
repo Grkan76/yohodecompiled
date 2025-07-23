@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tbNavigationEnable="true" app:tbTitle="@string/blocklist_management" style="@style/CommonToolbarStyle" />
+    <widget.libx.swiperefresh.LibxSwipeRefreshLayout android:id="@id/id_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:LibxSwipeRefresh_layoutManager="0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/id_common_toolbar" app:libxSr_emptyLayout="@layout/layout_empty_common" app:libxSr_failedLayout="@layout/layout_load_network_error" />
+</androidx.constraintlayout.widget.ConstraintLayout>

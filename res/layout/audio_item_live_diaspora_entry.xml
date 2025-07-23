@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.view.SquareFrameLayout android:id="@id/id_sf_root" android:background="@drawable/bg_live_fast_game_entry_head" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_bg_diaspora" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/tv_diaspora_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="32.0dip" android:layout_marginBottom="66.0dip" android:text="@string/change_country_feed_feature" android:lines="3" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ll_diaspora_confirm" android:background="@drawable/bg_live_fast_game_entry_bottom" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textStyle="bold|italic" android:textColor="#ff01acff" android:ellipsize="end" android:id="@id/tv_diaspora_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_common_confirm" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_diaspora_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ic_hot_diaspora_close" android:layout_marginEnd="8.0dip" />
+    </widget.ui.view.SquareFrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/tv_diaspora_title_outside" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:maxLines="1" />
+</LinearLayout>

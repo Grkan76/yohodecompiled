@@ -1,0 +1,36 @@
+.class public final synthetic Landroidx/media3/exoplayer/scheduler/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/media3/exoplayer/scheduler/d$d;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/media3/exoplayer/scheduler/d$d;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/media3/exoplayer/scheduler/f;->a:Landroidx/media3/exoplayer/scheduler/d$d;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/media3/exoplayer/scheduler/f;->a:Landroidx/media3/exoplayer/scheduler/d$d;
+
+    invoke-static {v0}, Landroidx/media3/exoplayer/scheduler/d$d;->a(Landroidx/media3/exoplayer/scheduler/d$d;)V
+
+    return-void
+.end method

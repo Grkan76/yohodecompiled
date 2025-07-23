@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainImmersiveContainer android:orientation="vertical" android:background="@color/color2B1003" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/header_bg" layout="@layout/include_badge_header_bg" />
+        <View android:id="@id/rv_bg" android:background="@drawable/bg_300b00_top_r16" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="296.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_refresh_layout" android:paddingTop="8.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" app:emptyLayout="@layout/include_badge_empty" app:failedLayout="@layout/include_badge_error" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/rv_bg" />
+    </com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>
+</com.audionew.features.main.ui.MainImmersiveContainer>

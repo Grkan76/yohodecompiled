@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chatPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/colorE6E8EB" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/inputPanel" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/id_pic_send_iv" android:background="?selectableItemBackgroundBorderless" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_chat_photo" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="8.0dip">
+            <RelativeLayout android:id="@id/id_rl_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.ui.textview.ChatInputEditText android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/color1D212C" android:textColorHint="@color/colorA6B0BD" android:gravity="start|center" android:id="@id/editText" android:background="@drawable/msg_input_bg_f5f7f9" android:paddingLeft="12.0dip" android:paddingRight="32.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="60.0dip" android:minHeight="36.0dip" android:hint="@string/string_game_room_input_hit" android:maxLength="1000" android:inputType="textLongMessage|textAutoCorrect|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/shape_cursor_chat_input" android:paddingStart="12.0dip" android:paddingEnd="32.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/id_emoji_keyboard_iv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/image_select_panel_emoji_keyboard_selector" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <com.audionew.features.chat.widget.ChatVoiceLayout android:id="@id/id_input_voice_layout" android:background="@drawable/msg_input_voice_bg_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/panel_gift" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_chat_send_gift" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/id_voice_keyboard_iv" android:background="?selectableItemBackgroundBorderless" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/image_select_panel_voice_keyboard_selector" />
+            <widget.md.view.main.RLImageView android:layout_gravity="center" android:id="@id/id_send_iv" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/image_select_panel_send_selector" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bottomPanel" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

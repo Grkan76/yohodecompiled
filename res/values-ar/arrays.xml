@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="phone_country_codes">
+        <item>376:AD:أندورا:ا</item>
+        <item>971:AE:الامارات العربية المتحدة:ا</item>
+        <item>93:AF:أفغانستان:ا</item>
+        <item>1:AG:انتيجوا:ا</item>
+        <item>1:AI:أنغيلا:ا</item>
+        <item>355:AL:البانيا:ا</item>
+        <item>374:AM:أرمينيا:ا</item>
+        <item>244:AO:أنغولا:ا</item>
+        <item>54:AR:الأرجنتين:ا</item>
+        <item>1:AS:ساموا الامريكية:س</item>
+        <item>43:AT:النمسا:ا</item>
+        <item>61:AU:أستراليا:ا</item>
+        <item>297:AW:أروبا:ا</item>
+        <item>994:AZ:اذربيجان:ا</item>
+        <item>387:BA:البوسنة والهرسك:ب</item>
+        <item>1:BB:بربادوس:ب</item>
+        <item>880:BD:بنجلاديش:ب</item>
+        <item>32:BE:بلجيكا:ب</item>
+        <item>226:BF:بوركينا فاسو:ب</item>
+        <item>359:BG:بلغاريا:ب</item>
+        <item>973:BH:البحرين:ب</item>
+        <item>257:BI:بوروندي:ب</item>
+        <item>229:BJ:بنين:ب</item>
+        <item>1:BM:برمودا:ب</item>
+        <item>673:BN:بروناي:ب</item>
+        <item>591:BO:بوليفيا:ب</item>
+        <item>599:BQ:بونير وسينت أوستاتيوس وسابا:ب</item>
+        <item>55:BR:البرازيل:ا</item>
+        <item>1:BS:جزر الباهاماز:ج</item>
+        <item>975:BT: بوتان: ب</item>
+        <item>267:BW: بوتسوانا: ب</item>
+        <item>375:BY: بيلاروسيا: ب</item>
+        <item>501:BZ: بيليز: ب</item>
+        <item>1:CA: كندا: ك</item>
+        <item>243:CD: جمهورية الكونغو الديموقراطية: ج</item>
+        <item>236:CF:جمهورية أفريقيا الوسطى:ج</item>
+        <item>242:CG:جمهورية الكونغو:ج</item>
+        <item>41:CH:سويسرا:س</item>
+        <item>225:CI:الساحل العاج:ا</item>
+        <item>682:CK:جزر كوك:ج</item>
+        <item>56:CL:شيلي:ش</item>
+        <item>237:CM:الكاميرون:ا</item>
+        <item>86:CN:الصين:ا</item>
+        <item>57:CO:كولومبيا:ك</item>
+        <item>506:CR:كوستا ريكا:ك</item>
+        <item>53:CU: كوبا: ك</item>
+        <item>238:CV:الرأس الاخضر:ا</item>
+        <item>599:CW:كوراكاو:ك</item>
+        <item>357:CY:قبرص:ق</item>
+        <item>420:CZ:جمهورية التشيك:ج</item>
+        <item>49:DE:المانيا:ا</item>
+        <item>253:DJ:جيبوتي:ج</item>
+        <item>45:DK:الدانيمارك:ا</item>
+        <item>1:DM:دومينيك:د</item>
+        <item>1:DO:جمهورية الدومينيكان:ج</item>
+        <item>213:DZ:الجزائر:ا</item>
+        <item>593:EC:إكوادور:ا</item>
+        <item>372:EE:إستونيا:ا</item>
+        <item>20:EG:مصر:م</item>
+        <item>212:EH:الصحراء الغربية:ا</item>
+        <item>291:ER:إريتريا:ا</item>
+        <item>34:ES:اسبانيا:ا</item>
+        <item>251:ET:إثيوبيا:ا</item>
+        <item>358:FI: فينلاندا:ف</item>
+        <item>679:FJ:فيجي:ف</item>
+        <item>500:FK:جزر فولكلاند:ج</item>
+        <item>691:FM:جزر مايكرونيزيا:ج</item>
+        <item>298:FO:جزرفارو:ج</item>
+        <item>33:FR:فرنسا:ف</item>
+        <item>241:GA: الجابون: ا</item>
+        <item>44:GB: المملكة المتحدة البريطانية: ا</item>
+        <item>1:GD:جرينادا:ج</item>
+        <item>995:GE:جورجيا:ج</item>
+        <item>594:GF:غينيا الفرنسية:غ</item>
+        <item>44:GG: جيرنسي: ج</item>
+        <item>233:GH: غانا: غ</item>
+        <item>350:GI: جبل طارق: غ</item>
+        <item>299:GL: جرينلاند: ج</item>
+        <item>220:GM: غامبيا: غ</item>
+        <item>224:GN: غينيا: غ</item>
+        <item>590:GP: جواديلوب: ج</item>
+        <item>240:GQ: غينياالاستوائية: غ</item>
+        <item>30:GR: اليونان: ا</item>
+        <item>502:GT: جواتيمالا: ج</item>
+        <item>1:GU: غوام: غ</item>
+        <item>245:GW: غينيا بيساو: غ</item>
+        <item>592:GY: جويانا: ج</item>
+        <item>852:HK: هونغ كونغ: ه</item>
+        <item>504:HN: الهندوراس: ا</item>
+        <item>385:HR: كرواتيا: ك</item>
+        <item>509:HT: هايتي: ه</item>
+        <item>36:HU: المجر: ا</item>
+        <item>62:ID: إندونيسيا: ا</item>
+        <item>353:IE: أيرلاندا: ا</item>
+        <item>972:IL: إسرائيل: ا</item>
+        <item>44:IM: جزيرة مان: ج</item>
+        <item>91:IN: الهند: ا</item>
+        <item>246:IO: إقليم المحيط البريطاني الهندي: ا</item>
+        <item>964:IQ: العراق: ا</item>
+        <item>98:IR: إيران: ا</item>
+        <item>354:IS: أيسلاندا: ا</item>
+        <item>39:IT: إيطاليا: ا</item>
+        <item>44:JE:جيرسي:ج</item>
+        <item>1:JM:جامايكا:ج</item>
+        <item>962:JO:الأردن:ا</item>
+        <item>81:JP:اليابان:ا</item>
+        <item>254:KE:كينيا:ك</item>
+        <item>996:KG: قرغيزستان:ق</item>
+        <item>855:KH: كمبوديا: ك</item>
+        <item>686:KI: كيريباتي:ك</item>
+        <item>269:KM:جزر القمر:ج</item>
+        <item>1:KN: سان كيتس اند نيفز:س</item>
+        <item>850:KP: كوريا الشمالية:ك</item>
+        <item>82:KR: كوريا الشمالية:ك</item>
+        <item>965:KW: الكويت:ا</item>
+        <item>1:KY:جزر كايمان:ج</item>
+        <item>7:KZ:كازاخستان:ك</item>
+        <item>856:LA:جمهورية لاو الديموقراطية الشعبية:ل</item>
+        <item>961:LB:لبنان:ل</item>
+        <item>1:LC:سان لوتشيا:س</item>
+        <item>423:LI:ليخنشتاين:ل</item>
+        <item>94:LK:سريلانكا:س</item>
+        <item>231:LR:ليبيريا:ل</item>
+        <item>266:LS:ليسوتو:ل</item>
+        <item>370:LT:ليتوانيا:ل</item>
+        <item>352:LU:لوكسيمبورغ:ل</item>
+        <item>371:LV:لاتفيا:ل</item>
+        <item>218:LY:ليبيا:ل</item>
+        <item>212:MA:المغرب:ا</item>
+        <item>377:MC:موناكو:م</item>
+        <item>373:MD:مولدوفا:م</item>
+        <item>382:ME:مونتينيجرو:م</item>
+        <item>261:MG:مدغشقر:م</item>
+        <item>692:MH:جزر مارشال:ج</item>
+        <item>389:MK:مقدونيا:م</item>
+        <item>223:ML:مالي:م</item>
+        <item>95:MM:ميانمار:م</item>
+        <item>976:MN:منغوليا:م</item>
+        <item>853:MO:ماكاو:م</item>
+        <item>1:MP:جزر ماريانا الشمالية:ج</item>
+        <item>596:MQ:مرتنيق:م</item>
+        <item>222:MR:موريتانيا:م</item>
+        <item>1:MS:مونتسيرات:م</item>
+        <item>356:MT:مالطا:م</item>
+        <item>230:MU:موريشيوس:م</item>
+        <item>960:MV:جزر المالديف:ج</item>
+        <item>265:MW:ملوي:م</item>
+        <item>52:MX:المكسيك:ا</item>
+        <item>60:MY:ماليسيا:م</item>
+        <item>258:MZ:موزمبيق:م</item>
+        <item>264:NA:ناميبيا:ن</item>
+        <item>687:NC:كاليدونيا الجديدة:ك</item>
+        <item>227:NE:النيجر:ا</item>
+        <item>672:NF:جزر نورفوك:ج</item>
+        <item>234:NG:نيجيريا:ن</item>
+        <item>505:NI:نيكاراغوا:ن</item>
+        <item>31:NL:هولاندا:ه</item>
+        <item>47:NO:النرويج:ا</item>
+        <item>977:NP:نيبال:ن</item>
+        <item>674:NR:ناورو:ن</item>
+        <item>683:NU:نيو:ن</item>
+        <item>64:NZ:نيو زيلاندا:ن</item>
+        <item>968:OM:عمان:ع</item>
+        <item>507:PA:باناما:ب</item>
+        <item>51:PE:البيرو:ا</item>
+        <item>689:PF:بولينيسيا الجنوبية:ب</item>
+        <item>675:PG:بابوا غينيا الجديدة:ب</item>
+        <item>63:PH:الفيليبين:ا</item>
+        <item>92:PK:باكيستان:ب</item>
+        <item>48:PL:بولاندا:ب</item>
+        <item>508:PM:سان بيير و ميكولون:س</item>
+        <item>1:PR:بورتو ريكو:ب</item>
+        <item>970:PS:فلسطين:ف</item>
+        <item>351:PT:البرتغال:ا</item>
+        <item>680:PW:بالو:ب</item>
+        <item>595:PY:باراجواي:ب</item>
+        <item>974:QA:قطر:ق</item>
+        <item>262:RE:ريونيون:ر</item>
+        <item>40:RO:رومانيا:ر</item>
+        <item>381:RS:صربيا:ص</item>
+        <item>250:RW:رواندا:ر</item>
+        <item>966:SA:المملكة العربية السعودية:ا</item>
+        <item>677:SB:جزر سليمان:ج</item>
+        <item>248:SC:سيشيل:س</item>
+        <item>249:SD:السودان:ا</item>
+        <item>46:SE:السويد:ا</item>
+        <item>65:SG:سينغافورة:س</item>
+        <item>290:SH:سان هيلينا:س</item>
+        <item>386:SI:سلوفينيا:س</item>
+        <item>421:SK:سلوفاكيا:س</item>
+        <item>232:SL:سييراليون:س</item>
+        <item>378:SM:سان مارينو:س</item>
+        <item>221:SN:السنغال:ا</item>
+        <item>252:SO:الصومال:ا</item>
+        <item>597:SR:سورينيام:س</item>
+        <item>211:SS:جنوب السودان:ج</item>
+        <item>239:ST:ساوتومي اند برنسيب:س</item>
+        <item>503:SV:إلسلفادور:ا</item>
+        <item>1:SX:سان مارتن:س</item>
+        <item>963:SY:سوريا:س</item>
+        <item>268:SZ:سوازيلاند:س</item>
+        <item>1:TC:جزر تركس و كايكوس:ج</item>
+        <item>235:TD:تشاد:ت</item>
+        <item>228:TG:توجو:ت</item>
+        <item>66:TH:تايلاند:ت</item>
+        <item>992:TJ:طاجيستان:ط</item>
+        <item>690:TK:توكيلاو:ت</item>
+        <item>670:TL:تيمورلست:ت</item>
+        <item>993:TM:تركمنستان:ت</item>
+        <item>216:TN:تونس:ت</item>
+        <item>676:TO:تونجا:ت</item>
+        <item>90:TR:تركيا:ت</item>
+        <item>1:TT:ترينيداد و توباغو:ت</item>
+        <item>688:TV:توفالو:ت</item>
+        <item>886:TW:تايوان:ت</item>
+        <item>255:TZ:تانزانيا:ت</item>
+        <item>380:UA:أوكرانيا:ا</item>
+        <item>256:UG:أوغندا:ا</item>
+        <item>1:US:الولايات المتحدة الأمريكية:ا</item>
+        <item>598:UY:أوروغواي:ا</item>
+        <item>998:UZ:أوزباكستان:ا</item>
+        <item>1:VC:سان فينسنت و جرينادا:س</item>
+        <item>58:VE:فنزويلا:ف</item>
+        <item>1:VG:جزر فيرجن البريطامية:ج</item>
+        <item>1:VI:جزر فيرجن الأمريكية:ج</item>
+        <item>84:VN:فيتنام:ف</item>
+        <item>678:VU:فانواتا:ف</item>
+        <item>681:WF:واليس و فوتونا:و</item>
+        <item>685:WS:ساموا:س</item>
+        <item>967:YE:اليمن:ا</item>
+        <item>262:YT:مايوت:م</item>
+        <item>27:ZA:جنوب أفريقيا:ج</item>
+        <item>260:ZM:زامبيا:ز</item>
+        <item>263:ZW:زيمبابوي:ز</item>
+    </string-array>
+    <string-array name="phone_country_codes_default">
+        <item>66:TH:تايلاند:ت</item>
+        <item>84:VN:فيتنام:ف</item>
+        <item>62:ID:إندونيسيا:ا</item>
+        <item>60:MY:ماليسيا:م</item>
+        <item>886:TW:تايوان:ت</item>
+        <item>971:AE:الامارات العربية المتحدة:ا</item>
+        <item>973:BH:البحرين:ب</item>
+        <item>966:SA:المملكة العربية السعودية:ا</item>
+        <item>965:KW:الكويت:ا</item>
+        <item>212:MA:المغرب:ا</item>
+        <item>968:OM:عمان:ع</item>
+        <item>974:QA:قطر:ق</item>
+    </string-array>
+    <string-array name="phone_country_title">
+        <item>ا</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+    </string-array>
+</resources>

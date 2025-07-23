@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.SquareFrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundedCornerRadius="8.0dip" style="@style/RoundedBorderStyle" />
+    <ImageView android:textColor="@color/black" android:layout_gravity="end|center|top" android:id="@id/id_delete" android:padding="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_moment_post_delete" />
+</widget.ui.view.SquareFrameLayout>

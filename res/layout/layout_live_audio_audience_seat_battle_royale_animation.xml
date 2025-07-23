@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.SeatBattleRoyaleAnimationView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_battle_royale_out_down" android:visibility="visible" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="26.0dip" android:layout_marginStart="18.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_battle_royale_aimed" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="14.0dip" />
+</com.audio.ui.audioroom.widget.SeatBattleRoyaleAnimationView>

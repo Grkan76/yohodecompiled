@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="64.0dip" android:autoMirrored="true" android:viewportWidth="64.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_moment_post_btn_disable__0" android:pathData="M15,0L49,0A15,15 0,0 1,64 15L64,15A15,15 0,0 1,49 30L15,30A15,15 0,0 1,0 15L0,15A15,15 0,0 1,15 0z" />
+</vector>

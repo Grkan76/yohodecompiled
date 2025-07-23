@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/empty_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="135.0dip" android:src="@drawable/ic_empty_pk" android:layout_centerHorizontal="true" />
+    <widget.ui.textview.MicoTextView android:textColor="@color/colorCBD1DD" android:gravity="center" android:id="@id/empty_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_audio_activity_pk_no_current_activity" android:layout_below="@id/empty_iv" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/TextView.Medium.16" />
+</RelativeLayout>

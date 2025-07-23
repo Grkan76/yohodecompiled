@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flNewUserDailyTaskContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llContainer" android:background="@drawable/bg_f5f7f9_top_r16" android:layout_width="fill_parent" android:layout_height="420.0dip">
+        <widget.md.view.layout.MicoTabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:micoTabBackground="?selectableItemBackgroundBorderless" app:micoTabIndicatorColor="@color/color00CC3D" app:micoTabIndicatorHeight="4.0dip" app:micoTabIndicatorMarginBottom="6.0dip" app:micoTabIndicatorStyleRounded="true" app:micoTabIndicatorWidth="8.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.16" app:micoTabSelectedTextColor="@color/color1D212C" app:micoTabTextAppearance="@style/TextView.Medium.16" app:micoTabTextColor="@color/colorA6B0BD" />
+        <include android:id="@id/viewpager_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_viewpager" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

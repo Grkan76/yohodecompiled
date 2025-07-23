@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+        <widget.ui.view.SquareImageView app:roundAsCircle="true" style="@style/MDAvatar54Style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.md.view.layout.AnchorMeasureLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/selector_text_vip_or" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" style="@style/MDUserNameStyle" />
+                    <include layout="@layout/include_user_gender_age_12" />
+                </widget.md.view.layout.AnchorMeasureLayout>
+                <widget.ui.textview.MicoTextView android:textColor="@color/color888F9F" android:ellipsize="end" android:id="@id/tvTimeline" android:maxLines="1" style="@style/MDUserDistanceStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/tv_greeting_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/tv_msg_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" app:tipsFixPadding="8.0dip" app:tipsRadius="10.0dip" app:tipsSolidColor="@color/colorFF0066" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/LineF1f2f6" />
+</FrameLayout>

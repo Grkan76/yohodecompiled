@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ChatSendOuterViewStyle">
+        <com.audionew.features.chat.widget.MsgStatusView style="@style/ChatMsgStateStyle" />
+        <include android:id="@id/iPicLayout" layout="@layout/md_item_chat_pic" />
+    </LinearLayout>
+    <include layout="@layout/md_item_chat_avatar_send" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:layout_gravity="start" android:id="@id/rv_gift_send_count_select" android:background="@drawable/bg_audio_room_send_gift_choose" android:visibility="visible" android:layout_width="86.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

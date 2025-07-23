@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.meet.widget.MeetRootLayout android:id="@id/id_root_layout" android:background="@color/transparent" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.MultiStatusLayout android:id="@id/id_fragment_meet_multistatusLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mslEmptyLayout="@layout/layout_meet_empty" app:mslFailedLayout="@layout/layout_meet_network_error" app:mslLoadingLayout="@layout/layout_meet_loading" app:mslStatus1="@layout/layout_meet_limit">
+        <FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.audio.ui.meet.widget.core.CardSlideLayout android:id="@id/id_card_slide_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cslCardBottomMargin="105.0dip" app:cslCardHorizontalMargin="20.0dip" app:cslCardLayoutHeight="match_parent" app:cslCardLayoutWidth="match_parent" app:cslCardTopMargin="4.0dip" app:cslDefaultCardCount="4" app:cslItemOffset="0.0dip" app:cslSlideMode="tinder" />
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/id_fragment_meet_like_and_not_like_layout" android:layout_width="fill_parent" android:layout_height="125.0dip">
+                <ImageView android:layout_gravity="start|center" android:id="@id/id_fragment_meet_not_like_iv" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginLeft="56.0dip" android:src="@drawable/ic_meet_not_like" android:scaleType="fitXY" android:layout_marginStart="56.0dip" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/id_fragment_meet_like_iv" android:visibility="gone" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginRight="56.0dip" android:src="@drawable/ic_meet_like" android:scaleType="fitXY" android:layout_marginEnd="56.0dip" />
+            </FrameLayout>
+        </FrameLayout>
+    </widget.ui.view.MultiStatusLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.20" android:textColor="@color/white" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/id_meet_my_voice_tv" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_meet_my_voice" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</com.audio.ui.meet.widget.MeetRootLayout>

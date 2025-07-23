@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/BaseLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/load_progress_lv" android:background="#ffd3d4d1" android:layout_width="fill_parent" android:layout_height="2.5dip">
+        <View android:id="@id/load_progressbar" android:background="@color/colorAudioPrimary" android:layout_width="80.0dip" android:layout_height="2.5dip" />
+    </RelativeLayout>
+    <widget.md.view.layout.MDFrameLayout android:id="@id/webView_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.audio.ui.widget.ObservableWebView android:id="@id/load_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </widget.md.view.layout.MDFrameLayout>
+    <widget.md.view.layout.MDFrameLayout android:id="@id/full_screen_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <widget.md.view.layout.MDLinearLayout android:id="@id/webview_failed_lv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_load_network_error" />
+    </widget.md.view.layout.MDLinearLayout>
+</LinearLayout>

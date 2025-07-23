@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.ranking.widget.RankingBoardTopIntimacy android:layout_gravity="center_horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="109.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/id_ranking_head_intimacy_top_1_out_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="84.0dip">
+        <FrameLayout android:layout_gravity="start|center" android:id="@id/id_ranking_head_intimacy_top_1_inner_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="96.0dip" android:layout_height="96.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_ranking_head_intimacy_top_1_avatar_iv" android:layout_width="60.0dip" android:layout_height="60.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" />
+            <ImageView android:id="@id/id_ranking_head_intimacy_top_1_decorate_iv" android:layout_width="96.0dip" android:layout_height="96.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|center" android:id="@id/id_ranking_head_intimacy_top_2_inner_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="96.0dip" android:layout_height="96.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_ranking_head_intimacy_top_2_avatar_iv" android:layout_width="60.0dip" android:layout_height="60.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" />
+            <ImageView android:id="@id/id_ranking_head_intimacy_top_2_decorate_iv" android:layout_width="96.0dip" android:layout_height="96.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="53.0dip" android:layout_marginStart="92.0dip" android:layout_marginEnd="92.0dip">
+            <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFF27C5" android:ellipsize="end" android:gravity="start" android:layout_gravity="start" android:id="@id/id_ranking_head_intimacy_top_1_name_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <View android:layout_width="6.0dip" android:layout_height="0.0dip" />
+            <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color38B5EE" android:ellipsize="end" android:gravity="end" android:layout_gravity="end" android:id="@id/id_ranking_head_intimacy_top_2_name_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="center|top" android:id="@id/id_ranking_head_intimacy_top_center_love_iv" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="-10.0dip" android:scaleType="fitXY" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorFFF100" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/id_ranking_head_intimacy_top_center_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:maxWidth="60.0dip" android:maxLines="1" />
+</com.audio.ui.ranking.widget.RankingBoardTopIntimacy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="90.0dip" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/bubble" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/content" android:layout_width="74.0dip" android:layout_height="74.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/rewardFid" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <com.audio.ui.audioroom.redrain.StrokeTextView android:textSize="18.0sp" android:textColor="@color/colorFF4400" android:gravity="center" android:layout_gravity="center" android:id="@id/rewardText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dip" app:StrokeStyleable_strokeColor="@color/colorFFFF00" app:StrokeStyleable_strokeWidth="1.3999939dip" style="@style/TextView.Bold.18" />
+    <com.audio.ui.audioroom.redrain.StrokeTextView android:textSize="18.0sp" android:textColor="@color/colorFF4400" android:gravity="center" android:layout_gravity="center" android:id="@id/rewardCoin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22.0dip" android:drawablePadding="2.0dip" android:drawableEnd="@drawable/ic_coin_20" app:StrokeStyleable_strokeColor="@color/colorFFFF00" app:StrokeStyleable_strokeWidth="1.3999939dip" style="@style/TextView.Bold.18" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" style="@style/ProgressLoadingLucyBagStyle" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" style="@style/CommonToolbarStyle" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoEditText android:textColor="@color/color1D212C" android:textColorHint="@color/colorB0B8CA" android:gravity="center_vertical" android:id="@id/et_search_user" android:background="@drawable/shape_room_search_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="6.0dip" android:hint="@string/common_search" android:singleLine="true" android:drawableLeft="@drawable/ic_audio_room_search_lable" android:drawablePadding="5.0dip" android:inputType="none" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/edit_text_cursor" android:drawableStart="@drawable/ic_audio_room_search_lable" android:paddingStart="8.0dip" android:paddingEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextView.Medium.16" />
+        <ImageView android:id="@id/iv_del" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_audio_room_search_del" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/et_search_user" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_empty_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_family_empy" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/search_country_code_no_result" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

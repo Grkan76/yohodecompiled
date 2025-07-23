@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveListExploreHeaderLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/id_layout_auction_wall" android:layout="@layout/layout_live_explore_auction_wall_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginRight="@dimen/main_horizontal_margin" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="@dimen/main_horizontal_margin" />
+    <ViewStub android:id="@id/id_layout_gift_wall" android:layout="@layout/layout_live_explore_gift_wall_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginRight="@dimen/main_horizontal_margin" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="@dimen/main_horizontal_margin" />
+    <ViewStub android:id="@id/id_layout_pk" android:layout="@layout/layout_live_explore_pk_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginRight="@dimen/main_horizontal_margin" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="@dimen/main_horizontal_margin" />
+    <ViewStub android:id="@id/id_country_select_widget_wrap" android:layout="@layout/audio_country_select_widget_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginEnd="@dimen/main_horizontal_margin" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_header_empty_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginTop="46.0dip" android:layout_marginRight="@dimen/main_horizontal_margin" android:layout_marginHorizontal="@dimen/main_horizontal_margin">
+        <include layout="@layout/layout_live_banner_empty_icon" />
+        <widget.ui.textview.MicoTextView android:text="@string/string_live_empty" style="@style/EmptyLayoutTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_header_error_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginTop="46.0dip" android:layout_marginRight="@dimen/main_horizontal_margin" android:layout_marginHorizontal="@dimen/main_horizontal_margin">
+        <include layout="@layout/layout_live_banner_error_icon" />
+        <widget.ui.textview.MicoTextView android:text="@string/string_load_network_error" style="@style/EmptyLayoutTextStyle" />
+    </LinearLayout>
+</com.audio.ui.widget.LiveListExploreHeaderLayout>

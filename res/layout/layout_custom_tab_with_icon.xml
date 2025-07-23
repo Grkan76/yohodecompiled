@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/customTab" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginBottom="9.0dip" android:src="@drawable/icon_live_lock" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:tint="@color/colorB0B8CA" />
+    <widget.ui.textview.MicoTextView android:textColor="@drawable/selector_audio_room_sticker_tab_text_color" android:id="@id/tabTitle" android:paddingBottom="9.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:paddingStart="4.0dip" android:paddingEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/id_icon" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/redDot" android:visibility="invisible" android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/common_red_point" android:scaleType="fitXY" app:layout_constraintBottom_toTopOf="@id/tabTitle" app:layout_constraintStart_toEndOf="@id/tabTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

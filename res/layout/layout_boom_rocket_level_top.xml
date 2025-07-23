@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/string_boom_rocket_contributed" android:layout_marginStart="16.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_user_1" android:layout_width="88.0dip" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="69.0dip">
+                <ImageView android:layout_width="38.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_boom_rocket_contribution_top1" android:layout_centerHorizontal="true" />
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_avatar_iv_1" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="17.0dip" android:layout_centerHorizontal="true" app:roundAsCircle="true" app:roundingBorderColor="#ffffd534" app:roundingBorderWidth="2.0dip" />
+                <FrameLayout android:layout_width="88.0dip" android:layout_height="22.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_boom_rocket_king" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.8" android:textColor="@color/colorFF3E03" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/string_boom_rocket_king" />
+                </FrameLayout>
+            </RelativeLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white80" android:ellipsize="end" android:id="@id/id_user_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_user_2" android:layout_width="88.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="69.0dip">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="38.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_boom_rocket_contribution_top2" />
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_avatar_iv_2" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="17.0dip" app:roundAsCircle="true" app:roundingBorderColor="#ffcfd6e8" app:roundingBorderWidth="2.0dip" />
+            </FrameLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white80" android:ellipsize="end" android:id="@id/id_user_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_user_3" android:layout_width="88.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginStart="20.0dip">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="69.0dip">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="38.0dip" android:layout_height="25.0dip" android:src="@drawable/ic_boom_rocket_contribution_top3" />
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_avatar_iv_3" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="17.0dip" app:roundAsCircle="true" app:roundingBorderColor="#ffff9057" app:roundingBorderWidth="2.0dip" />
+            </FrameLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white80" android:ellipsize="end" android:id="@id/id_user_name_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/id_root_layout" android:background="@color/black80" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_horizontal" android:background="@drawable/bg_audio_new_user_task" android:layout_width="fill_parent" android:layout_height="521.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="72.0dip" android:layout_marginRight="24.0dip">
+        <ImageView android:layout_gravity="start|center|top" android:id="@id/dialog_new_user_task_reward_flower_1" android:layout_width="86.0dip" android:layout_height="86.0dip" android:src="@drawable/ic_new_user_task_bg_flower" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/dialog_new_user_task_reward_flower_2" android:layout_width="86.0dip" android:layout_height="86.0dip" android:src="@drawable/ic_new_user_task_bg_flower" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@id/dialog_new_user_task_reward_flower_3" android:layout_width="86.0dip" android:layout_height="86.0dip" android:src="@drawable/ic_new_user_task_bg_flower" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/dialog_new_user_task_reward_flower_4" android:layout_width="86.0dip" android:layout_height="86.0dip" android:src="@drawable/ic_new_user_task_bg_flower" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorFFF09B" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="56.0dip" android:layout_marginRight="20.0dip" android:text="@string/string_audio_new_user_task_full_week_tips" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="226.79999dip" android:layout_marginTop="40.0dip">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_god" android:layout_width="180.0dip" android:layout_height="190.79999dip" />
+                <ImageView android:layout_gravity="end|bottom|center" android:id="@id/id_iv_lamp" android:layout_width="96.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_new_user_task_lamp_small" android:layout_marginEnd="12.0dip" />
+            </FrameLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color614300" android:gravity="center" android:id="@id/dialog_new_user_task_welcome_bottom_btn" android:background="@drawable/bg_audio_new_user_task_diallog_bottom_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="32.0dip" android:text="@string/string_common_confirm" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

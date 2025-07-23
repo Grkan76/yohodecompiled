@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="60.0dip" android:layout_marginHorizontal="16.0dip">
+        <include android:id="@id/audio_user_profile_family_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_family_view" />
+        <include android:id="@id/audio_user_profile_tags_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_tags_view" />
+        <include android:id="@id/audio_user_record_voice_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_record_voice_view" />
+        <include android:id="@id/audio_user_cp_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_audio_profile_cp_view" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

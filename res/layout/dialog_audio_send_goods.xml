@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_common_white_r20" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_mall_time" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorB0B8CA" android:ellipsize="end" android:gravity="start|center" android:id="@id/dialog_send_goods_period_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/dialog_send_goods_pic_iv" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_coin_32" android:scaleType="fitXY" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color1D212C" android:ellipsize="end" android:gravity="start|center" android:id="@id/dialog_send_goods_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:ellipsize="end" android:gravity="center" android:id="@id/dialog_send_goods_content_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:maxLines="10" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <widget.ui.button.MicoButton android:id="@id/dialog_send_goods_cancel_btn" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_cancel" style="@style/DialogBtnCancel" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <widget.ui.button.MicoButton android:id="@id/dialog_send_goods_send_btn" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_audio_give_goods" style="@style/DialogBtnOk" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/md_item_chat_avatar_recv" />
+    <LinearLayout style="@style/ChatRecvOuterViewStyle">
+        <FrameLayout android:id="@id/chatting_card_content" android:minWidth="0.0dip" android:minHeight="40.0dip" style="@style/ChatContentViewStyle">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" android:id="@id/chatting_audio_card_iv" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:gravity="start" android:id="@id/chatting_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorAppBaseTheme" android:gravity="start" android:id="@id/chatting_audio_card_link_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_click_here_for_details" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

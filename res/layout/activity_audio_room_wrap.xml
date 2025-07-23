@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.audio.ui.audioroom.roomslide.LiveRoomSlideSwitcher android:id="@id/audio_room_slide_switcher" android:layout="@layout/activity_audio_room" android:inflatedId="@layout/layout_audio_room_slideperform_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

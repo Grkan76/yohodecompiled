@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <widget.photodraweeview.MultiTouchViewPager android:id="@id/id_image_vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/id_image_browser_bottom_vs" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <FrameLayout android:id="@id/id_close_view" android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_close_white_24dp" />
+    </FrameLayout>
+</FrameLayout>

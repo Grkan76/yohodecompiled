@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_app_start" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_test_iv" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <EditText android:textColor="@color/black" android:textColorHint="@color/color00CC3D" android:gravity="center" android:id="@id/id_test_url" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Download" android:onClick="onBtnClick" />
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Del" android:onClick="onDelClick" />
+</LinearLayout>

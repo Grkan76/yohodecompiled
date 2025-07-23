@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="64.0dip" android:layout_centerInParent="true" android:layout_marginEnd="64.0dip" app:cardCornerRadius="20.0dip" app:elevation="0.0dip" style="@style/ChatSendOuterViewStyle">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_guardian_chat_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/iv_bg" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/ic_guardian_msg_bg" android:scaleType="centerCrop" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_gift" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <include layout="@layout/md_item_chat_avatar_send" />
+</RelativeLayout>

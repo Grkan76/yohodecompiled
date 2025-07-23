@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.friendship.ui.FriendShipSettingGuideView android:background="@color/black90" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/cp_guide_01" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/guide_cp_level4_01" />
+    <include android:id="@id/cp_guide_02" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/guide_cp_level4_02" />
+    <include android:id="@id/cp_guide_03" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/guide_cp_level4_03" />
+    <include android:id="@id/cp_guide_04" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/guide_cp_level4_04" />
+</com.audio.ui.friendship.ui.FriendShipSettingGuideView>

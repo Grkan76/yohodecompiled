@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/chat_more_menu_item_bg" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_margin="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/footer_chatting_app_item_lv" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+        <ImageView android:id="@id/footer_chatting_app_item" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/footer_chatting_app_item_tips" android:visibility="visible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/round_tip_red" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <widget.ui.textview.MicoTextView android:textSize="12.0sp" android:textColor="#88000000" android:gravity="center" android:id="@id/footer_chatting_app_item_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/footer_chatting_app_item_lv" android:layout_centerHorizontal="true" />
+</RelativeLayout>

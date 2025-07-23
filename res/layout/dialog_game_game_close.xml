@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_game_tips" android:layout_width="300.0dip" android:layout_height="208.0dip">
+        <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/colorFF001F61" android:gravity="center|top" android:id="@id/tv_close_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_makesure_exit" android:layout_weight="1.0" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/bg_dialog_match_game_blue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_cancel" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" app:StrokeStyleable_strokeColor="#ff218fd4" app:StrokeStyleable_strokeWidth="2.0dip" />
+                <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/bg_dialog_match_game_yellow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_common_confirm" android:layout_weight="1.0" android:layout_marginStart="4.0dip" app:StrokeStyleable_strokeColor="#fff08600" app:StrokeStyleable_strokeWidth="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

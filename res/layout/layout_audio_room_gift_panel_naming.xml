@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.bottombar.gift.tiphelper.tipview.AudioGiftPanelNamingTipsView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@color/black90" app:roundBottomEnd="false" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundBottomStart="false" app:roundedCornerRadius="8.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_gift" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="@dimen/dimens_12" app:roundAsCircle="true" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:ellipsize="end" android:gravity="start|center" android:id="@id/id_tv_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="4.0dip" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_avatar_1" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="8.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="@dimen/dimens_1" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_avatar_2" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="8.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="@dimen/dimens_1" />
+    </LinearLayout>
+</com.audio.ui.audioroom.bottombar.gift.tiphelper.tipview.AudioGiftPanelNamingTipsView>

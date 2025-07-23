@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_photo" android:layout_width="100.0dip" android:layout_height="100.0dip" app:roundedCornerRadius="5.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:gravity="center" android:id="@id/id_tv_upload_progress" android:background="@drawable/bg_edit_profile_upload_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color636B82" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_audit_status" android:background="@drawable/bg_edit_photo_audit_status" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_audio_reviewing" android:maxLines="2" />
+</FrameLayout>

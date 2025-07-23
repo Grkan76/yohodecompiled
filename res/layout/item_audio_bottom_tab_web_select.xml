@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/tab_select_layout" android:background="@drawable/selector_audio_room_tab_web_select" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" android:id="@id/id_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginEnd="2.0dip" app:actualImageScaleType="centerInside" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@drawable/selector_audio_room_tab_web_select_tv" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/id_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" app:autoSizeMaxTextSize="14.0sp" app:autoSizeMinTextSize="9.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" />
+</LinearLayout>

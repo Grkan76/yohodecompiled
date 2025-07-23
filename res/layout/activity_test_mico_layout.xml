@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" style="@style/CommonToolbarStyle" />
+    <ExpandableListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:childDivider="@color/transparent" android:divider="@color/colorF1F2F6" android:dividerHeight="1.0dip" />
+</LinearLayout>

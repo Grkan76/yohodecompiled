@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffeaeaf0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/rootlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff242428" android:layout_gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffafafaf" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lineSpacingMultiplier="0.8" android:textDirection="locale" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/state" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+        <include layout="@layout/include_next_arrow" />
+    </LinearLayout>
+</LinearLayout>

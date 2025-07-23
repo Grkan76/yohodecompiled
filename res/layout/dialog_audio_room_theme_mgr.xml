@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.MicoTabLayout android:id="@id/id_tab_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="56.0dip" app:micoTabBackground="?selectableItemBackgroundBorderless" app:micoTabGravity="center" app:micoTabMinWidth="120.0dip" app:micoTabTextViewMaxLines="1" style="@style/AudioTableLayoutNormalStyle" />
+    <include android:layout_width="fill_parent" android:layout_height="414.0dip" layout="@layout/include_viewpager" />
+</LinearLayout>

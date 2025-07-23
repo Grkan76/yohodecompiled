@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveExploreCountriesView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/id_ll_countries_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_country_region" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_more" />
+            <ImageView android:ellipsize="end" android:id="@id/id_countres_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_countries_right_arrow" android:lines="1" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_1_1" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_1_1" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_1_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_1_2" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_1_2" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_1_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_1_3" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_1_3" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_1_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="6.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_2_1" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_2_1" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_2_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_2_2" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:layout_marginEnd="5.0dip">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_2_2" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_2_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_country_ll_2_3" android:background="@drawable/shape_bg_explore_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_country_iv_2_3" android:layout_width="16.0dip" android:layout_height="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/id_country_tv_2_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</com.audio.ui.widget.LiveExploreCountriesView>

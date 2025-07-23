@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.effect.AudioEffectFileAnimView android:id="@id/id_mini_card_effect_anim" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center" android:layout_gravity="end|bottom|center" android:id="@id/id_mini_card_effect_more" android:background="@drawable/bg_black40_r15" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:paddingStart="10.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="12.0dip" app:drawableEndCompat="@drawable/ic_me_more_18" />
+</FrameLayout>

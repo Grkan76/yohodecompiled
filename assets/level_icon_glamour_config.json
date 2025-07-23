@@ -1,0 +1,340 @@
+[
+  {
+    "min": 1,
+    "max": 19,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/3f5702fa4385049a87255886ad3c8e9b",
+    "ar_fid": "wakam/51d04b7c0df1c9d34bc4d9a82030d388",
+    "upgrade_preview_fid": "wakam/bbfbd71156488a720096568d6e78359b"
+  },
+  {
+    "min": 20,
+    "max": 39,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/a590d03b590b936a13d6d6fad411087e",
+    "ar_fid": "wakam/e6cbd07c19ee6636d18d8aa2acbe75ee",
+    "upgrade_preview_fid": "wakam/709645d9f3844d6383fe4f4382074660"
+  },
+  {
+    "min": 40,
+    "max": 59,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/9f11ca3c6c78d41eec2bbca675851128",
+    "ar_fid": "wakam/11562aac5ac8e85ca57148eeb83c469b",
+    "upgrade_preview_fid": "wakam/1921eb59bb72d3457ba448f10602a0f1"
+  },
+  {
+    "min": 60,
+    "max": 79,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/276786740a4e3cb702462bc7cb95b83a",
+    "ar_fid": "wakam/2837f547b7d5b85ac8024d13bfbbceca",
+    "upgrade_preview_fid": "wakam/7b25b340961de5873d2338874771ebba"
+  },
+  {
+    "min": 80,
+    "max": 99,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/a970249452accc59cea4fb5d214f603a",
+    "ar_fid": "wakam/03ed3bb7bebb0d49c64d7ba5099940d3",
+    "upgrade_preview_fid": "wakam/b0fa85844112a2f7c86720b073171bb7"
+  },
+  {
+    "min": 100,
+    "max": 119,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/567ec648693b98e5f80a29bd314e3537",
+    "ar_fid": "wakam/8b3d5c53c0fa8b08348dab01fe9260f5",
+    "upgrade_preview_fid": "wakam/69ad8e8da8c9db0be93437bcdc5c535c"
+  },
+  {
+    "min": 120,
+    "max": 139,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "height": 14,
+      "width": 32
+    },
+    "fid": "wakam/306a55245c094ffcc8f49a9bb413ee1e",
+    "ar_fid": "wakam/4e2938807afe6dbb131d48db1d8dd5cf",
+    "upgrade_preview_fid": "wakam/0aa62ecf7223298c149f9b7f32525394"
+  },
+  {
+    "min": 140,
+    "max": 159,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/a5364e71308958a5b5676411e00ad81d",
+    "ar_fid": "wakam/b8acdec6f4e8fb83ebe603d078e8a340",
+    "upgrade_preview_fid": "wakam/be0be1e2a61b7491700c47a32869f643"
+  },
+  {
+    "min": 160,
+    "max": 179,
+    "text_color": "#FFFFFF",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/596596b5e7dc646479e86376594abc0a",
+    "ar_fid": "wakam/baa56472e331f7fe08f7e51320433e91",
+    "upgrade_preview_fid": "wakam/03168d7c1ce9de1167bf1256339f0f1a"
+  },
+  {
+    "min": 180,
+    "max": 199,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/fadc39f22186fa8783e31615ca73737a",
+    "ar_fid": "wakam/fb4960d9f3e9e8333abdf04506402d1a",
+    "upgrade_preview_fid": "wakam/a50d0df19095c4b9b0f6282f2dc55b24"
+  },
+  {
+    "min": 200,
+    "max": 219,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/02aa37721c99acbdfa785822ba8bb8ac",
+    "ar_fid": "wakam/61ee834ca0d0fb020595ebf7ad3ec77f",
+    "upgrade_preview_fid": "wakam/7b1ce4f1d41da7aa329c45cc974d9309"
+  },
+  {
+    "min": 220,
+    "max": 239,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/6302d2551eed4110e0483ab2e74c5710",
+    "ar_fid": "wakam/f453d186aa7cbacbb67c7257c4ddb6cf",
+    "upgrade_preview_fid": "wakam/c989a2e224aeb27d10ff95d5705eb519"
+  },
+  {
+    "min": 240,
+    "max": 259,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/aaaa0bbc238a04500b7a162ab5c8983e",
+    "ar_fid": "wakam/cda05f19643f37e425c9f42409790d2d",
+    "upgrade_preview_fid": "wakam/2152bd5461c3c46f0fcf135f87d50b6c"
+  },
+  {
+    "min": 260,
+    "max": 279,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/ddd59e2e9e178cf54c17a2419ac02e98",
+    "ar_fid": "wakam/46cd6afb89c2e6b008ae7d01fdb8eaa8",
+    "upgrade_preview_fid": "wakam/88951cd8aa732fd79b5fc1c6d8fffbe9"
+  },
+  {
+    "min": 280,
+    "max": 299,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/a6faca7710323f34edbc1f0107783479",
+    "ar_fid": "wakam/ea25fafed67e3d5033e68384ce20ddb0",
+    "upgrade_preview_fid": "wakam/78a95b2cdeaa30d7633762202e26829c"
+  },
+  {
+    "min": 300,
+    "max": 319,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/fa7d0f97bad7e52c4edca997739bec1d",
+    "ar_fid": "wakam/220a12bcfa5e70df65f0d87071ada6b9",
+    "upgrade_preview_fid": "wakam/99755af69824629a701ce69eb318d660"
+  },
+  {
+    "min": 320,
+    "max": 339,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/51665dd8d823303c3ec035bc2111e586",
+    "ar_fid": "wakam/bc5369a99a333bef504239d07182e0c4",
+    "upgrade_preview_fid": "wakam/4b51fa9c042268684fdc2bc41314b6cd"
+  },
+  {
+    "min": 340,
+    "max": 359,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/70d4e6a045d3a3640a47518ba8042b44",
+    "ar_fid": "wakam/c66d3612c6a80622fbfd0800bb05af08",
+    "upgrade_preview_fid": "wakam/5a7393e4b73018a3277d1020e1cc9088"
+  },
+  {
+    "min": 360,
+    "max": 379,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/270eb61989d7e42264c4f4f8d198b749",
+    "ar_fid": "wakam/e9bc8ba5201a137a5cf6b92433543487",
+    "upgrade_preview_fid": "wakam/4c055bf85e7a73bb5ab8f7ddc7360c4e"
+  },
+  {
+    "min": 380,
+    "max": 399,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/22e7d403f56f77b226b50024ba9f8699",
+    "ar_fid": "wakam/4746266f9930fd070cfc5bcc5f7de96e",
+    "upgrade_preview_fid": "wakam/15166f0f5712e876ed9964f1c2448afe"
+  },
+  {
+    "min": 400,
+    "max": 419,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/89e93589b0bb806e9a0322b266f6a7d8",
+    "ar_fid": "wakam/dc71dbaf17a0a34cf06d0c9db546ba0a",
+    "upgrade_preview_fid": "wakam/18a33d15d87dca65477eabd40509d7e8"
+  },
+  {
+    "min": 420,
+    "max": 439,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/e6f0357347b22d6faa78ea123e4efcd6",
+    "ar_fid": "wakam/17700ec091266f990139505d21fbe91a",
+    "upgrade_preview_fid": "wakam/f12c22ffe39cc6ceb93319a4344586dc"
+  },
+  {
+    "min": 440,
+    "max": 459,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/140a68f14a99e819ad9ec7d626396896",
+    "ar_fid": "wakam/e5e29188f50c30ec86aa328639eecfb4",
+    "upgrade_preview_fid": "wakam/d7e4b5468edd93cd10a9dd1ec8027770"
+  },
+  {
+    "min": 460,
+    "max": 479,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/2ba68f52bb35b263abffbbf776f12a4d",
+    "ar_fid": "wakam/6ec0a0568949981e3fef700beb4e4615",
+    "upgrade_preview_fid": "wakam/f8b74929daea62e854e815170f5f2361"
+  },
+  {
+    "min": 480,
+    "max": 499,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/fbed28d8a12972f8a8f47ce4e17e8c70",
+    "ar_fid": "wakam/0ce6d87b2c3d342fa22f40b7894fa892",
+    "upgrade_preview_fid": "wakam/b98a9948814ae1961797f3f21f2526f5"
+  },
+  {
+    "min": 500,
+    "max": 519,
+    "text_color": "#FFE373",
+    "text_position": 21,
+    "bg_size": {
+      "width": 32,
+      "height": 14
+    },
+    "fid": "wakam/fbed28d8a12972f8a8f47ce4e17e8c70",
+    "ar_fid": "wakam/0ce6d87b2c3d342fa22f40b7894fa892",
+    "upgrade_preview_fid": "wakam/2f50565ad45e20426a69b5ede9830485"
+  }
+]

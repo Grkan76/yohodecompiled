@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+    <View style="@style/LineF1F2F6" />
+    <LinearLayout android:gravity="center" android:id="@id/ll_root_total" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:id="@id/id_tv_total_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/string_audio_room_contribution_total" android:layout_marginEnd="2.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Condensed.12" android:textColor="@color/colorFF5294" android:id="@id/id_tv_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginEnd="2.0dip" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_me_inc_dim" />
+    </LinearLayout>
+</LinearLayout>

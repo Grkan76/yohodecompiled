@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.AudioLuckyGiftJackpotWinEffectAnimView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.opensource.svgaplayer.SVGAImageView android:id="@id/id_iv_jackpot_effect" android:layout_width="fill_parent" android:layout_height="360.0dip" android:layout_marginTop="60.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.Italic.30" android:textColor="@color/colorFFFB0D" android:gravity="center" android:id="@id/id_tv_jackpot_amount" android:layout_width="200.0dip" android:layout_height="35.0dip" android:layout_marginTop="200.0dip" android:shadowColor="#ff2a005f" android:shadowDy="3.0" android:shadowRadius="3.0" app:layout_constraintEnd_toEndOf="@id/id_iv_jackpot_effect" app:layout_constraintStart_toStartOf="@id/id_iv_jackpot_effect" app:layout_constraintTop_toTopOf="@id/id_iv_jackpot_effect" />
+</com.audio.ui.audioroom.widget.AudioLuckyGiftJackpotWinEffectAnimView>

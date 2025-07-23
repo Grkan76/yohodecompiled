@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.game.AudioGameContainer android:orientation="vertical" android:id="@id/id_game_center_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/id_game_view_vs" android:layout="@layout/layout_audio_game_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="bottom" android:id="@id/id_game_look_seat" android:layout_width="fill_parent" android:layout_height="100.0dip" layout="@layout/layout_audio_game_look_seat" />
+</com.audio.ui.audioroom.game.AudioGameContainer>

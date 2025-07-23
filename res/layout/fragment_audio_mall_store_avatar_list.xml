@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.mall.view.DiscountTipsLayout android:id="@id/layout_discount_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_refresh_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/include_mall_store_avatar_list_empty" app:failedLayout="@layout/include_mall_list_error" />
+</LinearLayout>

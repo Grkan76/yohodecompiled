@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/white" android:layout_width="16.0dip" style="@style/LineBase" />
+    <View android:layout_width="0.0dip" android:layout_weight="1.0" style="@style/LineF1F2F6" />
+</LinearLayout>

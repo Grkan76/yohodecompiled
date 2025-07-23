@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/audio_red_rain_drop_count_down" android:layout_width="125.0dip" android:layout_height="30.0dip" android:layout_marginTop="86.0dip" app:layout_constraintTop_toBottomOf="@id/textCoin">
+        <widget.ui.textview.MicoTextView android:textColor="@color/white" android:gravity="center" android:id="@id/textCountDown" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_RewardRainEffect_remaintime_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/textCountDownNumber" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TextView.Medium.12" />
+        <widget.ui.textview.MicoTextView android:textColor="@color/colorFFFB00" android:gravity="center" android:id="@id/textCountDownNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_RewardRainEffect_remaintime_2" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/textCountDown" app:layout_constraintTop_toTopOf="parent" style="@style/TextView.Bold.14" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

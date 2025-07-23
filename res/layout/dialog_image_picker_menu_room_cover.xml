@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.button.MicoButton android:id="@id/btn_gallery_static" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/string_common_select_photo_static" style="@style/ImagePickerMenuBtn" />
+    <widget.ui.button.MicoButton android:id="@id/btn_gallery_dynamic" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="12.0dip" android:text="@string/string_common_select_photo_dynamic" style="@style/ImagePickerMenuBtn" />
+    <widget.ui.button.MicoButton android:id="@id/btn_capture" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="12.0dip" android:text="@string/string_common_take_photo" style="@style/ImagePickerMenuBtn" />
+    <widget.ui.button.MicoButton android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="34.0dip" android:text="@string/string_cancel" style="@style/ImagePickerMenuBtn" />
+</LinearLayout>

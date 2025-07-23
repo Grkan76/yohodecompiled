@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.AudioNewUserComingSlideInView android:background="@drawable/bg_new_user_coming_slide_in" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/id_rich_user" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" layout="@layout/layout_rich_user_view" />
+        <com.mico.framework.ui.widget.AudioVipLevelImageView android:id="@id/id_user_vip_level_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+        <com.audio.ui.widget.AudioLevelImageView android:id="@id/id_user_wealth_level_iv" android:layout_marginEnd="2.0dip" style="@style/AudioLevelImage" />
+        <com.audio.ui.widget.AudioLevelImageView android:id="@id/id_user_yearly_wealth_level_iv" android:layout_marginEnd="2.0dip" style="@style/AudioLevelImage" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorFFE661" android:ellipsize="end" android:gravity="center" android:id="@id/id_user_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:maxLines="1" android:singleLine="true" android:layout_marginEnd="2.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:id="@id/tv_joined" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_game_joined" android:layout_marginEnd="2.0dip" />
+        <widget.md.view.main.RLImageView android:id="@id/iv_more" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_live_seat_pack_up_18" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</com.audio.ui.widget.AudioNewUserComingSlideInView>

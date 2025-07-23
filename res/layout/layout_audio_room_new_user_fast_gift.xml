@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.newusertask.AudioNewUserRoomFastGiftEnterView android:layout_width="40.0dip" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/id_new_user_fast_gift_iv" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_room_new_user_fast_gift" android:layout_marginEnd="4.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="end" android:id="@id/id_new_user_fast_gift_count_tv" android:background="@drawable/bg_audio_room_red_packet_show" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+</com.audio.ui.newusertask.AudioNewUserRoomFastGiftEnterView>

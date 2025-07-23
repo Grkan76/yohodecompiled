@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tbNavigationEnable="true" app:tbTitle="@string/string_audio_game_rank" style="@style/CommonToolbarStyle" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintTop_toBottomOf="@id/id_common_toolbar" app:spanCount="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

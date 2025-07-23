@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/square" app:layout_constraintEnd_toEndOf="@id/square" app:layout_constraintStart_toStartOf="@id/square" app:layout_constraintTop_toTopOf="@id/square"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_mic_wave" android:layout_width="@dimen/audio_room_sound_level_ripple_audience_mini" android:layout_height="@dimen/audio_room_sound_level_ripple_audience_mini" />
+</FrameLayout>

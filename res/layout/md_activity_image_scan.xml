@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/colorF5F7F9" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:background="@color/white" app:tbNavigationEnable="true" style="@style/CommonToolbarStyle">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RelativeLayout android:enabled="false" android:id="@id/id_ok_rl" android:layout_width="wrap_content" android:layout_height="56.0dip" android:minWidth="56.0dip" style="@style/ToolbarBtnFrameStyle">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/selector_edit_profile_save" android:ellipsize="end" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:text="@string/string_done" android:maxLines="1" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <widget.md.view.layout.MDFrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <widget.photodraweeview.MultiTouchViewPager android:id="@id/id_vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </widget.md.view.layout.MDFrameLayout>
+    <FrameLayout android:id="@id/id_choose_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="56.0dip" android:minHeight="56.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|center" android:id="@id/id_choose_ll" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:id="@id/id_select_index_tv" android:clickable="false" android:layout_marginEnd="-8.0dip" style="@style/ImageSelectIndexStyle" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color636B82" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="@string/string_choose" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

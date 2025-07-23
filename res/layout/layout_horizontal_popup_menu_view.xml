@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/id_iv_up" android:layout_width="20.0dip" android:layout_height="10.0dip" android:src="@drawable/selector_copy_popup_view_arrow" />
+    <LinearLayout android:layout_gravity="center" android:id="@id/id_menu_container" android:background="@drawable/bg_copy_popup_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/id_iv_down" android:layout_width="20.0dip" android:layout_height="10.0dip" android:src="@drawable/selector_copy_popup_view_arrow" android:scaleY="-1.0" />
+</LinearLayout>

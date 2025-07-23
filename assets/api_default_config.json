@@ -1,0 +1,12 @@
+{
+  "host": "https://www.yoho.media",
+  "mobile_host": "https://m.yoho.media",
+  "file_host": "https://cdn.yoho.media",
+  "socket_host": "sso.yoho.media:8080",
+  "grpc_host": "rpc.yoho.media:443",
+  "feedback_email": "cs@yoho.media",
+  "event_host": "https://api.eventbus.me",
+  "apm_event_host": "https://api.eventbus.me",
+  "apm_config_host": "https://config.micoplatform.com",
+  "video_cdn_address": "http://cdn-video.yoho.media"
+}

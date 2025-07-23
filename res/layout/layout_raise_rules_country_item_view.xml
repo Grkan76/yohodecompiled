@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="62.0">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color89784D" android:gravity="center" android:id="@id/raise_rules_country_list_item_month" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color89784D" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=" - " />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color89784D" android:gravity="center" android:id="@id/raise_rules_country_list_item_date" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:background="@color/colorFEE190" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color89784D" android:gravity="center" android:id="@id/raise_rules_country_list_item_country" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_audio_raise_flag_rules_1_title_country" android:layout_weight="138.0" />
+        <View android:background="@color/colorFEE190" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="94.0">
+            <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/raise_rules_country_list_item_flag" android:layout_width="19.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="top" android:background="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

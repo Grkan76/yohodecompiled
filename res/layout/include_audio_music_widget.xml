@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.widget.AudioRoomMusicConsole android:orientation="vertical" android:id="@id/id_music_console_root" android:background="@drawable/bg_audio_live_room_miniplay_widget" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:id="@id/id_close_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_music_console_exit" />
+        <View android:layout_width="270.0dip" android:layout_height="0.0dip" />
+        <ImageView android:id="@id/id_minimize_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_miniplay_minimize" />
+    </LinearLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/id_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:maxWidth="290.0dip" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:id="@id/id_volume_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/ic_miniplay_volume" android:layout_marginEnd="6.0dip" />
+        <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/id_progress_volume" android:background="@null" android:paddingLeft="0.0dip" android:paddingTop="6.0dip" android:paddingRight="0.0dip" android:paddingBottom="6.0dip" android:layout_width="128.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="100" android:progressDrawable="@drawable/bg_audio_mini_player_seek_progress" android:minHeight="2.0dip" android:thumb="@drawable/bg_audio_mini_player_seek_thumb" android:thumbOffset="0.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+        <ImageView android:id="@id/id_play_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:src="@drawable/selector_audio_mini_play_btn" android:layout_marginStart="24.0dip" />
+        <ImageView android:id="@id/id_next_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/ic_miniplay_next" android:layout_marginStart="20.0dip" />
+        <ImageView android:id="@id/id_playlist_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:src="@drawable/ic_miniplay_playlist" android:layout_marginStart="22.0dip" />
+    </LinearLayout>
+</com.audio.ui.audioroom.widget.AudioRoomMusicConsole>

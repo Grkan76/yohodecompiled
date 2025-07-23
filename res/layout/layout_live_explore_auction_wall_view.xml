@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveExploreAuctionWallView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auction_title" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_auction_wall_more" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_more" />
+            <ImageView android:id="@id/id_auction_wall_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_countries_right_arrow" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/id_layout_room_1" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="H,1:1" app:layout_constraintEnd_toStartOf="@id/id_layout_room_2" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/audio_item_live_list_grid_new" />
+        <include android:id="@id/id_layout_room_2" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="H,1:1" app:layout_constraintEnd_toStartOf="@id/id_layout_room_3" app:layout_constraintStart_toEndOf="@id/id_layout_room_1" app:layout_constraintTop_toTopOf="parent" layout="@layout/audio_item_live_list_grid_new" />
+        <include android:id="@id/id_layout_room_3" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="H,1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/id_layout_room_2" app:layout_constraintTop_toTopOf="parent" layout="@layout/audio_item_live_list_grid_new" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.audio.ui.widget.LiveExploreAuctionWallView>

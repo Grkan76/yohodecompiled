@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginRight="@dimen/main_horizontal_margin" android:text="@string/common_country_region" android:layout_marginHorizontal="@dimen/main_horizontal_margin" />
+    <include android:id="@id/id_country_select_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" layout="@layout/audio_country_select_widget" />
+</LinearLayout>

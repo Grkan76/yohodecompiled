@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorA6B0BD" android:layout_gravity="start|center" android:id="@id/tv_language_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <FrameLayout android:id="@id/fl_language_item_view" style="@style/MDItemBgTransClickableStyle">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/selector_area_select" android:layout_gravity="start|center" android:id="@id/tv_language_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/iv_language_bingo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_language_select_bingo" />
+    </FrameLayout>
+    <View android:id="@id/id_phone_area_item_line_view" style="@style/LineF1F2F6" />
+</LinearLayout>

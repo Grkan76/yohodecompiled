@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorEEEEEE" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.mico.framework.ui.image.utils.CropView android:id="@id/id_image_filter_cropview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.mico.framework.ui.image.utils.CropCoverView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include layout="@layout/md_include_image_crop" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/md_item_chat_avatar_recv" />
+    <LinearLayout android:orientation="horizontal" style="@style/ChatRecvOuterViewStyle">
+        <include android:id="@id/iPicLayout" layout="@layout/md_item_chat_pic" />
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/chatting_paid_msg_tag" android:layout="@layout/md_item_chat_msg_paid_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

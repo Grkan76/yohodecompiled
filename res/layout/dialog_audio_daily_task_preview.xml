@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/audio_mall_car_effect_bg" android:background="@color/colorB3000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/audio_power_user_coming_view" android:layout_width="wrap_content" android:layout_height="@dimen/audio_user_coming_height" android:layout_marginBottom="223.0dip" android:layout_alignParentBottom="true" layout="@layout/layout_audio_new_user_coming" />
+    <com.audionew.effect.AudioEffectFileAnimView android:id="@id/audio_mall_car_effect_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/audio_mall_avatar_preview_view_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <widget.ui.view.DecorateAvatarImageView android:id="@id/audio_mall_avatar_preview_iv" android:layout_width="198.0dip" android:layout_height="198.0dip" app:avatar_height="120.0dip" app:avatar_width="120.0dip" app:decorate_height="198.0dip" app:decorate_width="198.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.20" android:textColor="@color/white" android:ellipsize="end" android:id="@id/audio_mall_avatar_preview_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/audio_mall_car_effect_close" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_me_store_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

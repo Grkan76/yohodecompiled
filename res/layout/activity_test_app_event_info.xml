@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:tbNavigationEnable="true" app:tbTitle="应用事件" app:tbTitleColor="@color/color1D212C" style="@style/CommonToolbarStyle" />
+    <widget.ui.button.MicoButton android:id="@id/id_btn_ok" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/string_audio_learn_more" style="@style/DialogBtnOk" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:id="@id/id_tv_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

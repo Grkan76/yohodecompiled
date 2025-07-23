@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_content" android:layout_width="315.0dip" android:layout_height="481.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.15" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_view_details" android:background="@drawable/ic_guardian_whats_new_btn" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginBottom="30.0dip" android:text="@string/string_click_here_for_details" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_content" app:layout_constraintEnd_toEndOf="@id/iv_content" app:layout_constraintStart_toStartOf="@id/iv_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

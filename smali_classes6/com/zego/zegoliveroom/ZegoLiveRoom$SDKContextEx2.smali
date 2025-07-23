@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/zego/zegoliveroom/ZegoLiveRoom$SDKContextEx2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/zego/zegoliveroom/ZegoLiveRoom$SDKContextEx;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/zego/zegoliveroom/ZegoLiveRoom;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "SDKContextEx2"
+.end annotation
+
+
+# virtual methods
+.method public abstract getLogPathUri()Landroid/net/Uri;
+.end method

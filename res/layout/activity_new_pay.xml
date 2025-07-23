@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainImmersiveContainer android:orientation="vertical" android:id="@id/ll_pay_root" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/id_head_bg_iv" android:layout_width="fill_parent" android:layout_height="216.0dip" android:src="@drawable/bg_me_rec" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <widget.md.view.layout.CommonToolbar android:id="@id/id_top_base_line" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" app:tbTitle="@string/string_audio_recharge" app:tbTitleColor="@color/white" style="@style/CommonToolbarStyle">
+            <FrameLayout android:id="@id/fl_toolbar_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarBtnFrameStyle">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/tv_toolbar_menu" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_bill_rtl" />
+            </FrameLayout>
+        </widget.md.view.layout.CommonToolbar>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_top_base_line">
+            <widget.md.view.layout.MicoTabLayout android:id="@id/id_tab_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" app:micoTabIndicatorMarginBottom="6.0dip" app:micoTabPaddingEnd="12.0dip" app:micoTabPaddingStart="12.0dip" style="@style/AudioTableLayoutWhiteStyle" />
+            <include android:id="@id/iViewPager" layout="@layout/include_viewpager" />
+        </LinearLayout>
+    </com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>
+</com.audionew.features.main.ui.MainImmersiveContainer>

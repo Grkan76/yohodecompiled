@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/customTab" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textColor="@drawable/selector_audio_room_sticker_tab_text_color" android:id="@id/tabTitle" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TextView.Medium.14" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/redDot" android:visibility="invisible" android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/common_red_point" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="@id/tabTitle" app:layout_constraintTop_toTopOf="@id/tabTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

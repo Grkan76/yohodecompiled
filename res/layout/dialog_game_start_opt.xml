@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/fl_show_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="wrap_content" android:minHeight="208.0dip">
+        <FrameLayout android:id="@id/fl_opt_container" android:background="@drawable/bg_game_tips" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="end|center|top" android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="-8.0dip" android:layout_marginEnd="-8.0dip" app:actualImageResource="@drawable/btn_2v2_close" />
+    </FrameLayout>
+</FrameLayout>

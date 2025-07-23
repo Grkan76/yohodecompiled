@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_white_r8" android:layout_width="fill_parent" android:layout_height="162.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <widget.ui.textview.MicoTextView android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/mtv_cp_card_operate" android:background="@drawable/bg_audio_family_exit_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="32.0dip" android:text="@string/string_cp_card_visible" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/TextView.Bold.14" />
+        <widget.ui.textview.MicoTextView android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/mtv_cp_card_cancel" android:background="@drawable/bg_audio_family_exit_btn" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="8.0dip" android:text="@string/string_cancel" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/TextView.Bold.14" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

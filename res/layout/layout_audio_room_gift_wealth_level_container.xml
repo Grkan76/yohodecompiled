@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.audio.ui.audioroom.bottombar.gift.wealthlevel.WealthLevelUpSwitcher android:id="@id/wealth_level_upgrade_switcher" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <com.audio.ui.audioroom.bottombar.gift.wealthlevel.WealthLevelUpView android:id="@id/wealth_level_upgrade_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+</FrameLayout>

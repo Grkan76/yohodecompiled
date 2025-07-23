@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:background="@color/white" app:tbNavigationEnable="true" app:tbTitle="@string/string_family_requests" style="@style/CommonToolbarStyle" />
+    <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_refresh_layout" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/include_family_request_empty" app:failedLayout="@layout/include_family_square_error" />
+</LinearLayout>

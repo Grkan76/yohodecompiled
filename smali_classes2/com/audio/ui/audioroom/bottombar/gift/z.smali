@@ -1,0 +1,38 @@
+.class public final synthetic Lcom/audio/ui/audioroom/bottombar/gift/z;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/audio/ui/audioroom/bottombar/gift/z;->a:Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/audio/ui/audioroom/bottombar/gift/z;->a:Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;
+
+    invoke-static {v0}, Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;->B1(Lcom/audio/ui/audioroom/bottombar/gift/DialogEventExpCardDetails;)Landroidx/lifecycle/b0$c;
+
+    move-result-object v0
+
+    return-object v0
+.end method

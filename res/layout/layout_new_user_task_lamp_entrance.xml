@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/bg_mv" android:background="@drawable/bg_new_lamp" android:layout_width="58.0dip" android:layout_height="58.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/lamp_mv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_red_dot" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/round_tip_red" android:layout_marginEnd="8.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:layout_gravity="end|bottom|center" android:id="@id/tv_new" android:background="@drawable/bg_daily_task_entrance_new_tips" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" android:minWidth="23.0dip" android:text="@string/string_new_en_only" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+</FrameLayout>

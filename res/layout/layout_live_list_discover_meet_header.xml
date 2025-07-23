@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveListExploreHeaderLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_horizontal_margin" android:layout_marginRight="@dimen/main_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/id_view_stub_meet_chat_header" android:layout="@layout/layout_meet_chat_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/color1D212C" android:id="@id/live_list_explore_new_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:text="@string/string_audio_live_list_new" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_header_empty_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip">
+        <include layout="@layout/layout_live_banner_empty_icon" />
+        <widget.ui.textview.MicoTextView android:text="@string/string_live_empty" style="@style/EmptyLayoutTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_header_error_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="46.0dip">
+        <include layout="@layout/layout_live_banner_error_icon" />
+        <widget.ui.textview.MicoTextView android:text="@string/string_load_network_error" style="@style/EmptyLayoutTextStyle" />
+    </LinearLayout>
+</com.audio.ui.widget.LiveListExploreHeaderLayout>

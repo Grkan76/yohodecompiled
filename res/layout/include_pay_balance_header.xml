@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_width="32.0dip" android:layout_height="32.0dip" app:placeholderImage="@drawable/ic_me_rec_coin" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Condensed.32" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/id_tv_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxWidth="300.0dip" android:maxLines="1" android:layout_marginStart="8.0dip" />
+</LinearLayout>

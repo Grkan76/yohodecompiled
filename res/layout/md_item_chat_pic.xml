@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/chatting_card_content" android:minWidth="0.0dip" app:cardCornerRadius="20.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false" style="@style/ChatCardViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.chat.utils.MDPicImageView android:id="@id/chatting_pic_iv" android:layout_width="45.0dip" android:layout_height="45.0dip" android:adjustViewBounds="true" android:maxWidth="160.0dip" android:maxHeight="160.0dip" android:minWidth="60.0dip" android:minHeight="60.0dip" fresco:roundedCornerRadius="20.0dip" fresco:roundingBorderColor="#0d000000" fresco:roundingBorderWidth="0.5dip" xmlns:fresco="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/chatting_upload_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/chatting_upload_progress" style="@style/MDProgressWhiteSmallStyle" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:ellipsize="end" android:id="@id/chatting_upload_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainImmersiveContainer android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/audio_mall_line_two" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/include_viewpager" />
+        <LinearLayout android:orientation="vertical" android:id="@id/id_top_base_line" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <widget.md.view.layout.CommonToolbar android:background="@color/transparent" app:tbExtraOptionIcon1="@drawable/ic_help_24" app:tbNavigationEnable="true" app:tbThemeType="dark" app:tbTitle="@string/string_user_level" app:tbTitleColor="@color/white" style="@style/CommonToolbarStyle" />
+            <widget.md.view.layout.MicoTabLayout android:layout_gravity="start|center" android:id="@id/id_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:micoTabIndicatorColor="@color/white" app:micoTabIndicatorFromColor="@color/white" app:micoTabIndicatorMarginBottom="8.0dip" app:micoTabIndicatorToColor="@color/colorAudioPrimary" app:micoTabPaddingEnd="12.0dip" app:micoTabPaddingStart="12.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.16" app:micoTabTextAppearance="@style/TextView.Medium.16" style="@style/AudioTableLayoutNormalStyle" />
+        </LinearLayout>
+    </com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>
+</com.audionew.features.main.ui.MainImmersiveContainer>

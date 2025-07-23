@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="477.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/shape_bg_boom_rocket_fragment" android:layout_width="fill_parent" android:layout_height="402.0dip" android:layout_marginTop="75.0dip" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="133.0dip" android:layout_marginTop="36.0dip" android:src="@drawable/bg_boom_rocket_top" android:scaleType="fitXY" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="65.0dip" android:layout_marginStart="16.0dip">
+        <widget.md.view.main.RLImageView android:id="@id/audio_boom_rocket_top_question" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_boom_rocket_question" />
+        <widget.md.view.main.RLImageView android:id="@id/audio_boom_rocket_top_back" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_boom_rocket_top_back" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="477.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_top_rocket" android:layout_width="89.0dip" android:layout_height="125.0dip" android:src="@drawable/ic_rocket_top_level_1" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/id_ll_tab" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginTop="-3.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@drawable/selector_boom_rocket_tab_tv" android:gravity="center" android:id="@id/id_tab_lv1" android:background="@drawable/selector_boom_rocket_tab" android:layout_width="52.0dip" android:layout_height="28.0dip" android:text="@string/string_boom_rocket_level_1" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@drawable/selector_boom_rocket_tab_tv" android:gravity="center" android:id="@id/id_tab_lv2" android:background="@drawable/selector_boom_rocket_tab" android:layout_width="52.0dip" android:layout_height="28.0dip" android:layout_marginLeft="17.0dip" android:text="@string/string_boom_rocket_level_2" android:layout_marginStart="17.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@drawable/selector_boom_rocket_tab_tv" android:gravity="center" android:id="@id/id_tab_lv3" android:background="@drawable/selector_boom_rocket_tab" android:layout_width="52.0dip" android:layout_height="28.0dip" android:layout_marginLeft="17.0dip" android:text="@string/string_boom_rocket_level_3" android:layout_marginStart="17.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@drawable/selector_boom_rocket_tab_tv" android:gravity="center" android:id="@id/id_tab_lv4" android:background="@drawable/selector_boom_rocket_tab" android:layout_width="52.0dip" android:layout_height="28.0dip" android:layout_marginLeft="17.0dip" android:text="@string/string_boom_rocket_level_4" android:layout_marginStart="17.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@drawable/selector_boom_rocket_tab_tv" android:gravity="center" android:id="@id/id_tab_lv5" android:background="@drawable/selector_boom_rocket_tab" android:layout_width="52.0dip" android:layout_height="28.0dip" android:layout_marginLeft="17.0dip" android:text="@string/string_boom_rocket_level_5" android:layout_marginStart="17.0dip" />
+        </LinearLayout>
+        <include android:id="@id/id_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/include_viewpager" />
+    </LinearLayout>
+</FrameLayout>

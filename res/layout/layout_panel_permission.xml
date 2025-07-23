@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="61.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="40.0dip" />
+    <widget.ui.textview.MicoTextView android:textSize="14.0sp" android:textColor="@color/colorA6B0BD" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="32.0dip" />
+    <Button android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/setup" android:background="@drawable/bg_audio_chat_permission_setup" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip" android:text="@string/string_set_up_noew" android:textAllCaps="false" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" />
+</LinearLayout>

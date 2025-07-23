@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color948780" android:id="@id/id_tv_badge_get_data_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_badge_achievement_empty" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_badge_empty" android:layout_above="@id/id_tv_badge_get_data_empty" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_common_white_r20" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:layout_gravity="center" android:id="@id/id_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:text="@string/string_audio_room_change_category" />
+        <com.audio.ui.widget.AudioRoomCategoryLayout android:id="@id/id_category_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" app:horizontalSpace="8.0dip" app:itemHeight="36.0dip" app:maxRow="6" app:verticalSpace="8.0dip" />
+        <include layout="@layout/dialog_audio_room_layout_ok_cancel_btn" />
+    </LinearLayout>
+</FrameLayout>

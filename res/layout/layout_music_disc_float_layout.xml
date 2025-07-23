@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.pk.AudioDragFrameLayout android:id="@id/id_room_music_disc_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="end|center|top" android:id="@id/id_disc_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/include_audio_music_disc_view" />
+</com.audio.ui.audioroom.pk.AudioDragFrameLayout>

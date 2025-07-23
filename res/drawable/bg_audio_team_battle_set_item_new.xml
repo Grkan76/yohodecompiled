@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/bg_audio_team_battle_set_item_selected_disable" />
+    <item android:state_checked="true" android:drawable="@drawable/bg_audio_team_battle_set_item_selected_new" />
+    <item android:state_checked="false" android:drawable="@drawable/bg_audio_team_battle_set_item_unselected_new" />
+    <item android:drawable="@drawable/bg_audio_team_battle_set_item_unselected_new" />
+</selector>

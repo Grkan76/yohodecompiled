@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.family.widget.AudioMicoFamilyAvatarView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audio.ui.widget.MicoRhombusImageView android:layout_gravity="center" android:id="@id/id_iv_family_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" app:frame_color="@color/white50" app:frame_corner="6.0dip" app:frame_size="2.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_family_avatar_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.audionew.features.family.widget.AudioMicoFamilyAvatarView>

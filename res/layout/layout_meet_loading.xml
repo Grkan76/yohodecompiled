@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.meet.widget.MeetLoadingLayout android:orientation="vertical" android:id="@id/id_encounter_loading_ll" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.SquareFrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.audio.ui.meet.widget.AudioMeetRippleView android:layout_gravity="center" android:id="@id/id_audio_level_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:alvColor="@color/white" app:alvDuration="1600" app:alvEndAlpha="0.0" app:alvEndStrokeWidth="0.0dip" app:alvNumberOfRipples="3" app:alvStartAlpha="0.8" app:alvStartStrokeWidth="2.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_avatar_iv" android:layout_width="106.0dip" android:layout_height="106.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="2.0dip" />
+    </widget.ui.view.SquareFrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/string_meet_looking_for_friends" />
+</com.audio.ui.meet.widget.MeetLoadingLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.SquareImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundedCornerRadius="@dimen/moment_list_image_corner_radius" style="@style/RoundedBorderStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

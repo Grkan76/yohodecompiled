@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@drawable/bg_common_black30_r8" android:padding="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+        <com.audionew.features.chat.utils.MDPicImageView android:id="@id/iv_content" android:layout_width="237.0dip" android:layout_height="132.0dip" android:adjustViewBounds="true" android:maxWidth="237.0dip" android:maxHeight="237.0dip" android:minWidth="132.0dip" android:minHeight="132.0dip" />
+    </androidx.cardview.widget.CardView>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.15" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="237.0dip" />
+    <View android:id="@id/v_title_content" android:layout_width="2.0dip" android:layout_height="2.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.15" android:textColor="@color/colorFFF09B" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="237.0dip" />
+</LinearLayout>

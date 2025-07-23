@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="13.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="13.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ffd8d8d8" android:pathData="M0,1h12v12h-12z" android:fillAlpha="0.01" />
+    <path android:fillColor="#ffffffff" android:pathData="M8,12V2L4,3.809V5.662L5.775,4.934V12H8Z" android:strokeColor="#ff6d0700" android:strokeWidth="1.5" />
+    <path android:fillColor="@drawable/$ic_endorse_gift_panel_one__0" android:pathData="M8,12V2L4,3.809V5.662L5.775,4.934V12H8Z" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.feature.base.ui.countryselect.AudioCountrySelectWidget android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_weight="1.0">
+        <widget.md.view.swiperefresh.FastRecyclerView android:orientation="horizontal" android:id="@id/countries_list" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <ImageView android:layout_gravity="end|center" android:background="@drawable/bg_audio_country_select_over" android:layout_width="28.0dip" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <widget.md.view.main.RLImageView android:id="@id/iv_down" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_country_select_arrow_down" android:scaleType="centerInside" />
+</com.mico.feature.base.ui.countryselect.AudioCountrySelectWidget>

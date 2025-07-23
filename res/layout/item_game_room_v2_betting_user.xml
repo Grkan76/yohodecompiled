@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" android:id="@id/id_user_avatar" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" style="@style/MDAvatar48Style" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/barrierRight" app:layout_constraintStart_toEndOf="@id/id_user_avatar" app:layout_constraintTop_toTopOf="parent">
+        <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llTag" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_tag_host" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_host_mark" android:layout_marginEnd="2.0dip" />
+            <ImageView android:id="@id/iv_tag_admin" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_admin_mark" android:layout_marginEnd="2.0dip" />
+            <com.audio.ui.widget.AudioVipAgeGenderWealthView android:id="@id/id_vip_age_gender_wealth" android:layout_marginEnd="2.0dip" app:enableRoomVipLabel="true" style="@style/VipAgeGenderWealthStyle" />
+            <com.audio.ui.widget.AudioUserFamilyView android:id="@id/id_user_family" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+            <com.audio.ui.widget.AudioUserBadgesView android:id="@id/id_user_badges" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_bet_value_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636b82" android:id="@id/tv_betting_value_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+            <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_coin_20" />
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrierRight" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="start" app:constraint_referenced_ids="tv_invite_btn, ll_bet_value_2" />
+    <widget.ui.textview.MicoTextView android:enabled="true" android:id="@id/tv_invite_btn" android:visibility="gone" android:text="@string/string_common_invite" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AudioUserListBtn" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_bet_value_2" android:background="@drawable/bg_e6faec_r20" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color00CC3D" android:id="@id/tv_betting_value_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" />
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_coin_20" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginStart="73.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/LineF1F2F6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

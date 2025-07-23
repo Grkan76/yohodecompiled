@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="522.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/badge_choose" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/pr_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_badge_dialog" />
+            <FrameLayout android:layout_gravity="bottom" android:background="@drawable/shape_badge_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <widget.ui.textview.MicoTextView android:layout_gravity="bottom" android:id="@id/tv_confirm" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/string_common_confirm" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/BtnStyleBase2" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

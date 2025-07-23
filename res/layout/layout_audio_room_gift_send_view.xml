@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/id_ll_send_count" android:background="@drawable/shape_gift_send_left_bg" android:layout_width="72.0dip" android:layout_height="32.0dip">
+        <widget.ui.textview.MicoTextView android:textColor="@color/white" android:gravity="center" android:id="@id/id_tv_send_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" style="@style/TextView.Bold.14" />
+        <ImageView android:id="@id/id_iv_send_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gift_send_arrow_down" android:layout_marginStart="6.0dip" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:gravity="center" android:id="@id/id_mb_send" android:background="@drawable/bg_00c8e1_to_31ff94_r4" android:layout_width="72.0dip" android:layout_height="32.0dip" android:layout_marginLeft="-3.0dip" android:text="@string/string_audio_send" android:layout_marginStart="-3.0dip" />
+</merge>

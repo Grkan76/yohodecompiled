@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_game_tips" android:clipChildren="false" android:clipToPadding="false" android:layout_width="300.0dip" android:layout_height="414.0dip">
+        <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/string_pk_rule_title" app:StrokeStyleable_strokeColor="#ff0883d1" app:StrokeStyleable_strokeWidth="2.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <com.audio.ui.widget.CircleBridgeWebview android:id="@id/wv_rule" android:layout_width="fill_parent" android:layout_height="fill_parent" app:corner="12.0dip" app:left_bottom="true" app:left_top="true" app:right_bottom="true" app:right_top="true" />
+        </LinearLayout>
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="end|center|top" android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="-8.0dip" android:layout_marginEnd="-8.0dip" app:actualImageResource="@drawable/btn_2v2_close" />
+    </FrameLayout>
+</FrameLayout>

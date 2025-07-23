@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.SquareLayout android:id="@id/root_item_theme_free" android:layout_width="fill_parent" android:layout_height="fill_parent" app:roundedCornerRadius="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_theme_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:roundedCornerRadius="8.0dip" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" />
+    <ImageView android:id="@id/id_selected_iv" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_host_theme_selected" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true" />
+</widget.ui.view.SquareLayout>

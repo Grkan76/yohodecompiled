@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.framework.ui.widget.AspectRatioRelativeLayout android:layout_gravity="center" android:background="@drawable/bg_common_white_r10" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="0.78"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.24" android:textColor="@color/colorFF5294" android:ellipsize="end" android:id="@id/tv_currency_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_above="@id/tv_desc" android:layout_centerHorizontal="true" />
+    <widget.ui.textview.MicoTextView android:textSize="28.0sp" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_desc" android:paddingTop="10.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" style="@style/AudioLiveCondensedText" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_desc" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_me_inc_dim" android:layout_marginEnd="2.0dip" />
+        <widget.ui.textview.MicoTextView android:textSize="18.0sp" android:textColor="@color/color636B82" android:id="@id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" style="@style/AudioLiveCondensedText" />
+    </LinearLayout>
+</com.mico.framework.ui.widget.AspectRatioRelativeLayout>

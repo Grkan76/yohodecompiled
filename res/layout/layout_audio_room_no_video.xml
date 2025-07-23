@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:id="@id/audio_room_player_no_video_vg" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/ic_audio_room_no_video" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+    <androidx.appcompat.widget.AppCompatButton android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/audio_room_player_no_video_btn" android:background="@drawable/bg_audio_room_no_video_icon" android:layout_width="wrap_content" android:layout_height="26.0dip" android:layout_marginTop="8.0dip" android:text="@string/room_video_recommend_button" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.11" android:textColor="@color/white50" android:id="@id/audio_room_player_no_video_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/string_audio_room_player_no_video_desc" />
+</androidx.appcompat.widget.LinearLayoutCompat>

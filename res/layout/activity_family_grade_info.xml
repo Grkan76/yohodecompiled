@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholderImage="@color/black" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="344.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen_toolbar_height" android:layout_marginTop="@dimen/transparent_status_bar_margin">
+                        <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" style="@style/CommonToolbarStyle" />
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/id_ll_grade_title_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <com.audionew.features.family.widget.AudioFamilyHorizontalGradeView android:id="@id/id_family_hgv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:id="@id/id_id_tv_family_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_family_levelup_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                        <include android:id="@id/include_layout_family_grade" layout="@layout/layout_family_grade" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/id_ll_grade_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_tv_family_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/0" />
+                            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_family_grade_fire" android:layout_marginStart="2.0dip" />
+                        </LinearLayout>
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white50" android:layout_gravity="center_horizontal" android:id="@id/id_tv_grade_completed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/string_family_grade_reached" />
+                    </LinearLayout>
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/white50" android:id="@id/id_tv_season_time" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_family_privileged" android:layout_marginStart="16.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_1" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_2" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:layout_centerInParent="true" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_3" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_4" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="61.0dip">
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_5" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="12.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+                <FrameLayout android:orientation="vertical" android:id="@id/id_ll_privileged_6" android:background="@drawable/btn_white_r8" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="158.0dip" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/id_iv_privileged_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_gravity="bottom|center" android:id="@id/id_tv_privileged_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <View android:layout_gravity="bottom" android:background="@drawable/shape_white_0_100" android:layout_width="fill_parent" android:layout_height="110.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/id_family_upgrade" android:background="@drawable/bg_family_how_to_upgrade" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/string_family_grade_how_to_upgrade" />
+</FrameLayout>

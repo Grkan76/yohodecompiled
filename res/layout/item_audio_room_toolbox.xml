@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.ratio.RatioLinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ratio="1.0" app:ratioWith="width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="38.0dip" android:layout_height="38.0dip">
+        <ImageView android:id="@id/id_menu_icon_iv" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+        <View android:layout_gravity="end|center|top" android:id="@id/id_red_tips_iv" android:background="@drawable/common_red_point" android:visibility="gone" android:layout_width="8.0dip" android:layout_height="8.0dip" />
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/selector_audio_tool_box_text" android:ellipsize="end" android:gravity="center" android:id="@id/id_menu_txt_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="2.0dip" android:maxLines="2" />
+</widget.ui.ratio.RatioLinearLayout>

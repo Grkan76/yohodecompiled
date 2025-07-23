@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.SquareFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/ivFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/ivGift" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="17.0dip" />
+</widget.ui.view.SquareFrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="480.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/string_betting_user" />
+        <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/pull_refresh_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:emptyLayout="@layout/layout_empty_common" />
+    </LinearLayout>
+</FrameLayout>

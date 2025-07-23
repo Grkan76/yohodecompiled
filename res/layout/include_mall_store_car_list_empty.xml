@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/id_no_live_iv" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/ic_package_list_empty" android:layout_centerHorizontal="true" />
+        <widget.ui.textview.MicoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_mall_store_list_empty" android:layout_below="@id/id_no_live_iv" android:layout_centerHorizontal="true" style="@style/MallEmptyLayoutTextStyle" />
+    </LinearLayout>
+</RelativeLayout>

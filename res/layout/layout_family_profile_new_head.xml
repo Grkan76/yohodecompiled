@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_bg_family" android:layout_width="fill_parent" android:layout_height="290.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="@dimen/dimen_toolbar_height" />
+            <include android:id="@id/id_iv_family_avatar" android:layout_width="128.0dip" android:layout_height="128.0dip" layout="@layout/layout_family_avatar" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/id_tv_family_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_tv_family_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/id_ll_grade_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip">
+                <include android:id="@id/inc_family_grade" layout="@layout/layout_family_grade" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_tv_family_grade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/0" />
+                    <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_family_grade_fire" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_family_badge" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="-25.0dip" android:layout_below="@id/id_ll_bg_family" android:layout_marginEnd="25.0dip" android:layout_alignParentEnd="true" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_level_badge" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="-25.0dip" android:layout_below="@id/id_ll_bg_family" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/id_iv_family_badge" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_below="@id/id_ll_bg_family" />
+    </RelativeLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:id="@id/family_notice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:text="@string/string_family_notice" android:layout_marginStart="16.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color636B82" android:id="@id/id_tv_family_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/id_ll_family_members" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_family_members" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:id="@id/id_tv_family_members" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <widget.ui.view.NewTipsCountView android:textAppearance="@style/TextView.Medium.10" android:textColor="@color/white" android:id="@id/id_family_apply_count_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" app:tipsFixPadding="4.0dip" app:tipsRadius="7.0dip" app:tipsSolidColor="@color/colorFF0066" />
+        <widget.md.view.main.RLImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_profile_morecar_arrow" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/id_family_members_hsv" android:scrollbars="none" android:fadingEdge="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="16.0dip" android:paddingStart="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_ll_family_members_content" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    </HorizontalScrollView>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:id="@id/id_family_room_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/string_family_rooms" android:layout_marginStart="16.0dip" />
+</LinearLayout>

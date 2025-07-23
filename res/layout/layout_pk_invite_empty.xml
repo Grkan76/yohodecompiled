@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/id_empty_root_ll" style="@style/MDEmptyLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ic_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:src="@drawable/ic_live_dialog_empty_visitor_60" style="@style/EmptyLayoutIconStyle" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorA6B0BD" android:layout_gravity="center" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="15.0dip" android:text="@string/string_meet_no_data" />
+</LinearLayout>

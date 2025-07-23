@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/id_iv" android:layout_width="20.0dip" android:layout_height="10.0dip" android:src="@drawable/selector_copy_popup_view_arrow" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/id_tv" android:background="@drawable/bg_copy_popup_view" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_common_copy_id" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+</LinearLayout>

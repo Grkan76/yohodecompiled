@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbExtraOption1_Type="normal" app:tbExtraOptionIcon1="@drawable/ic_home_search" app:tbExtraOptionIconDisableRTL="true" app:tbNavigationEnable="true" app:tbTitle="@string/string_audio_friend" style="@style/CommonToolbarStyle" />
+    <View style="@style/LineF1F2F6" />
+    <widget.md.view.layout.MicoTabLayout android:id="@id/id_tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:micoTabIndicatorMarginBottom="8.0dip" app:micoTabPaddingEnd="16.0dip" app:micoTabPaddingStart="16.0dip" style="@style/AudioTableLayoutNormalStyle" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/include_viewpager" />
+</LinearLayout>

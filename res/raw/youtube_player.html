@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <style type="text/css">
+		html, body { height:100%; width:100%; margin: 0; padding: 0; background:[BG_COLOR];
+		overflow:hidden; position:relative; }
+
+    </style>
+    <head>
+        <meta
+                http-equiv="X-UA-Compatible"
+                content="IE=Edge" />
+        <meta charset="utf-8" />
+        <meta
+                name="viewport"
+                content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    </head>
+    <body>
+        <div id="QPlayer"></div>
+    </body>
+    <script type="text/javascript">
+		// This code loads the IFrame Player API code asynchronously.
+		var tag = document.createElement('script');
+
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+		var player;
+		var lastTime = 0;
+		function onYouTubeIframeAPIReady() {
+			console.log('onYouTubeIframeAPIReady');
+			lastTime = [START];
+			player = new YT.Player('QPlayer', {
+				height: '100%',
+				width: '100%',
+				videoId: '[VIDEO_ID]',
+				events: {
+					'onReady': onPlayerReady,
+					'onStateChange': onPlayerStateChange,
+					'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
+					'onPlaybackRateChange': onPlayerPlaybackRateChange,
+					'onError': onPlayerError,
+					'onApiChange': onPlayerApiChange
+				},
+				playerVars: {
+					'autoplay': [AUTO_PLAY],
+					'autohide': [AUTO_HIDE],
+					'start': [START],
+					'rel': [REL],
+					'showinfo': [SHOW_INFO],
+					'enablejsapi': [ENABLE_JS_API],
+					'disablekb': [DISABLE_KB],
+					'cc_lang_pref': '[CC_LANG_PREF]',
+					'controls': [CONTROLS],
+					'origin': 'http://www.youtube.com',
+					'showinfo': 0,
+					'modestbranding': 1
+				}
+			});
+		}
+
+		function onPlayerReady(event) {
+			console.log('player is ready');
+			onReady(getVideoId());
+			sendDuration();
+			sendCurrentTime();
+		}
+
+		var timerId = 0;
+		function onPlayerStateChange(event) {
+			clearInterval(timerId);
+			onStateChange(event.data);
+			//sendCurrentTime();
+			switch (event.data) {
+			case YT.PlayerState.PLAYING:
+			//case YT.PlayerState.BUFFERING:
+			    sendDuration();
+			    sendCurrentTime();
+				timerId = setInterval(function() {
+					sendCurrentTime();
+				},
+				500);
+				break;
+			}
+		}
+
+		function onPlayerPlaybackQualityChange(playbackQuality) {
+			console.log('playback quality changed to ' + playbackQuality.data);
+			onPlaybackQualityChange('playback quality changed to ' + playbackQuality.data);
+		}
+
+		function onPlayerPlaybackRateChange(playbackRate) {
+			console.log('playback rate changed to ' + playbackRate.data);
+			onPlaybackRateChange('playback rate changed to ' + playbackRate.data);
+		}
+
+		function onPlayerError(e) {
+			console.log('An error occurred: ' + e.data);
+			onError(e.data);
+		}
+
+		function onPlayerApiChange() {
+			console.log('The player API changed');
+			onApiChange('The player API changed');
+		}
+
+		function onReady(e) {
+			window.QualsonInterface.onReady(e);
+		}
+
+		function onStateChange(e) {
+			window.QualsonInterface.onStateChange(e);
+		}
+
+		function onPlaybackQualityChange(e) {
+			window.QualsonInterface.onPlaybackQualityChange(e);
+		}
+
+		function onPlaybackRateChange(e) {
+			window.QualsonInterface.onPlaybackRateChange(e);
+		}
+
+		function onError(e) {
+			window.QualsonInterface.onError(e);
+		}
+
+		function onApiChange(e) {
+			window.QualsonInterface.onApiChange(e);
+		}
+
+		function sendCurrentTime() {
+		    const currentTime = player.getCurrentTime();
+		    lastTime = currentTime;
+			window.QualsonInterface.currentSeconds(player.getCurrentTime());
+		}
+
+		function sendDuration() {
+			window.QualsonInterface.duration(player.getDuration());
+		}
+
+		function setLog(msg) {
+			window.QualsonInterface.logs(msg);
+		}
+
+		function playVideo() {
+			console.log('playVideo');
+			player.playVideo();
+		}
+
+		function pauseVideo() {
+			console.log('pauseVideo');
+			player.pauseVideo();
+		}
+
+		function stopVideo() {
+			console.log('stopVideo');
+			player.stopVideo();
+		}
+
+		function clearVideo() {
+			console.log('clearVideo');
+			player.clearVideo();
+		}
+
+		function seekTo(seconds, allowSeekAhead) {
+			console.log('seekTo, seconds=' + seconds + ', allowSeekAhead=' + allowSeekAhead);
+			player.seekTo(seconds, allowSeekAhead)
+		}
+
+		function loadVideoById(videoId, startSeconds, suggestedQuality) {
+			console.log('loadVideoById, videoId=' + videoId + ', startSeconds=' + startSeconds + ', suggestedQuality=' + suggestedQuality);
+			lastTime = startSeconds;
+			player.loadVideoById(videoId, startSeconds, suggestedQuality);
+		}
+
+        function replay(resume, suggestedQuality) {
+            const videoId = getVideoId();
+            if(videoId != null) {
+                const startSeconds = resume? lastTime : 0;
+                console.log('replay, resume=' + resume + ', videoId=' + videoId + ', startSeconds=' + startSeconds + ', suggestedQuality=' + suggestedQuality);
+                player.loadVideoById(videoId, startSeconds, suggestedQuality);
+            }
+		}
+
+		function cueVideoById(videoId, startSeconds, suggestedQuality) {
+			console.log('cueVideoById, videoId=' + videoId + ', startSeconds=' + startSeconds + ', suggestedQuality=' + suggestedQuality);
+			lastTime = startSeconds;
+			player.cueVideoById(videoId, startSeconds, suggestedQuality);
+		}
+
+		function loadPlaylist(playlist, index, startSeconds, suggestedQuality) {
+			console.log('loadPlaylist, playlist=' + playlist + ', index=' + index + ', startSeconds=' + startSeconds + ', suggestedQuality=' + suggestedQuality);
+			lastTime = startSeconds;
+			player.loadPlaylist(JSON.parse(playlist), index, startSeconds, suggestedQuality);
+		}
+
+		function cuePlaylist(playlist, index, startSeconds, suggestedQuality) {
+			console.log('cuePlaylist, playlist=' + playlist + ', index=' + index + ', startSeconds=' + startSeconds + ', suggestedQuality=' + suggestedQuality);
+			lastTime = startSeconds;
+			player.cuePlaylist(JSON.parse(playlist), index, startSeconds, suggestedQuality);
+		}
+
+		function getPlaylist() {
+			return player.getPlaylist();
+		}
+
+		function getPlaylistIndex() {
+			return player.getPlaylistIndex();
+		}
+
+		function getVideoUrl() {
+			return player.getVideoUrl();
+		}
+
+	    function getVideoId() {
+	        const videoUrl = getVideoUrl();
+	        if(null == videoUrl) return null;
+
+	        const urlStr = videoUrl.split('?')[1]
+	        const urlParams = new URLSearchParams(urlStr);
+	        const videoId = urlParams.get('v');
+	        console.log('getVideoId, videoId=' + videoId + ', videoUrl=' + videoUrl + ', urlParams=' + urlParams.toString());
+			return videoId;
+		}
+
+		function getCurrentTime() {
+			return player.getCurrentTime();
+		}
+
+		function getDuration() {
+			return player.getDuration();
+		}
+
+		function getPlayerState() {
+			return player.getPlayerState();
+		}
+
+		function mute() {
+			player.mute();
+		}
+
+		function unMute() {
+			player.unMute();
+		}
+
+		function isMuted() {
+			return player.isMuted();
+		}
+
+		function setVolume(volume) {
+			player.setVolume(volume);
+		}
+
+		function getVolume() {
+			return player.getVolume();
+		}
+
+		function setVolume(volume) {
+			console.log('setVolume, volume=' + volume);
+			player.setVolume(volume);
+		}
+
+		function isPlayOverlayShow() {
+			const iframe = document.getElementById('QPlayer');
+			const innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+			console.log('innerDoc=' + innerDoc);
+			const overlay = innerDoc.getElementsByClassName('ytp-cued-thumbnail-overlay')[0];
+			console.log('overlay=' + overlay);
+			console.log('overlay.display=' + overlay.style.display);
+			const isShow = overlay.style.display != 'none';
+			console.log('overlay.is show=' + isShow);
+			return isShow;
+		}
+
+    </script>
+
+</html>

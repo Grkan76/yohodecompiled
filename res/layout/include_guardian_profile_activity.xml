@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/iv_guardian_frame" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_guardian_profile_frame_silver" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/iv_guardian_avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" app:placeholderImageScaleType="centerCrop" app:roundAsCircle="true" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.11" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/tv_guardian_type" android:background="@drawable/bg_guardian_silver" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginBottom="8.0dip" android:minWidth="46.0dip" android:text="@string/guardianship_zero" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+</FrameLayout>

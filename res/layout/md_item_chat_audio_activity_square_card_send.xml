@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/ChatRecvOuterViewStyle">
+        <FrameLayout android:id="@id/chatting_card_content" android:background="@drawable/bg_chat_audio_card_bubble" android:layout_width="fill_parent" android:minHeight="120.0dip" style="@style/ChatContentViewStyle">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" android:id="@id/chatting_audio_card_iv" android:layout_width="fill_parent" android:layout_height="93.0dip" app:placeholderImage="@color/black60" app:roundBottomLeft="false" app:roundBottomRight="false" app:roundedCornerRadius="20.0dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:id="@id/chatting_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/md_item_chat_avatar_send" />
+</RelativeLayout>

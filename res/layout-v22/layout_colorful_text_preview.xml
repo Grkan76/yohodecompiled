@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.packages.widget.ColorfulTextPreviewView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audionew.common.widgets.colorfultext.NicknameView android:textAppearance="@style/TextView.Medium.20" android:textSize="28.0sp" android:textColor="@color/color636B82" android:id="@id/nickname_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="98.0dip" android:layout_marginRight="98.0dip" android:layout_marginHorizontal="98.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.audionew.features.packages.widget.ColorfulTextPreviewView>

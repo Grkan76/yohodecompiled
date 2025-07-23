@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:background="@color/white" app:tbNavigationEnable="true" style="@style/CommonToolbarStyle" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="170.0dip" android:layout_height="170.0dip" android:layout_marginTop="26.0dip">
+        <FrameLayout android:id="@id/flCreateFamilyAvatar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.audio.ui.widget.RhombusImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:src="@drawable/bg_f5f7f9_circle" />
+            <ImageView android:layout_gravity="center" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_family_camera" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/flEditFamilyAvatar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.audio.ui.widget.MicoRhombusImageView android:id="@id/ivFamilyAvatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" app:frame_color="@color/black05" app:frame_size="0.5dip" />
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/ivFamilyCamera" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="-3.0dip" android:src="@drawable/ic_family_camera_edit" />
+        </FrameLayout>
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color636B82" android:layout_gravity="center_horizontal" android:id="@id/tvFamilyAvatarTips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_family_avatar_upload_tips" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_family_name" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorA6B0BD" android:gravity="end" android:id="@id/tvFamilyNameSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0/12" />
+    </LinearLayout>
+    <widget.ui.textview.MicoEditText android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:textColorHint="@color/colorCBD1DD" android:id="@id/etFamilyName" android:background="@drawable/bg_f5f7f9_r4" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/string_family_name_input_tips" android:maxLength="12" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_family_notice" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorA6B0BD" android:gravity="end" android:id="@id/tvFamilyNoticeSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="0/100" />
+    </LinearLayout>
+    <widget.ui.textview.MicoEditText android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:textColorHint="@color/colorCBD1DD" android:gravity="start|center|top" android:id="@id/etFamilyNotice" android:background="@drawable/bg_f5f7f9_r4" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_marginTop="8.0dip" android:hint="@string/string_family_notice_input_tips" android:maxLength="100" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/tvFamilyInfoSubmit" android:background="@drawable/btn_family_info_submit" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/string_submit" />
+</LinearLayout>

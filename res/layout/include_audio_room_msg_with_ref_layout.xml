@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audio.ui.widget.BubbleDecoratorView android:id="@id/bd_msg_text_bubble" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bg_msg_text_bubble" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ViewStub android:layout_gravity="start|center|top" android:id="@id/msg_ref_vs" android:layout="@layout/audio_room_msg_ref" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/black" android:id="@id/tv_msg_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    </com.audio.ui.widget.BubbleDecoratorView>
+</RelativeLayout>

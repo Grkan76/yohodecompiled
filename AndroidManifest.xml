@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.voicechat.live.group" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <queries>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.zhiliaoapp.musically"/>
+        <package android:name="com.ss.android.ugc.trill"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.snapchat.android"/>
+        <package android:name="com.google.android.gms"/>
+        <package android:name="jp.naver.line.android"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.gojek.app"/>
+        <package android:name="com.kakao.talk"/>
+        <package android:name="com.phonepe.app"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="http"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.orca"/>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+        <package android:name="com.huawei.works"/>
+    </queries>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.sonyericsson.home.action.UPDATE_BADGE"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <uses-permission android:name="com.google.android.apps.photos.permission.GOOGLE_PHOTOS"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <permission android:name="com.voicechat.live.group.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.voicechat.live.group.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/appsflyer_data_extraction_rules" android:extractNativeLibs="false" android:fullBackupContent="false" android:hardwareAccelerated="true" android:icon="@drawable/audio_chat_logo" android:label="@string/app_name" android:largeHeap="true" android:name="com.audionew.features.application.MimiApplication" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/AppBaseTheme">
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <activity android:exported="true" android:hardwareAccelerated="true" android:name="com.audionew.features.splash.LoadActivity" android:theme="@style/ThemeAppStartLoad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="schemefacebook"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="growing.7c91bf9659276bb4"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="yoho.onelink.me" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.audionew.common.outpage.OutPageDynamicLinkActivity" android:theme="@style/Theme.Window.Transparent">
+            <intent-filter android:autoVerify="false">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="waka.media" android:scheme="wakaweb"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="waka.page.link" android:scheme="https"/>
+                <data android:host="waka.page.link" android:scheme="http"/>
+                <data android:host="www.yoho.media" android:path="/outPage" android:scheme="https"/>
+                <data android:host="www.yoho.media" android:path="/outPage" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:launchMode="singleInstance" android:name="com.audionew.features.login.tiktok.SilentAuthActivity" android:theme="@style/Theme.Window.NoAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="oauth.tt.mainlogin" android:scheme="wakaweb"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.yoho.media" android:path="/ttLogin" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.audionew.features.test.MicoTestActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestLocateActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestStringActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestWealthLevelActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestGlamourLevelActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestYearWealthLevelActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestH5BrowserHelpActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestGameSdkActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestAppEventInfoActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestApiChangeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestAppInfoActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestFirebaseActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestPermissionActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestDownloadActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestRoomRocketAnimActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestNetJavaActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.colorfultext.ColorfulTextTestActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicEffectTestActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestGrpcChannelActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.DNSTestActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:launchMode="singleTop" android:name="com.audionew.common.dialog.extend.AlertDialogSsoActivity" android:theme="@style/ActivityWithAlertStyle"/>
+        <activity android:launchMode="singleTop" android:name="com.audionew.common.dialog.extend.AlertDialogLoadPermissionActivity" android:theme="@style/MDTransDialogStyle"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.audionew.common.broadcast.NetworkReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.audionew.common.notify.NotificationCancelReceiver">
+            <intent-filter android:priority="100">
+                <action android:name="com.mico.notify.cancel"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.audionew.features.chat.ReSendFailMsgService"/>
+        <service android:enabled="true" android:exported="false" android:foregroundServiceType="mediaPlayback|microphone" android:name="com.audio.ui.audioroom.notify.BackToRoomNotifyForegroundService"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestNativeActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestStorePoolActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestChatListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestPKActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.chat.ui.MDChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.main.chats.ui.MDSayHelloActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.MicoLoginActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.MicoSignUpProfileCompleteActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.region.UserRegionSelectActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.select.ImageSelectAvatarActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.select.ImageSelectChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.select.ImageSelectRoomChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.filter.ImageFilterAvatarActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.filter.ImageFilterChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.scan.ImageScanChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.browser.MDImageBrowserFeedActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.browser.ImageBrowserChatActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.browser.MDImageBrowserAvatarActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.anchorcmd.choose.RecommendAnchorChooseActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.anchorcmd.list.RecommendAnchorListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.phone.MicoPhoneNumCheckActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.phone.MicoPhoneAreaSelectActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.phone.MicoPhoneCodeVerifyActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.login.ui.phone.MicoPhonePasswordActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <service android:exported="false" android:name="com.audionew.common.fcm.FcmService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.audio.sys.account.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/accountauthenticator"/>
+        </service>
+        <service android:exported="false" android:name="com.audio.sys.account.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/sync_adapter"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="mediaProjection" android:name="com.audionew.features.screenrecord.service.RecorderService"/>
+        <provider android:authorities="com.voicechat.live.group.provider" android:name="com.audio.sys.account.SyncProvider"/>
+        <provider android:authorities="com.voicechat.live.group.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/share_file_path"/>
+        </provider>
+        <activity android:launchMode="singleTask" android:name="com.audionew.features.main.ui.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioSettingActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.friendship.AudioFriendShipSettingActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioAboutActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioSettingExchangeActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.AudioGoLiveActivity" android:theme="@style/Theme.Window.AdjustResize.Transparent" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.income.AudioIncomeActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.income.AudioExchangeActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.cashout.CashOutActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.cashout.CashOutHistoryActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.AudioUserGiftListActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.badge.AudioBadgeUserListActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.vipcenter.AudioVipCenterActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.mall.AudioMallActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.mall.GameMallActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.income.AudioDiamondExchangeActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.user.contact.AudioContactActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.audio.ui.user.share.ShareContactsActivity" android:theme="@style/Theme.Window.AdjustResize">
+            <intent-filter>
+                <action android:name="com.voicechat.live.group.ACTION_SHARE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.audio.ui.user.contact.AudioContactSearchActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="stateVisible"/>
+        <activity android:name="com.audionew.features.pay.activity.PayChannelListActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.pay.activity.RechargeCoinActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.pay.activity.AudioCoinBillActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.music.AudioMusicActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.music.search.MusicSearchActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.music.AudioMusicScanActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.audio.ui.audioroom.AudioRoomActivity" android:screenOrientation="portrait" android:theme="@style/LiveActivityTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.audionew.features.games.AutomaticGameRoomActivity" android:screenOrientation="portrait" android:theme="@style/LiveActivityTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.audio.ui.AudioEditProfileActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.AudioUserProfileActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.friendapply.ui.AudioFriendApplyListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.audio.ui.setting.AudioApkUpdateActivity" android:theme="@style/Theme_Dialog_Act_FullWidth.OutsideNoTouch"/>
+        <activity android:name="com.audio.ui.meet.MeetActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.meet.MeetMyVoiceActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.meet.MeetSuccessActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.ranking.RankingActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioPrivacy2Activity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioBlackListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:hardwareAccelerated="true" android:name="com.audionew.features.highlightmoment.list.HighlightMomentListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.badge.AudioBadgeActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.badge.AudioBadgeInfoActivity" android:theme="@style/Theme_Dialog" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.userlevel.UserLevelActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audio.ui.countries.CountriesListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.countries.CountryLiveActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioAccountBoundActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilySimpleInfoActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.family.FamilyMemberListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilyMemberSearchActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilyNewRequestActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.giftwall.GiftWallListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.raisenationalflag.RaiseNationalFlagMainActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.raisenationalflag.RaiseNationalFlagEndActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.raisenationalflag.RaiseNationalFlagRulesActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilySquareNewActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilyCreateTipsActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilyProfileNewActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.family.FamilyGradeActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.activitysquare.square.ActivitySquareActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.activitysquare.rank.ActivitySquareRankActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.activitysquare.detail.ActivitySquareDetailActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.activitysquare.publish.ActivitySquarePublishActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.user.visitor.AudioContactVisitorActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestWebViewCallNativeActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.audionew.features.login.ui.auth.SnapchatAuthActivity" android:theme="@style/Theme.Window.Transparent"/>
+        <activity android:name="com.audio.ui.chat.AudioChatSettingActivity" android:theme="@style/Theme.Window.AdjustResize" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.audionew.features.main.chats.ui.StrangerMsgListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.record.RecordVoiceActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.MicoTestTransitionActivity"/>
+        <activity android:name="com.audionew.features.packages.PackageActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.mico.framework.ui.permission.PermissionAppActivity" android:theme="@style/Theme.Window.Transparent"/>
+        <activity android:name="com.audionew.features.guardian.GuardianDetailsActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.guardian.GuardianIntimacySpaceActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.discover.ludo.LudoStartActivity"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="CHANNEL_NUM" android:value="1"/>
+        <meta-data android:name="MY_AF_PRE_INSTALL_NAME" android:value=""/>
+        <meta-data android:name="ANALYTICS_APPID" android:value="yoho"/>
+        <meta-data android:name="ANALYTICS_APPKEY" android:value="DF8D59ACD3571D21412CEE2CD63D4EDA"/>
+        <meta-data android:name="APPSFLYER_APPKEY" android:value="qbKVyawAiwNX3b4D3Frijm"/>
+        <meta-data android:name="GOOGLE_CLOUD_PROJECT_ID_HOLDER" android:value="@string/google_cloud_project_id_holder"/>
+        <meta-data android:name="TT_CLIENT_KEY_HOLDER" android:value="aww0k1bxj594wn0r"/>
+        <meta-data android:name="TT_CLIENT_SECRET_HOLDER" android:value="8gJeofJQNscNfhSf9Tq822z2MZEbfbSQ"/>
+        <meta-data android:name="LINE_KEY_HOLDER" android:value="2002773125"/>
+        <meta-data android:name="INS_APPKEY" android:value="a4a52c25c0054e919ede8ef83e8dcda3"/>
+        <meta-data android:name="INS_APPSECRET" android:value="ed7f4745a12c482288ce85ecf42b2bb8"/>
+        <meta-data android:name="APP_FILEROOTKEY" android:value="WakaAudio"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCCHwZb7t5dsKMI05hfnVohD0CTI7Y82gA"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.snap.kit.clientId" android:value="@string/snapchat_oauth_client_id"/>
+        <meta-data android:name="com.snap.kit.redirectUrl" android:value="wakaweb://waka.media/snapLogin"/>
+        <meta-data android:name="com.snap.kit.scopes" android:resource="@array/snap_connect_scopes"/>
+        <activity android:name="com.audionew.features.web.WebViewActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.snap.corekit.SnapKitActivity" android:theme="@style/Theme.Window.Transparent"/>
+        <activity android:name="com.mico.feature.base.share.lib.ShareMidFBActivity" android:theme="@style/Theme.Window.Transparent"/>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.audionew.features.audioroom.ui.roompk.AudioRoomPKSquareActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.discover.AudioAuctionMoreActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.friendship.activity.AudioFsDetailsActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.friendship.activity.AudioFsBindSelectActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.gamerank.AudioGameRankListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.func.TestDownloadImgFileActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.user.UserProfileEditCountryActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.user.UserApplicationLanguageActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audio.ui.setting.AudioAccountSecurityActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.TestComboActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.features.test.MicoAuctionTestActivity"/>
+        <activity android:name="com.audionew.features.test.func.TestCountryCodeChangeActivity"/>
+        <activity android:name="com.audionew.features.test.TestYouTubeActivity"/>
+        <activity android:name="com.audionew.features.test.TestKaeActivity"/>
+        <activity android:name="com.audionew.features.test.TestBezierAnimActivity"/>
+        <activity android:name="com.audionew.features.test.func.MicoGameTestActivity"/>
+        <activity android:name="com.audionew.features.games.GameMatchActivity"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.select.ImageSelectMomentActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.scan.ImageScanMomentActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.select.ui.filter.ImageFilterMomentActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.mico.framework.ui.imagebrowser.select.ui.filter.ImageFilterCommonActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.audionew.common.imagebrowser.ImagePickerActivity" android:theme="@style/Theme.Window.Transparent"/>
+        <activity android:name="com.audionew.features.audio1v1.AudioCallInActivity" android:theme="@style/Theme.Dialog.CallIn"/>
+        <activity android:name="com.audionew.features.audio1v1.AudioDialActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <provider android:authorities="com.voicechat.live.group.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="com.audionew.features.application.initializer.AppInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="libx.android.kvdb.KvdbInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="libx.android.common.AppInfoInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <provider android:authorities="com.voicechat.live.group:heap_analysis.androidx-startup" android:exported="false" android:name="com.audionew.features.application.initializer.HeapAnalysisInitializationProvider" android:process=":heap_analysis">
+            <meta-data android:name="com.audionew.features.application.initializer.AppInitializer" android:value="androidx.startup"/>
+        </provider>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.MonitorEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.gms.metadata.ModuleDependencies">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data android:name="photopicker_activity:0:required" android:value=""/>
+        </service>
+        <activity android:exported="true" android:name="com.mico.feature.moment.ui.post.MomentPostActivity" android:theme="@style/Theme.Window.AdjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="image/*"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.voicechat.live.group.ACTION_POST_MOMENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.mico.feature.moment.ui.MomentMsgActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.mico.feature.moment.ui.MomentDetailActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.mico.feature.moment.ui.topic.TopicDetailActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.mico.feature.moment.ui.topic.TopicListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.mico.feature.moment.ui.VideoPlayActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.mico.feature.room.ui.illustrated.GiftIllustratedListActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:exported="false" android:name="com.mico.feature.room.ui.illustrated.GiftIllustratedDetailActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <activity android:name="com.mico.feature.discover.gamecenter.AudioGameCenterActivity"/>
+        <activity android:exported="false" android:name="com.audionew.features.login.ui.InterestPointChooseActivity" android:theme="@style/Theme.Window.AdjustResize"/>
+        <service android:name="com.mico.framework.network.tcp.service.service.CoreService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.mico.framework.network.tcp.service.service.NetworkReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.linecorp.linesdk.openchat.ui.CreateOpenChatActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationActivity" android:theme="@style/LineSdk_AuthenticationActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="lineauth"/>
+            </intent-filter>
+        </activity>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="20300"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:foregroundServiceType="dataSync" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.voicechat.live.group.com.liulishuo.okdownload" android:exported="false" android:name="com.liulishuo.okdownload.OkDownloadProvider"/>
+        <activity android:name="libx.apm.netdiagnosis.ui.NetDiagnosisActivity" android:theme="@style/NetDiagnosisTheme"/>
+        <activity android:name="libx.apm.netdiagnosis.ui.NetDiagnosisRouteActivity" android:theme="@style/NetDiagnosisTheme"/>
+        <provider android:authorities="com.voicechat.live.group.SnapKitInitProvider" android:exported="false" android:name="com.snap.corekit.SnapKitInitProvider"/>
+        <provider android:authorities="com.voicechat.live.group.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.voicechat.live.group.libxCaptureFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="libx.android.media.capture.LibxCaptureFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/libx_capture_file_provider"/>
+        </provider>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationName" android:value="@string/facebook_app_name"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/facebook_app_name" android:launchMode="singleTask" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1165522863595325" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <service android:name="com.kwai.koom.javaoom.monitor.analysis.HeapAnalysisService" android:process=":heap_analysis"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.com.voicechat.live.group" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="com.sobot.chat.conversation.SobotChatActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:hardwareAccelerated="false" android:name="com.sobot.chat.activity.SobotPhotoActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.WebViewActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotSkillGroupActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotPostMsgActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotMuItiPostMsgActivty" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotConsultationListActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotCusFieldActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotPostCategoryActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotQueryFromActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotChooseCityActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotFileDetailActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotCameraActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotVideoActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotTicketDetailActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotHelpCenterActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotProblemCategoryActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotProblemDetailActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotPostLeaveMsgActivity" android:screenOrientation="behind" android:theme="@style/sobot_activity_def_theme"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.widget.dialog.SobotRobotListActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.widget.dialog.SobotReplyActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.widget.dialog.SobotTicketEvaluateActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.widget.dialog.SobotEvaluateActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.widget.dialog.SobotPostMsgTmpListActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.sobot.chat.activity.SobotPostCascadeActivity" android:theme="@style/sobot_AppThemeDialogIsTranslucent"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="com.sobot.chat.activity.SobotSelectPicAndVideoActivity" android:theme="@style/sobot_activity_def_theme"/>
+        <service android:exported="false" android:label="SobotChatTCPServer" android:name="com.sobot.chat.core.channel.SobotTCPServer"/>
+        <service android:name="com.sobot.chat.server.SobotSessionServer"/>
+        <provider android:authorities="com.voicechat.live.group.sobot_fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.sobot.chat.provider.SobotFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/sobot_provider_paths"/>
+        </provider>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="7.0.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.voicechat.live.group.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:ads-identifier" android:value="ads-identifier:3.4.56.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:pps-phone:adsbrainkit" android:value="1"/>
+        <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <activity android:configChanges="fontScale|uiMode" android:excludeFromRecents="true" android:exported="false" android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:hwid" android:value="hwid:6.12.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:hwid:hwid" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:hwid:account" android:value="13"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.12.0.300"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="com.voicechat.live.group.AGCInitializeProvider" android:exported="false" android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <meta-data android:name="com.android.vending.splits.required" android:value="true"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="4"/>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/shape_turntable_set_game_mode_heart_beat" />
+    <item android:drawable="@drawable/shape_turntable_set_game_mode_normal" />
+</selector>

@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/mico/feature/discover/dialog/h;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/mico/feature/discover/dialog/h;->a:Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/mico/feature/discover/dialog/h;->a:Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;
+
+    invoke-static {v0, p1}, Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;->B1(Lcom/mico/feature/discover/dialog/LiarsBarPromoteDialog;Landroid/view/View;)V
+
+    return-void
+.end method

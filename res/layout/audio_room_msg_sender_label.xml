@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow android:id="@id/item_flow" android:layout_width="0.0dip" android:layout_height="wrap_content" app:constraint_referenced_ids="msg_sender_anchor_admin,msg_sender_vip_level,msg_sender_room_vip_level, msg_sender_high_pay_user,msg_sender_wealth_level,msg_sender_glamour_level,msg_sender_family,msg_sender_badge1,msg_sender_badge2,msg_sender_badge3,msg_sender_honor_container" app:flow_horizontalAlign="start" app:flow_horizontalBias="0.0" app:flow_horizontalGap="2.0dip" app:flow_horizontalStyle="packed" app:flow_verticalAlign="center" app:flow_verticalBias="0.0" app:flow_verticalGap="2.0dip" app:flow_verticalStyle="spread" app:flow_wrapMode="chain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/msg_sender_anchor_admin" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="14.0dip" />
+    <View android:id="@id/msg_sender_vip_level" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="14.0dip" />
+    <com.audionew.features.audioroom.roomvip.AudioRoomVipLabelView android:id="@id/msg_sender_room_vip_level" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="20.0dip" />
+    <ViewStub android:id="@id/msg_sender_high_pay_user_vs" android:layout="@layout/layout_rich_user_view" android:inflatedId="@id/msg_sender_high_pay_user" android:layout_width="wrap_content" android:layout_height="20.0dip" />
+    <com.audio.ui.widget.AudioLevelImageView android:id="@id/msg_sender_wealth_level" android:visibility="gone" style="@style/AudioLevelImage" />
+    <com.audio.ui.widget.AudioLevelImageView android:id="@id/msg_sender_glamour_level" android:visibility="gone" style="@style/AudioLevelImage" />
+    <View android:id="@id/msg_sender_family" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <widget.md.view.main.RLMicoImageView android:id="@id/msg_sender_badge1" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <widget.md.view.main.RLMicoImageView android:id="@id/msg_sender_badge2" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <widget.md.view.main.RLMicoImageView android:id="@id/msg_sender_badge3" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <FrameLayout android:id="@id/msg_sender_honor_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

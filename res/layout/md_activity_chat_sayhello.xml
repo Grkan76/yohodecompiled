@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" app:tbTitle="@string/string_hi" style="@style/CommonToolbarStyle">
+        <RelativeLayout android:id="@id/id_header_right_view" style="@style/ToolbarBtnFrameStyle">
+            <widget.ui.view.MultiStatusImageView android:id="@id/id_header_right_iv" app:msiDefaultSrc="@drawable/ic_chat_hi_prompt" app:msiPositiveSrc="@drawable/icon_chat_hi_closeprompt" app:msiSingleSwitch="selected" style="@style/ToolbarBtnImgStyle" />
+        </RelativeLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <widget.md.view.layout.MDFrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center|left" android:id="@id/trippe_left_image" android:layout_width="74.0dip" android:layout_height="74.0dip" app:roundAsCircle="true" />
+        <View android:layout_width="60.0dip" android:layout_height="0.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center|right" android:id="@id/trippe_right_image" android:layout_width="74.0dip" android:layout_height="74.0dip" app:roundAsCircle="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="130.0dip" android:layout_height="130.0dip">
+        <com.audio.ui.floatview.RippleView android:id="@id/id_ripple" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" app:rippleAsRing="true" app:rippleColor="@color/colorFFAA00" app:rippleDuration="1700" app:rippleEndAlpha="0.0" app:rippleEndRadius="70.0dip" app:rippleGroupInterval="0" app:rippleInterval="900" app:rippleNumber="2" app:rippleStartAlpha="1.0" app:rippleStartRadius="50.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/trippe_center_image" android:layout_width="100.0dip" android:layout_height="100.0dip" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="2.0dip" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/id_bottom_iv" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginBottom="1.0dip" />
+    </FrameLayout>
+</merge>

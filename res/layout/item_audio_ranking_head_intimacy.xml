@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.ranking.widget.RankingBoardHeadIntimacyView android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/id_audio_rankint_head_inimacy_1" layout="@layout/item_audio_ranking_top_intimacy_view" />
+    <include android:id="@id/id_audio_rankint_head_inimacy_2" layout="@layout/item_audio_ranking_top_intimacy_view" />
+    <include android:id="@id/id_audio_rankint_head_inimacy_3" layout="@layout/item_audio_ranking_top_intimacy_view" />
+</com.audio.ui.ranking.widget.RankingBoardHeadIntimacyView>

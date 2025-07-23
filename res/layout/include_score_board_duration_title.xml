@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_score_board_top" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/id_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_toolbox_scoreboard_start" android:layout_centerInParent="true" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/white" android:gravity="center" android:id="@id/id_confirm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_common_confirm" android:layout_centerInParent="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

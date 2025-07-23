@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.photodraweeview.PhotoDraweeView android:id="@id/item_image_pager_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" app:fadeDuration="0" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/item_image_pager_iv_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/item_image_pager_loading" android:visibility="gone" style="@style/MDProgressWhiteStyle" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/item_image_show_limit_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:text="@string/string_profile_avatar_no_upload_other_tip" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/id_profile_avatar_upload_tv" android:background="@drawable/bg_ok_btn_white_r8" android:layout_width="216.0dip" android:layout_height="40.0dip" android:layout_marginTop="48.0dip" android:text="@string/string_encounter_avatarupload_do" />
+    </LinearLayout>
+</FrameLayout>

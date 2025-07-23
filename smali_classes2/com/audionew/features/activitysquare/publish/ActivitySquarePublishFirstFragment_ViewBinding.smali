@@ -1,0 +1,556 @@
+.class public final Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment_ViewBinding;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lbutterknife/Unbinder;
+
+
+# instance fields
+.field public a:Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;Landroid/view/View;)V
+    .locals 4
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment_ViewBinding;->a:Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;
+
+    .line 5
+    .line 6
+    const v0, 0x7f0a0b57
+
+    .line 7
+    .line 8
+    .line 9
+    const-string v1, "field \'idThemeCountTv\'"
+
+    .line 10
+    .line 11
+    const-class v2, Landroid/widget/TextView;
+
+    .line 12
+    .line 13
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    check-cast v0, Landroid/widget/TextView;
+
+    .line 18
+    .line 19
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idThemeCountTv:Landroid/widget/TextView;
+
+    .line 20
+    .line 21
+    const v0, 0x7f0a0b58
+
+    .line 22
+    .line 23
+    .line 24
+    const-string v1, "field \'idThemeEt\'"
+
+    .line 25
+    .line 26
+    const-class v3, Lwidget/ui/textview/MicoEditText;
+
+    .line 27
+    .line 28
+    invoke-static {p2, v0, v1, v3}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v0
+
+    .line 32
+    check-cast v0, Lwidget/ui/textview/MicoEditText;
+
+    .line 33
+    .line 34
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idThemeEt:Lwidget/ui/textview/MicoEditText;
+
+    .line 35
+    .line 36
+    const v0, 0x7f0a077d
+
+    .line 37
+    .line 38
+    .line 39
+    const-string v1, "field \'idDescCountTv\'"
+
+    .line 40
+    .line 41
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object v0
+
+    .line 45
+    check-cast v0, Landroid/widget/TextView;
+
+    .line 46
+    .line 47
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDescCountTv:Landroid/widget/TextView;
+
+    .line 48
+    .line 49
+    const v0, 0x7f0a077e
+
+    .line 50
+    .line 51
+    .line 52
+    const-string v1, "field \'idDescEt\'"
+
+    .line 53
+    .line 54
+    invoke-static {p2, v0, v1, v3}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v0
+
+    .line 58
+    check-cast v0, Lwidget/ui/textview/MicoEditText;
+
+    .line 59
+    .line 60
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDescEt:Lwidget/ui/textview/MicoEditText;
+
+    .line 61
+    .line 62
+    const v0, 0x7f0a0bee
+
+    .line 63
+    .line 64
+    .line 65
+    const-string v1, "field \'idTvStartTime\'"
+
+    .line 66
+    .line 67
+    const-class v2, Lwidget/ui/textview/MicoTextView;
+
+    .line 68
+    .line 69
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v0
+
+    .line 73
+    check-cast v0, Lwidget/ui/textview/MicoTextView;
+
+    .line 74
+    .line 75
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvStartTime:Lwidget/ui/textview/MicoTextView;
+
+    .line 76
+    .line 77
+    const v0, 0x7f0a0b29
+
+    .line 78
+    .line 79
+    .line 80
+    const-string v1, "field \'idStartTimeRl\'"
+
+    .line 81
+    .line 82
+    const-class v3, Landroid/widget/RelativeLayout;
+
+    .line 83
+    .line 84
+    invoke-static {p2, v0, v1, v3}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 85
+    .line 86
+    .line 87
+    move-result-object v0
+
+    .line 88
+    check-cast v0, Landroid/widget/RelativeLayout;
+
+    .line 89
+    .line 90
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idStartTimeRl:Landroid/widget/RelativeLayout;
+
+    .line 91
+    .line 92
+    const v0, 0x7f0a0b9d
+
+    .line 93
+    .line 94
+    .line 95
+    const-string v1, "field \'idTvDurTime\'"
+
+    .line 96
+    .line 97
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 98
+    .line 99
+    .line 100
+    move-result-object v0
+
+    .line 101
+    check-cast v0, Lwidget/ui/textview/MicoTextView;
+
+    .line 102
+    .line 103
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvDurTime:Lwidget/ui/textview/MicoTextView;
+
+    .line 104
+    .line 105
+    const v0, 0x7f0a0795
+
+    .line 106
+    .line 107
+    .line 108
+    const-string v1, "field \'idDurTimeRl\'"
+
+    .line 109
+    .line 110
+    invoke-static {p2, v0, v1, v3}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 111
+    .line 112
+    .line 113
+    move-result-object v0
+
+    .line 114
+    check-cast v0, Landroid/widget/RelativeLayout;
+
+    .line 115
+    .line 116
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDurTimeRl:Landroid/widget/RelativeLayout;
+
+    .line 117
+    .line 118
+    const-string v0, "field \'idPostBtn\'"
+
+    .line 119
+    .line 120
+    const-class v1, Landroid/widget/Button;
+
+    .line 121
+    .line 122
+    const v2, 0x7f0a0a3a
+
+    .line 123
+    .line 124
+    .line 125
+    invoke-static {p2, v2, v0, v1}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 126
+    .line 127
+    .line 128
+    move-result-object v0
+
+    .line 129
+    check-cast v0, Landroid/widget/Button;
+
+    .line 130
+    .line 131
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idPostBtn:Landroid/widget/Button;
+
+    .line 132
+    .line 133
+    const v0, 0x7f0a0bef
+
+    .line 134
+    .line 135
+    .line 136
+    const-string v1, "field \'idTvStartTimeArrow\'"
+
+    .line 137
+    .line 138
+    const-class v2, Landroid/widget/ImageView;
+
+    .line 139
+    .line 140
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 141
+    .line 142
+    .line 143
+    move-result-object v0
+
+    .line 144
+    check-cast v0, Landroid/widget/ImageView;
+
+    .line 145
+    .line 146
+    iput-object v0, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvStartTimeArrow:Landroid/widget/ImageView;
+
+    .line 147
+    .line 148
+    const v0, 0x7f0a0b9e
+
+    .line 149
+    .line 150
+    .line 151
+    const-string v1, "field \'idTvDurTimeArrow\'"
+
+    .line 152
+    .line 153
+    invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 154
+    .line 155
+    .line 156
+    move-result-object p2
+
+    .line 157
+    check-cast p2, Landroid/widget/ImageView;
+
+    .line 158
+    .line 159
+    iput-object p2, p1, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvDurTimeArrow:Landroid/widget/ImageView;
+
+    .line 160
+    .line 161
+    return-void
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+.end method
+
+
+# virtual methods
+.method public unbind()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment_ViewBinding;->a:Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    iput-object v1, p0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment_ViewBinding;->a:Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;
+
+    .line 7
+    .line 8
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idThemeCountTv:Landroid/widget/TextView;
+
+    .line 9
+    .line 10
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idThemeEt:Lwidget/ui/textview/MicoEditText;
+
+    .line 11
+    .line 12
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDescCountTv:Landroid/widget/TextView;
+
+    .line 13
+    .line 14
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDescEt:Lwidget/ui/textview/MicoEditText;
+
+    .line 15
+    .line 16
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvStartTime:Lwidget/ui/textview/MicoTextView;
+
+    .line 17
+    .line 18
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idStartTimeRl:Landroid/widget/RelativeLayout;
+
+    .line 19
+    .line 20
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvDurTime:Lwidget/ui/textview/MicoTextView;
+
+    .line 21
+    .line 22
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idDurTimeRl:Landroid/widget/RelativeLayout;
+
+    .line 23
+    .line 24
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idPostBtn:Landroid/widget/Button;
+
+    .line 25
+    .line 26
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvStartTimeArrow:Landroid/widget/ImageView;
+
+    .line 27
+    .line 28
+    iput-object v1, v0, Lcom/audionew/features/activitysquare/publish/ActivitySquarePublishFirstFragment;->idTvDurTimeArrow:Landroid/widget/ImageView;
+
+    .line 29
+    .line 30
+    return-void
+
+    .line 31
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    .line 32
+    .line 33
+    const-string v1, "Bindings already cleared."
+
+    .line 34
+    .line 35
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 36
+    .line 37
+    .line 38
+    throw v0
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+.end method

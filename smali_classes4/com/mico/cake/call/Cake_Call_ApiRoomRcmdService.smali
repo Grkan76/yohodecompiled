@@ -1,0 +1,564 @@
+.class public Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/mico/cake/parser/ProtobufClientCall;
+
+
+# instance fields
+.field private channel:Lio/grpc/e;
+
+
+# direct methods
+.method public constructor <init>(Lio/grpc/e;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+.end method
+
+
+# virtual methods
+.method public call(Lcom/mico/cake/parser/ProtobufResponseParser;Lcom/mico/cake/parser/ProtobufRequestParser;Ljava/lang/String;Ljava/util/Map;)Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/mico/cake/parser/ProtobufResponseParser<",
+            "TT;",
+            "Lcom/google/protobuf/GeneratedMessageLite;",
+            ">;",
+            "Lcom/mico/cake/parser/ProtobufRequestParser<",
+            "*>;",
+            "Ljava/lang/String;",
+            "Ljava/util/Map;",
+            ")TT;"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "RecRoomForLeaveRoom"
+
+    .line 2
+    .line 3
+    invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 10
+    .line 11
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v1
+
+    .line 19
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomForLeaveReq;
+
+    .line 20
+    .line 21
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->r(Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomForLeaveReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomForLeaveRsp;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    goto :goto_0
+
+    .line 26
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 27
+    :goto_0
+    const-string v1, "RecoverRoomStatus"
+
+    .line 28
+    .line 29
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v1
+
+    .line 33
+    if-eqz v1, :cond_1
+
+    .line 34
+    .line 35
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 36
+    .line 37
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v0
+
+    .line 41
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object v1
+
+    .line 45
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecoverRoomStatusReq;
+
+    .line 46
+    .line 47
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->t(Lcom/mico/protobuf/PbAudioRoomRcmd$RecoverRoomStatusReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecoverRoomStatusRsp;
+
+    .line 48
+    .line 49
+    .line 50
+    move-result-object v0
+
+    .line 51
+    :cond_1
+    const-string v1, "QueryUserRoom"
+
+    .line 52
+    .line 53
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 54
+    .line 55
+    .line 56
+    move-result v1
+
+    .line 57
+    if-eqz v1, :cond_2
+
+    .line 58
+    .line 59
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 60
+    .line 61
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v0
+
+    .line 65
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object v1
+
+    .line 69
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$QueryUserRoomReq;
+
+    .line 70
+    .line 71
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->m(Lcom/mico/protobuf/PbAudioRoomRcmd$QueryUserRoomReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$QueryUserRoomRsp;
+
+    .line 72
+    .line 73
+    .line 74
+    move-result-object v0
+
+    .line 75
+    :cond_2
+    const-string v1, "RecAnchorForHome"
+
+    .line 76
+    .line 77
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 78
+    .line 79
+    .line 80
+    move-result v1
+
+    .line 81
+    if-eqz v1, :cond_3
+
+    .line 82
+    .line 83
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 84
+    .line 85
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 86
+    .line 87
+    .line 88
+    move-result-object v0
+
+    .line 89
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 90
+    .line 91
+    .line 92
+    move-result-object v1
+
+    .line 93
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHomeReq;
+
+    .line 94
+    .line 95
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->p(Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHomeReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHomeRsp;
+
+    .line 96
+    .line 97
+    .line 98
+    move-result-object v0
+
+    .line 99
+    :cond_3
+    const-string v1, "RecAnchorForRegister"
+
+    .line 100
+    .line 101
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 102
+    .line 103
+    .line 104
+    move-result v1
+
+    .line 105
+    if-eqz v1, :cond_4
+
+    .line 106
+    .line 107
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 108
+    .line 109
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 110
+    .line 111
+    .line 112
+    move-result-object v0
+
+    .line 113
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 114
+    .line 115
+    .line 116
+    move-result-object v1
+
+    .line 117
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForRegisterReq;
+
+    .line 118
+    .line 119
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->q(Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForRegisterReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForRegisterRsp;
+
+    .line 120
+    .line 121
+    .line 122
+    move-result-object v0
+
+    .line 123
+    :cond_4
+    const-string v1, "RecAnchorForHold"
+
+    .line 124
+    .line 125
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 126
+    .line 127
+    .line 128
+    move-result v1
+
+    .line 129
+    if-eqz v1, :cond_5
+
+    .line 130
+    .line 131
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 132
+    .line 133
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 134
+    .line 135
+    .line 136
+    move-result-object v0
+
+    .line 137
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 138
+    .line 139
+    .line 140
+    move-result-object v1
+
+    .line 141
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHoldReq;
+
+    .line 142
+    .line 143
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->o(Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHoldReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecAnchorForHoldRsp;
+
+    .line 144
+    .line 145
+    .line 146
+    move-result-object v0
+
+    .line 147
+    :cond_5
+    const-string v1, "RecRoomStatusReport"
+
+    .line 148
+    .line 149
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 150
+    .line 151
+    .line 152
+    move-result v1
+
+    .line 153
+    if-eqz v1, :cond_6
+
+    .line 154
+    .line 155
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 156
+    .line 157
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 158
+    .line 159
+    .line 160
+    move-result-object v0
+
+    .line 161
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 162
+    .line 163
+    .line 164
+    move-result-object v1
+
+    .line 165
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomStatusReportReq;
+
+    .line 166
+    .line 167
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->s(Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomStatusReportReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$RecRoomStatusReportRsp;
+
+    .line 168
+    .line 169
+    .line 170
+    move-result-object v0
+
+    .line 171
+    :cond_6
+    const-string v1, "FeedBack"
+
+    .line 172
+    .line 173
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 174
+    .line 175
+    .line 176
+    move-result v1
+
+    .line 177
+    if-eqz v1, :cond_7
+
+    .line 178
+    .line 179
+    iget-object v0, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 180
+    .line 181
+    invoke-static {v0}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 182
+    .line 183
+    .line 184
+    move-result-object v0
+
+    .line 185
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 186
+    .line 187
+    .line 188
+    move-result-object v1
+
+    .line 189
+    check-cast v1, Lcom/mico/protobuf/PbAudioRoomRcmd$FeedBackReq;
+
+    .line 190
+    .line 191
+    invoke-virtual {v0, v1}, Lcom/mico/protobuf/l9$c;->i(Lcom/mico/protobuf/PbAudioRoomRcmd$FeedBackReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$FeedBackRsp;
+
+    .line 192
+    .line 193
+    .line 194
+    move-result-object v0
+
+    .line 195
+    :cond_7
+    const-string v1, "QueryRecRoomStatus"
+
+    .line 196
+    .line 197
+    invoke-virtual {p3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    .line 198
+    .line 199
+    .line 200
+    move-result p3
+
+    .line 201
+    if-eqz p3, :cond_8
+
+    .line 202
+    .line 203
+    iget-object p3, p0, Lcom/mico/cake/call/Cake_Call_ApiRoomRcmdService;->channel:Lio/grpc/e;
+
+    .line 204
+    .line 205
+    invoke-static {p3}, Lcom/mico/protobuf/l9;->m(Lio/grpc/e;)Lcom/mico/protobuf/l9$c;
+
+    .line 206
+    .line 207
+    .line 208
+    move-result-object p3
+
+    .line 209
+    invoke-interface {p2, p4}, Lcom/mico/cake/parser/ProtobufRequestParser;->parseRequest(Ljava/util/Map;)Ljava/lang/Object;
+
+    .line 210
+    .line 211
+    .line 212
+    move-result-object p2
+
+    .line 213
+    check-cast p2, Lcom/mico/protobuf/PbAudioRoomRcmd$QueryRoomRecStatusReq;
+
+    .line 214
+    .line 215
+    invoke-virtual {p3, p2}, Lcom/mico/protobuf/l9$c;->k(Lcom/mico/protobuf/PbAudioRoomRcmd$QueryRoomRecStatusReq;)Lcom/mico/protobuf/PbAudioRoomRcmd$QueryRoomRecStatusRsp;
+
+    .line 216
+    .line 217
+    .line 218
+    move-result-object v0
+
+    .line 219
+    :cond_8
+    invoke-interface {p1, v0}, Lcom/mico/cake/parser/ProtobufResponseParser;->parseResponse(Lcom/google/protobuf/GeneratedMessageLite;)Ljava/lang/Object;
+
+    .line 220
+    .line 221
+    .line 222
+    move-result-object p1
+
+    .line 223
+    return-object p1
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+.end method

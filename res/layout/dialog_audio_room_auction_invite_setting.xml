@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:padding="30.0dip" android:layout_width="fill_parent" android:layout_height="215.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_turn_off_mic" android:background="@drawable/shape_auction_invite_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/auction_turn_off_micro" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_close_the_position" android:background="@drawable/shape_auction_invite_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:text="@string/auction_close_the_position" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/tv_invite_user_to_mic" android:background="@drawable/shape_auction_invite_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:text="@string/auction_invite_user_to_mic" />
+    </LinearLayout>
+</FrameLayout>

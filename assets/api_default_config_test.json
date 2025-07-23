@@ -1,0 +1,11 @@
+{
+  "host": "https://www-test.yoho.media",
+  "mobile_host": "https://m-test.yoho.media",
+  "file_host": "https://cdn-test.waka.media",
+  "socket_host": "47.241.121.1:8011",
+  "grpc_host": "rpc-test.yoho.media:443",
+  "event_host": "https://api-test.eventbus.me",
+  "apm_event_host": "https://api-test.eventbus.me",
+  "apm_config_host": "https://config-test.micoplatform.com",
+  "video_cdn_address": "https://cdn-video-test.yoho.media"
+}

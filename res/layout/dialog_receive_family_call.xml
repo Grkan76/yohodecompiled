@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/bg_receive_family_call_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <ImageView android:id="@id/id_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ic_family_dialog_close" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+                <ImageView android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/ic_family_call_tips" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.22" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_family_call" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <include android:id="@id/id_iv_family_avatar" android:layout_width="116.0dip" android:layout_height="116.0dip" android:layout_marginTop="2.0dip" layout="@layout/layout_family_avatar" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/id_tv_family_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.24" android:textColor="@color/colorF5FF91" android:gravity="center" android:id="@id/id_tv_family_call_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1C7D75" android:gravity="center" android:id="@id/id_family_call_join" android:background="@drawable/btn_white_r8" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="32.0dip" android:text="@string/string_family_call_enter_room" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

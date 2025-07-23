@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/id_user_gendar_age_lv" android:background="@drawable/bg_user_gender_age_layout" android:layout_width="28.0dip" android:layout_height="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_user_gendar_iv" android:duplicateParentState="true" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/selector_gender_white" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textSize="9.0sp" android:textColor="@android:color/white" android:id="@id/id_user_age_tv" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginStart="2.0dip" />
+</LinearLayout>

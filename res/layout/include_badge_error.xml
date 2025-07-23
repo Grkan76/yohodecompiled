@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_load_refresh" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="110.0dip" android:src="@drawable/ic_badge_net_error_refresh" android:layout_above="@id/tv" android:layout_centerHorizontal="true" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color948780" android:gravity="center" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="51.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="51.0dip" android:text="@string/string_badge_netword_error" android:layout_centerInParent="true" android:lineSpacingExtra="4.0dip" android:layout_marginStart="51.0dip" android:layout_marginEnd="51.0dip" />
+</RelativeLayout>

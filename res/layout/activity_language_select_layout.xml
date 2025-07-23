@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" style="@style/CommonToolbarStyle">
+        <FrameLayout android:layout_gravity="center" android:id="@id/id_save" android:background="@drawable/background_toolbar_navigation" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginEnd="4.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/selector_edit_profile_save" android:layout_gravity="center" android:id="@id/id_tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_save" />
+        </FrameLayout>
+    </widget.md.view.layout.CommonToolbar>
+    <widget.md.view.layout.MDFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </widget.md.view.layout.MDFrameLayout>
+</LinearLayout>

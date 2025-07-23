@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/audio_room_admin_view_holder_h"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_vertical" app:roundAsCircle="true" app:roundingBorderColor="@color/black05" app:roundingBorderWidth="0.5dip" style="@style/MDAvatar48Style" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140.0dip" android:maxLines="1" />
+            </LinearLayout>
+            <com.audio.ui.widget.AudioVipAgeGenderWealthView android:layout_marginTop="6.0dip" app:enableRoomVipLabel="true" style="@style/VipAgeGenderWealthStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center" android:id="@id/id_admin_list_delte_iv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_host_admin_delete" />
+    <View android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.5dip" android:layout_marginLeft="64.0dip" android:layout_marginStart="64.0dip" style="@style/LineF1F2F6" />
+</FrameLayout>

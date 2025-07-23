@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="210.0dip">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_raise_national_flag_banner" android:scaleType="centerCrop" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color422B1F" android:gravity="center" android:id="@id/id_review_previous" android:background="@drawable/shape_bg_raise_national_flag_review_previous" android:layout_width="100.0dip" android:layout_height="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/string_previous_review" android:layout_alignParentBottom="true" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color422B1F" android:gravity="center" android:id="@id/id_rules" android:background="@drawable/shape_bg_raise_national_flag_rules" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/string_raise_flag_activity_rule" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <FrameLayout android:background="@drawable/shape_bg_raise_national_flag_main_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/id_ll_main" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_country_flag" android:layout_width="19.0dip" android:layout_height="12.0dip" />
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:id="@id/id_tv_country_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color89784D" android:id="@id/id_tv_time_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_flag_raising_ceremony_from" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center_horizontal" android:background="@drawable/shape_bg_raise_national_flag_time" android:layout_width="270.0dip" android:layout_height="32.0dip" android:layout_marginTop="18.0dip">
+                        <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_time_count_down" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/colorFEE190" android:id="@id/id_tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:id="@id/id_ll_go_now" android:background="@drawable/shape_bg_raise_national_flag_review_previous" android:layout_width="100.0dip" android:layout_height="fill_parent">
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color422B1F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_go_now" />
+                            <ImageView android:id="@id/id_iv_go_now_arrow" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_go_now_right_arrow" android:layout_marginStart="4.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <com.audio.ui.raisenationalflag.widget.RaiseNationFlagProgressView android:layout_gravity="center_horizontal" android:id="@id/id_progress_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+                    <com.audio.ui.raisenationalflag.widget.RaiseNationFlagCalibrationView android:layout_gravity="center_horizontal" android:id="@id/id_calibration_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_gravity="center_horizontal" android:id="@id/activity_raise_end_hero_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_audio_raise_flag_end_saudi_hero" />
+                    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="306.0dip" android:layout_height="wrap_content">
+                        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="96.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                            <FrameLayout android:layout_width="96.0dip" android:layout_height="96.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/raise_end_top_1_avatar" android:layout_width="59.0dip" android:layout_height="59.0dip" android:scaleType="fitXY" app:roundAsCircle="true" />
+                                <ImageView android:layout_width="96.0dip" android:layout_height="96.0dip" android:src="@drawable/ic_raise_end_top1_decorate" android:scaleType="fitXY" />
+                            </FrameLayout>
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/raise_end_top_1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83.0dip" android:maxWidth="88.0dip" android:maxLines="1" />
+                            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/raise_end_top_1_flag" android:layout_width="19.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+                                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:ellipsize="end" android:id="@id/raise_end_top_1_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="2.0dip" />
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout android:layout_gravity="start" android:layout_width="96.0dip" android:layout_height="wrap_content" android:layout_marginTop="29.0dip">
+                            <FrameLayout android:layout_width="96.0dip" android:layout_height="96.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/raise_end_top_2_avatar" android:layout_width="59.0dip" android:layout_height="59.0dip" android:scaleType="fitXY" app:roundAsCircle="true" />
+                                <ImageView android:layout_width="96.0dip" android:layout_height="96.0dip" android:src="@drawable/ic_raise_end_top2_decorate" android:scaleType="fitXY" />
+                            </FrameLayout>
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/raise_end_top_2_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83.0dip" android:maxWidth="88.0dip" android:maxLines="1" />
+                            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/raise_end_top_2_flag" android:layout_width="19.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+                                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:id="@id/raise_end_top_2_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                            </LinearLayout>
+                        </FrameLayout>
+                        <FrameLayout android:layout_gravity="end" android:layout_width="96.0dip" android:layout_height="wrap_content" android:layout_marginTop="29.0dip">
+                            <FrameLayout android:layout_width="96.0dip" android:layout_height="96.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/raise_end_top_3_avatar" android:layout_width="59.0dip" android:layout_height="59.0dip" android:scaleType="fitXY" app:roundAsCircle="true" />
+                                <ImageView android:layout_width="96.0dip" android:layout_height="96.0dip" android:src="@drawable/ic_raise_end_top3_decorate" android:scaleType="fitXY" />
+                            </FrameLayout>
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/raise_end_top_3_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83.0dip" android:maxWidth="88.0dip" android:singleLine="true" />
+                            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.0dip">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/raise_end_top_3_flag" android:layout_width="19.0dip" android:layout_height="12.0dip" android:scaleType="fitXY" />
+                                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:id="@id/raise_end_top_3_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                            </LinearLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_raise_national_flag_center" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <View android:background="@drawable/shape_raise_national_flag_info_point" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color89784D" android:id="@id/id_tv_boost_info_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                            <View android:background="@drawable/shape_raise_national_flag_info_point" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color89784D" android:id="@id/id_tv_boost_info_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                            <View android:background="@drawable/shape_raise_national_flag_info_point" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color89784D" android:id="@id/id_tv_boost_info_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                            <View android:background="@drawable/shape_raise_national_flag_info_point" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color89784D" android:id="@id/id_tv_boost_info_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                            <View android:background="@drawable/shape_raise_national_flag_info_point" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color89784D" android:id="@id/id_tv_boost_info_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_raise_national_flag_center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="24.0dip">
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorFEE190" android:gravity="center" android:background="@drawable/shape_bg_raise_national_flag_boost_get_info_top" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="@string/string_audio_raise_flag_rules_boot_value" />
+                        <View android:background="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="108.0dip">
+                            <FrameLayout android:layout_width="112.0dip" android:layout_height="fill_parent">
+                                <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_iv_flag_gift_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+                            </FrameLayout>
+                            <View android:background="@color/color33F3D789" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_raise_flag_boost_tips_flag_gift" android:layout_marginStart="15.0dip" android:layout_marginEnd="16.0dip" />
+                        </LinearLayout>
+                        <View android:background="@color/color33F3D789" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_width="112.0dip" android:layout_height="108.0dip">
+                                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="81.0dip" android:layout_height="wrap_content">
+                                    <FrameLayout android:layout_width="fill_parent" android:layout_height="72.0dip">
+                                        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/id_gift" android:layout_width="72.0dip" android:layout_height="fill_parent" />
+                                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/color422B1F" android:gravity="center" android:layout_gravity="end" android:id="@id/id_gift_num" android:background="@drawable/shape_bg_raise_national_flag_gift_num" android:layout_width="34.0dip" android:layout_height="16.0dip" />
+                                    </FrameLayout>
+                                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFEE190" android:gravity="center" android:id="@id/id_receive" android:background="@drawable/shape_bg_raise_national_flag_share" android:layout_width="80.0dip" android:layout_height="24.0dip" android:layout_marginTop="2.0dip" android:text="@string/string_receive" />
+                                </LinearLayout>
+                            </FrameLayout>
+                            <View android:background="@color/color33F3D789" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_raise_flag_boost_tips_free_gift" android:layout_marginStart="15.0dip" android:layout_marginEnd="16.0dip" />
+                        </LinearLayout>
+                        <View android:background="@color/color33F3D789" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_width="112.0dip" android:layout_height="49.0dip">
+                                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFEE190" android:gravity="center" android:layout_gravity="center" android:id="@id/id_tv_reservation" android:background="@drawable/shape_bg_raise_national_flag_share" android:layout_width="92.0dip" android:layout_height="24.0dip" android:text="@string/string_reservation" />
+                            </FrameLayout>
+                            <View android:background="@color/color33F3D789" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_raise_flag_boost_tips_reversion" android:layout_marginStart="15.0dip" android:layout_marginEnd="16.0dip" />
+                        </LinearLayout>
+                        <View android:background="@color/color33F3D789" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_width="112.0dip" android:layout_height="53.0dip">
+                                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFEE190" android:gravity="center" android:layout_gravity="center" android:id="@id/id_tv_share" android:background="@drawable/shape_bg_raise_national_flag_share" android:layout_width="80.0dip" android:layout_height="24.0dip" android:text="@string/string_audio_share" />
+                            </FrameLayout>
+                            <View android:background="@color/color33F3D789" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_raise_flag_boost_tips_share" android:layout_marginStart="15.0dip" android:layout_marginEnd="16.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="120.0dip" android:src="@drawable/ic_raise_national_flag_activity_empty" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.18" android:textColor="@color/colorFEE190" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/string_raise_flag_empty" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:layout_marginTop="@dimen/transparent_status_bar_margin" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" style="@style/CommonToolbarStyle" />
+</RelativeLayout>

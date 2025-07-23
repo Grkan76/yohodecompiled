@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/audio/ui/audioroom/widget/megaphone/H;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/audio/ui/audioroom/widget/megaphone/H;->a:Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/audio/ui/audioroom/widget/megaphone/H;->a:Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;
+
+    invoke-static {v0}, Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;->t(Lcom/audio/ui/audioroom/widget/megaphone/AudioRoomLuckGiftNtyView;)V
+
+    return-void
+.end method

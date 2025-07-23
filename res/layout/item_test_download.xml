@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CardView.Sample">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/nameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="14.0sp" android:id="@id/statusTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/nameTv" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/infoTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详细信息" android:maxLines="1" app:layout_constraintLeft_toLeftOf="@id/statusTv" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/nameTv" />
+            <TextView android:id="@id/priorityTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="priority" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/statusTv" />
+            <TextView android:id="@id/runTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即执行" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/statusTv" />
+            <ProgressBar android:id="@id/progressBar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/priorityTv" style="?android:progressBarStyleHorizontal" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

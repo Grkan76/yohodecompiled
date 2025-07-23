@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/llRoot" android:background="@drawable/bg_audio_mall_list_item" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ivUsed" android:paddingLeft="8.0dip" android:paddingTop="10.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_mall_used" android:paddingStart="8.0dip" android:paddingEnd="4.0dip" />
+            <include android:id="@id/iCover" layout="@layout/include_item_mall_new_cover" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorAudioPrimary" android:layout_gravity="end" android:id="@id/tvTry" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_mall_test_wear_avatar" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/ivEmpty" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_me_package_empty" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center_horizontal" android:id="@id/ivPreview" android:layout_width="149.0dip" android:layout_height="60.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" app:roundBottomEnd="true" app:roundBottomStart="true" app:roundTopEnd="false" app:roundTopStart="false" app:roundedCornerRadius="8.0dip" />
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color636B82" android:layout_gravity="center_horizontal" android:id="@id/tvDeadline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/string_audio_mall_validity" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/color636B82" android:layout_gravity="center_horizontal" android:id="@id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tvUsed" android:layout_width="125.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.VzonePullRefreshLayout android:id="@id/id_refresh_layout" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:failedLayout="@layout/layout_load_network_error" />
+    <ViewStub android:layout_gravity="bottom" android:id="@id/vsGameDownloadDone" android:layout="@layout/vs_game_download_done_layout" android:inflatedId="@id/vsGameDownloadDone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" />
+</FrameLayout>

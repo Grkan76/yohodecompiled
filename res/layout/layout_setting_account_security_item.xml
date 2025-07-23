@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/splitLine" layout="@layout/include_setting_line" />
+    <View android:id="@id/splitLine_big" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <LinearLayout android:id="@id/llRow" android:background="@color/white" style="@style/MeRowItemLayout">
+        <ImageView android:id="@id/iv_account_flag" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/color1D212C" android:id="@id/tv_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/color1D212C" android:gravity="end" android:id="@id/tv_account_state" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip" />
+        <widget.md.view.main.RLImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_login_table_more" />
+    </LinearLayout>
+</LinearLayout>

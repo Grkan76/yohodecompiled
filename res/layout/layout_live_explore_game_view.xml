@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.LiveExploreGameView android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:id="@id/live_list_explore_new_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:text="@string/string_discovery_game_battle" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/id_game_rv" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" />
+    <com.audio.ui.widget.LiveExploreSingleGameView android:id="@id/single_game_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.audio.ui.widget.LiveExploreGameView>

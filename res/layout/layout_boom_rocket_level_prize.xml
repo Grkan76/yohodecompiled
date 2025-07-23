@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/string_boom_rocket_prizes" android:layout_marginStart="16.0dip" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="142.0dip" android:layout_marginTop="8.0dip">
+        <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_bg" android:layout_width="136.0dip" android:layout_height="fill_parent">
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize_1" android:layout_width="126.0dip" android:layout_height="126.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout> dp <LinearLayout android:orientation="vertical" android:layout_width="120.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip">
+            <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_small_bg" android:layout_width="120.0dip" android:layout_height="78.0dip">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize_2" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="8.0dip">
+                <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_small_bg" android:layout_width="56.0dip" android:layout_height="fill_parent">
+                    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize_4" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_small_bg" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip">
+                    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize_5" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="56.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip">
+            <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_small_bg" android:layout_width="fill_parent" android:layout_height="78.0dip">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_prize_3" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/shape_boom_rocket_prize_small_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="8.0dip">
+                <ImageView android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/ic_boom_rocket_prize_coin" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

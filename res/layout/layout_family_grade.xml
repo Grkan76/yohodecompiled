@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.family.widget.AudioFamilyGradeView android:gravity="center_vertical" android:id="@id/id_ll_family_grade" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_family_badge_cur" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.audionew.features.family.widget.AudioFamilyGradeProgressView android:id="@id/id_pv_family_grade" android:layout_width="0.0dip" android:layout_height="12.0dip" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_iv_family_badge_next" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+</com.audionew.features.family.widget.AudioFamilyGradeView>

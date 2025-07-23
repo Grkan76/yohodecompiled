@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.audioroom.roomvip.RoomVipEnterView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/enter_iv" android:layout_width="46.0dip" android:layout_height="52.0dip" app:failureImage="@drawable/ic_room_vip_lv1_5" app:failureImageScaleType="fitXY" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImageScaleType="fitXY" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textStyle="bold|italic" android:textColor="@color/white" android:gravity="center" android:id="@id/score_tv" android:layout_width="0.0dip" android:layout_height="16.0dip" android:maxLines="1" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="6.0sp" app:autoSizeStepGranularity="1.0sp" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="@id/enter_iv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/enter_iv" />
+</com.audionew.features.audioroom.roomvip.RoomVipEnterView>

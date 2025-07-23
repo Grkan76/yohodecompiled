@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition android:id="@id/transitionImage" motion:autoTransition="jumpToEnd" motion:constraintSetEnd="@id/constrainSetEnd" motion:constraintSetStart="@id/constrainSetStart" motion:duration="1500" motion:pathMotionArc="startHorizontal">
+        <KeyFrameSet>
+            <KeyPosition motion:framePosition="100" motion:keyPositionType="parentRelative" motion:motionTarget="@id/image" motion:percentX="0.528" motion:percentY="0.523" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/image" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/image" />
+            <KeyAttribute android:scaleX="1.0" motion:framePosition="75" motion:motionTarget="@id/image" />
+            <KeyAttribute android:scaleX="0.0" motion:framePosition="100" motion:motionTarget="@id/image" />
+            <KeyAttribute android:scaleY="1.0" motion:framePosition="75" motion:motionTarget="@id/image" />
+            <KeyAttribute android:scaleY="0.0" motion:framePosition="100" motion:motionTarget="@id/image" />
+            <KeyPosition motion:framePosition="100" motion:keyPositionType="parentRelative" motion:motionTarget="@id/image_2" motion:percentX="0.528" motion:percentY="0.523" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/image_2" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/image_2" />
+            <KeyAttribute android:scaleX="1.0" motion:framePosition="75" motion:motionTarget="@id/image_2" />
+            <KeyAttribute android:scaleX="0.0" motion:framePosition="100" motion:motionTarget="@id/image_2" />
+            <KeyAttribute android:scaleY="1.0" motion:framePosition="75" motion:motionTarget="@id/image_2" />
+            <KeyAttribute android:scaleY="0.0" motion:framePosition="100" motion:motionTarget="@id/image_2" />
+            <KeyPosition motion:framePosition="100" motion:keyPositionType="parentRelative" motion:motionTarget="@id/image_3" motion:percentX="0.528" motion:percentY="0.523" />
+            <KeyAttribute android:alpha="1.0" motion:framePosition="75" motion:motionTarget="@id/image_3" />
+            <KeyAttribute android:alpha="0.0" motion:framePosition="100" motion:motionTarget="@id/image_3" />
+            <KeyAttribute android:scaleX="1.0" motion:framePosition="75" motion:motionTarget="@id/image_3" />
+            <KeyAttribute android:scaleX="0.0" motion:framePosition="100" motion:motionTarget="@id/image_3" />
+            <KeyAttribute android:scaleY="1.0" motion:framePosition="75" motion:motionTarget="@id/image_3" />
+            <KeyAttribute android:scaleY="0.0" motion:framePosition="100" motion:motionTarget="@id/image_3" />
+        </KeyFrameSet>
+    </Transition>
+    <ConstraintSet android:id="@id/constrainSetStart">
+        <Constraint android:id="@id/image">
+            <Layout android:layout_width="50.0dip" android:layout_height="50.0dip" motion:layout_constraintBottom_toBottomOf="parent" motion:layout_constraintEnd_toEndOf="parent" motion:placeholderImage="@drawable/vip4_gift" />
+        </Constraint>
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/constrainSetEnd">
+        <Constraint android:id="@id/image">
+            <Layout android:layout_width="50.0dip" android:layout_height="50.0dip" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" motion:placeholderImage="@drawable/vip4_gift" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/id_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/id_content_view" android:background="@drawable/bg_common_black_top_r16" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="180.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/id_tab_vg" android:layout_width="fill_parent" android:layout_height="42.0dip">
+            <com.audio.ui.audioroom.bottomweb.AudioRoomBottomTabRecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/id_tab_rv" android:scrollbars="none" android:fadingEdgeLength="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:requiresFadingEdge="horizontal" android:layout_marginStart="8.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <ImageView android:layout_gravity="center" android:id="@id/id_v_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/btn_close_gray_circle_28" />
+        </LinearLayout>
+        <com.audio.ui.widget.SafeBridgeWebView android:id="@id/id_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/id_tab_vg" />
+    </RelativeLayout>
+</RelativeLayout>

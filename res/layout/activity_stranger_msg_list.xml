@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbNavigationEnable="true" app:tbTitle="@string/stranger_greetings" style="@style/CommonToolbarStyle" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/colorA6B0BD" android:gravity="center_vertical" android:id="@id/tv_tips" android:background="@color/colorF5F7F9" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/stranger_msg_tips" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <widget.md.view.layout.MDFrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

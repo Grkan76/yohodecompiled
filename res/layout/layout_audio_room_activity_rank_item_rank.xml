@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/audio_room_activity_rank_item_iv" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+    <widget.ui.textview.NiceMarqueeTextView android:textAppearance="@style/TextView.Medium.12" android:ellipsize="marquee" android:gravity="start" android:id="@id/audio_room_activity_rank_item_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:supportsRtl="true" android:textDirection="locale" android:textAlignment="viewStart" android:layout_marginStart="2.0dip" />
+</LinearLayout>

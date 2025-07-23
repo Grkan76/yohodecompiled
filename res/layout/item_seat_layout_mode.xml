@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_seat_pic" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,1:1" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@color/colorFFAA00" app:roundedCornerRadius="8.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_seat_selected" android:background="@drawable/ic_check_green_24" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintEnd_toEndOf="@id/iv_seat_pic" app:layout_constraintTop_toTopOf="@id/iv_seat_pic" />
+    <TextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/colorFF1D212C" android:id="@id/tv_seat_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lineSpacingExtra="3.0dip" app:layout_constraintEnd_toEndOf="@id/iv_seat_pic" app:layout_constraintStart_toStartOf="@id/iv_seat_pic" app:layout_constraintTop_toBottomOf="@id/iv_seat_pic" />
+</androidx.constraintlayout.widget.ConstraintLayout>

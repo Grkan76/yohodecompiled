@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.MultiStatusLayout android:id="@id/msl_gift_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mslEmptyLayout="@layout/layout_audio_gift_empty" app:mslFailedLayout="@layout/layout_audio_gift_failed" app:mslLoadingLayout="@layout/layout_audio_gift_loading"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/id_gift_panel_inner_vp" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/include_nest_safe_inner_viewpager" />
+        <widget.nice.pager.indicator.SlidePageIndicator android:layout_gravity="center_horizontal" android:id="@id/id_gift_panel_inner_cpi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="54.0dip" app:spiCompatLayoutDirection="true" app:spiDefaultColor="@color/white30" app:spiIndicatorHeight="6.0dip" app:spiIndicatorWidth="6.0dip" app:spiInterval="4.0dip" app:spiPreviewCount="10" app:spiRoundAsCircle="true" app:spiSelectedColor="@color/white" />
+    </LinearLayout>
+</widget.ui.view.MultiStatusLayout>

@@ -1,0 +1,36 @@
+.class public final synthetic Lcom/audionew/features/test/t0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/audionew/features/test/BaseTestActivity$b;
+
+
+# instance fields
+.field public final synthetic a:Lcom/audionew/features/test/MicoTestActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/audionew/features/test/MicoTestActivity;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/audionew/features/test/t0;->a:Lcom/audionew/features/test/MicoTestActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/mico/framework/ui/core/activity/BaseActivity;Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/audionew/features/test/t0;->a:Lcom/audionew/features/test/MicoTestActivity;
+
+    invoke-static {v0, p1, p2}, Lcom/audionew/features/test/MicoTestActivity;->b1(Lcom/audionew/features/test/MicoTestActivity;Lcom/mico/framework/ui/core/activity/BaseActivity;Landroid/view/View;)V
+
+    return-void
+.end method

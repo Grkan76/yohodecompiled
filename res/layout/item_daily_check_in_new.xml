@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.dailytask.DailyCheckInItemView android:gravity="center" android:orientation="vertical" android:id="@id/item_view" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/checkInItem" android:background="@drawable/bg_day_checkin_checked" android:clipChildren="false" android:clipToPadding="false" android:layout_width="65.0dip" android:layout_height="65.0dip">
+        <widget.md.view.main.RLImageView android:layout_width="24.0dip" android:layout_height="14.0dip" android:src="@drawable/bg_daily_reward_tag" />
+        <ImageView android:layout_gravity="center" android:id="@id/shine_light" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_margin="1.0dip" android:src="@drawable/ic_light" android:scaleType="fitXY" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:id="@id/id_reward_iv" android:layout_width="35.0dip" android:layout_height="35.0dip" android:scaleType="centerInside" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:layout_gravity="start|center|top" android:id="@id/index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_marginStart="8.0dip" />
+    </FrameLayout>
+</com.audio.ui.dailytask.DailyCheckInItemView>

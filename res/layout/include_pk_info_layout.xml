@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.pk.AudioPKInfoLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.view.AutoViewPager android:id="@id/view_pager" android:layout_width="wrap_content" android:layout_height="@dimen/pk_info_item_large_height" android:overScrollMode="never" app:avpPageDuration="8000" />
+    <com.audio.ui.widget.LivePageIndicator android:layout_gravity="bottom|center" android:id="@id/view_pager_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" app:lpiDefaultColor="@color/white60" app:lpiIndicatorActiveWidth="6.0dip" app:lpiIndicatorSize="6.0dip" app:lpiPreviewCount="4" app:lpiSelectedColor="@color/white" app:lpiSlideActive="true" app:lpiSpacing="6.0dip" />
+</com.audio.ui.audioroom.pk.AudioPKInfoLayout>

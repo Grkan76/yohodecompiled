@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_card_daily_charge" android:layout_width="315.0dip" android:layout_height="338.0dip">
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_close" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/ic_dialog_close_28" android:layout_marginEnd="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/string_daily_tips" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_recharge" android:layout_width="160.0dip" android:layout_height="160.0dip" app:placeholderImage="@drawable/ic_placeholder_daily_box" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/string_daily_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="20.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_learn_more" android:background="@drawable/bg_btn_more" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_audio_learn_more" android:layout_marginEnd="7.5dip" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_recharge" android:background="@drawable/bg_btn_recharge" android:layout_width="125.0dip" android:layout_height="fill_parent" android:text="@string/string_recharge" android:layout_marginStart="7.5dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

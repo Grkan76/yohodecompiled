@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.teambattle.view.TeamBattleMicCoverAnimView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/left" android:layout_width="120.0dip" android:layout_height="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/centerGuideline" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/mid" android:layout_width="120.0dip" android:layout_height="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/mid_large" android:layout_width="375.0dip" android:layout_height="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/right" android:layout_width="120.0dip" android:layout_height="120.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/centerGuideline" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/centerGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+</com.audio.ui.audioroom.teambattle.view.TeamBattleMicCoverAnimView>

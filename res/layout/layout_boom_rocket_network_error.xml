@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/id_load_refresh" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="114.0dip" android:src="@drawable/ic_meet_network_erro_refresh" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_boom_rocket_network_error" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.18" android:textColor="@color/white" android:gravity="center" android:id="@id/id_load_try_again_tv" android:background="@drawable/bg_boom_rocket_network_error_try_again" android:layout_width="162.0dip" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/string_refresh" />
+</LinearLayout>

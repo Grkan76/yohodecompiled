@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="80.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color4A4A4A" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="16.0dip" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_me_inc_dim" android:layout_marginEnd="8.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/color4A4A4A" android:id="@id/tv_diamond_num" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_transfer_right" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/colorFF5294" android:id="@id/tv_currency_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.15" android:textColor="@color/color4A4A4A" android:id="@id/tv_currency" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@id/iv_status" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_status_rejected" android:layout_marginEnd="8.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFF0066" android:id="@id/tv_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

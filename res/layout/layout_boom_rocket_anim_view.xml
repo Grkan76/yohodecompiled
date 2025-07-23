@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.audioroom.boomrocket.widget.BoomRocketAnimView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_anim_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_ll_user" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="126.0dip">
+        <RelativeLayout android:layout_width="138.0dip" android:layout_height="115.0dip">
+            <ImageView android:layout_width="62.0dip" android:layout_height="41.0dip" android:src="@drawable/ic_boom_rocket_boom_top" android:layout_centerHorizontal="true" />
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_avatar_iv" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginTop="28.0dip" android:layout_centerHorizontal="true" app:roundAsCircle="true" app:roundingBorderColor="#ffffd534" app:roundingBorderWidth="2.0dip" />
+            <FrameLayout android:layout_width="138.0dip" android:layout_height="34.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_boom_rocket_boom_king" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.10" android:textColor="@color/colorFF3E03" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/string_boom_rocket_king" />
+            </FrameLayout>
+        </RelativeLayout>
+        <com.audio.ui.widget.AudioGradientTextView android:textAppearance="@style/TextView.Bold.18" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/id_user_name" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" app:agtEndColor="@color/colorFF9200" app:agtStartColor="@color/colorFFFD03" />
+    </LinearLayout>
+</com.audio.ui.audioroom.boomrocket.widget.BoomRocketAnimView>

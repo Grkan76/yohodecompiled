@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/dialog" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/string_audio_gift_record" />
+            <ImageView android:layout_gravity="center|left" android:id="@id/iv_audio_room_back" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_pk_set_back" android:layout_marginStart="16.0dip" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/id_rcv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/rl_gift_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_empty_gift_record" />
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/colorCBD1DD" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/id_room_gift_record_no_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/string_audio_room_gift_record_no_record" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_check_notify" android:layout_width="fill_parent" android:layout_height="371.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+        <ImageView android:layout_width="115.0dip" android:layout_height="74.0dip" android:layout_marginTop="36.0dip" android:src="@drawable/ic_dialog_check_notify" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/id_iv_close" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/ic_check_notify_close" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:gravity="center" android:id="@id/id_tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="186.0dip" android:layout_marginRight="24.0dip" android:text="@string/string_audio_check_notify_dialog_content" />
+        <widget.ui.button.MicoButton android:id="@id/id_btn_ok" android:layout_marginLeft="24.0dip" android:layout_marginTop="36.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="32.0dip" android:text="@string/string_setting_now" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/DialogBtnOk" />
+    </RelativeLayout>
+</FrameLayout>

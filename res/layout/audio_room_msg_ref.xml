@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_black30_r5" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/white70" android:ellipsize="end" android:id="@id/tv_ref_nick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/white70" android:ellipsize="end" android:id="@id/tv_ref_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</LinearLayout>

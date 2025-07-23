@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:background="@drawable/bg_dialog_top_message_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_contract_target_content_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:src="@drawable/pic_chat_list_02" />
+        <ImageView android:layout_gravity="center" android:id="@id/iv_contract_target_content_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_chat_list_03" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/ll_contract_self_content" android:background="@drawable/shape_bg_sticky_tips" android:layout_width="194.0dip" android:layout_height="43.0dip">
+            <FrameLayout android:id="@id/fl_sticky_tips_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="6.0dip" android:layout_alignParentStart="true">
+                <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/sticky_tips_avatar" android:layout_width="30.0dip" android:layout_height="30.0dip" app:roundAsCircle="true" />
+                <ImageView android:layout_gravity="bottom|center" android:id="@id/sticky_tips_avatar_sticky_tag" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/ic_chat_set_top_conv_24" android:scaleType="centerInside" />
+            </FrameLayout>
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.10" android:textColor="@color/color1D212C" android:ellipsize="end" android:id="@id/sticky_tips_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lines="1" android:layout_alignTop="@id/fl_sticky_tips_avatar" android:layout_marginStart="6.0dip" android:layout_marginEnd="10.0dip" android:layout_toEndOf="@id/fl_sticky_tips_avatar" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.9" android:textColor="@color/colorA6B0BD" android:id="@id/sticky_tips_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/string_chat_guide_tips_content" android:layout_below="@id/sticky_tips_name" android:layout_marginStart="6.0dip" android:layout_toEndOf="@id/fl_sticky_tips_avatar" />
+            <View android:id="@id/line_sticky_tips_view" android:background="@color/colorEEEEEE" android:layout_width="fill_parent" android:layout_height="0.6dip" android:layout_alignParentBottom="true" android:layout_alignStart="@id/sticky_tips_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

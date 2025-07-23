@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.main.RLMicoImageView android:id="@id/rlI_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/miv_wep" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/miv_game_logo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:viewAspectRatio="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

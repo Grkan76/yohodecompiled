@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/id_bg_effect_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_main_ranking_light" android:layout_width="fill_parent" android:layout_height="372.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_main_ranking_light_intimacy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/transparent_status_bar_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/FitsWindowsView">
+        <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_white" app:tbTitleColor="@color/white" style="@style/CommonToolbarStyle" />
+        <widget.md.view.main.RLImageView android:id="@id/audio_question" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_question_white" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/id_custom_sticker" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_top_base_line">
+        <widget.md.view.layout.MicoTabLayout android:id="@id/id_first_level_tab_layout" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" app:micoTabIndicatorMarginBottom="6.0dip" app:micoTabPaddingEnd="12.0dip" app:micoTabPaddingStart="12.0dip" app:micoTabSelectedTextAppearance="@style/TextView.Bold.16" app:micoTabTextAppearance="@style/TextView.Medium.16" style="@style/AudioTableLayoutWhiteStyle" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/id_ranking_board_first_vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>

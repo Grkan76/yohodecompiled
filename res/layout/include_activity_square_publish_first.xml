@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/colorF5F7F9" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorFFF5F7F9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/dimens_8" android:text="@string/string_audio_activity_square_type_title" android:layout_marginStart="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+        </LinearLayout>
+        <RadioGroup android:orientation="vertical" android:id="@id/id_select_type" android:background="@color/white" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <include layout="@layout/include_activity_square_event_type" />
+            <include layout="@layout/include_activity_square_event_type" />
+            <include layout="@layout/include_activity_square_event_type" />
+            <include layout="@layout/include_activity_square_event_type" />
+            <include layout="@layout/include_activity_square_event_type" />
+        </RadioGroup>
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorFFF5F7F9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:layout_marginBottom="@dimen/dimens_8" android:text="@string/string_audio_activity_square_activity_theme" android:layout_marginStart="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+            <TextView android:textColor="@color/colorA6B0BD" android:gravity="end" android:id="@id/id_theme_count_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimens_16" android:layout_marginBottom="@dimen/dimens_8" android:text="0/80" android:layout_marginEnd="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoEditText android:textColor="@color/selector_activity_square_edit_color" android:textColorHint="@color/colorA6B0BD" android:gravity="center_vertical" android:id="@id/id_theme_et" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="67.0dip" android:hint="@string/string_audio_activity_square_input_activity_theme_hint" android:maxLength="80" android:textCursorDrawable="@drawable/edit_text_cursor" android:paddingStart="@dimen/dimens_16" android:paddingEnd="@dimen/dimens_16" style="@style/TextView.Medium.14" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorFFF5F7F9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="@dimen/dimens_8" android:text="@string/string_audio_activity_square_activities_that" android:layout_marginStart="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+            <TextView android:textColor="@color/colorA6B0BD" android:gravity="end" android:id="@id/id_desc_count_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="@dimen/dimens_8" android:text="0/100" android:layout_marginEnd="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <widget.ui.textview.MicoEditText android:textColor="@color/selector_activity_square_edit_color" android:textColorHint="@color/colorA6B0BD" android:gravity="top" android:id="@id/id_desc_et" android:background="@color/white" android:padding="@dimen/dimens_16" android:layout_width="fill_parent" android:layout_height="100.0dip" android:hint="@string/string_audio_activity_square_activity_description" android:maxLength="100" android:textCursorDrawable="@drawable/edit_text_cursor" style="@style/TextView.Medium.14" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorFFF5F7F9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/colorA6B0BD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="@dimen/dimens_8" android:text="@string/string_audio_activity_square_activity_time" android:layout_marginStart="@dimen/dimens_16" style="@style/TextView.Medium.12" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/id_start_time_rl" android:background="@color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_activity_square_start_time" android:layout_centerVertical="true" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:id="@id/id_tv_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimens_8" android:layout_toStartOf="@id/id_tv_start_time_arrow" />
+            <ImageView android:id="@id/id_tv_start_time_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_dark_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RelativeLayout android:id="@id/id_dur_time_rl" android:background="@color/white" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_activity_square_duration_time" android:layout_centerVertical="true" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:id="@id/id_tv_dur_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimens_8" android:layout_toStartOf="@id/id_tv_dur_time_arrow" />
+            <ImageView android:id="@id/id_tv_dur_time_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_dark_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:enabled="false" android:textColor="@color/white" android:id="@id/id_post_btn" android:background="@drawable/selector_audio_activity_square_publish_btn" android:layout_width="330.0dip" android:layout_height="45.0dip" android:layout_marginTop="32.0dip" android:text="@string/string_audio_activity_square_post_activity_200_coins" android:textAllCaps="false" style="@style/TextView.Bold.16" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

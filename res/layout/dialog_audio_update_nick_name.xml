@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/black_trans_30" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color00D5FF" android:id="@id/id_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/audio_audit_nick_name_desc" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_load_failed_vg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="92.0dip">
+        <ImageView android:id="@id/id_refresh" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/ic_meet_network_erro_refresh" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.16" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/audio_audit_nick_name_load_failed" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/id_nick_vg" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="135.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color00D5FF" android:ellipsize="end" android:id="@id/id_tv_nick_name" android:layout_width="wrap_content" android:layout_height="20.0dip" android:maxWidth="200.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/id_refresh_s" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_refresh_20" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" />
+        <View android:background="@color/white" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" android:layout_below="@id/id_tv_nick_name" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <widget.ui.button.MicoButton android:id="@id/id_btn_go" android:layout_width="312.0dip" android:layout_height="45.0dip" android:layout_marginBottom="64.0dip" android:text="@string/string_common_confirm" style="@style/PrimaryNormalBtnR8" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="start" android:id="@id/id_choose_room_tips" android:background="@drawable/bg_new_task_enter_choose_room_tip" android:layout_width="160.0dip" android:layout_height="61.0dip" android:text="@string/string_new_user_guide_choose_room" />
+</LinearLayout>

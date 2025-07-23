@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="180.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@drawable/bg_audio_live_user_info_dialog" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="19.0dip">
+                <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:id="@id/tv_live_viewer_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_audio_admin" />
+            </LinearLayout>
+            <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:background="@color/white" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+            <androidx.core.widget.NestedScrollView android:id="@id/id_adimin_list_top_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/layout_admin_list_empty" />
+                    <include layout="@layout/item_audio_room_admin_list_footer" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

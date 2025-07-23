@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.audioroom.ui.ComboEffectLayout android:id="@id/motionLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutDescription="@xml/layout_combo_gift_anim_scene" app:motionDebug="SHOW_ALL"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/image" android:layout_width="60.0dip" android:layout_height="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/image_2" android:layout_width="60.0dip" android:layout_height="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/image_3" android:layout_width="60.0dip" android:layout_height="60.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.audionew.features.audioroom.ui.ComboEffectLayout>

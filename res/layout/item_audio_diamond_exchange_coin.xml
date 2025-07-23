@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.framework.ui.widget.AspectRatioRelativeLayout android:layout_gravity="center" android:background="@drawable/bg_common_white_r10" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="0.893"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorFFAA00" android:gravity="end|center" android:layout_gravity="end" android:id="@id/tv_send_coins" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginTop="4.0dip" android:textDirection="ltr" android:layout_marginEnd="4.0dip" />
+        <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="center" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="4.0dip" app:placeholderImage="@drawable/ic_me_rec_coin" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Condensed.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_coin_num" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:maxLines="1" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_me_inc_dim" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Condensed.12.Medium" android:textColor="@color/colorA6B0BD" android:layout_gravity="center" android:id="@id/tv_diamond_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.mico.framework.ui.widget.AspectRatioRelativeLayout>

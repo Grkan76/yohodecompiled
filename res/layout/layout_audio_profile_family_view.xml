@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.widget.AudioProfileFamilyView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/color1D212C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_family" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <widget.md.view.main.RLImageView android:id="@id/id_ll_family_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/id_iv_family_avatar" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginStart="4.0dip" layout="@layout/layout_family_avatar" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:id="@id/id_tv_family_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/id_iv_member" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_live_user_w" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/white" android:id="@id/id_tv_family_members" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</com.audio.ui.widget.AudioProfileFamilyView>

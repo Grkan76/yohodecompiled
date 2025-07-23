@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_common_white_r16" android:layout_width="315.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <widget.ui.textview.MicoTextView android:textColor="@color/color1D212C" android:layout_gravity="center_horizontal" android:id="@id/mtv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/string_audio_pk_rule" style="@style/TextView.Bold.16" />
+        <com.audio.ui.widget.CircleBridgeWebview android:id="@id/rule_webview" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginTop="20.0dip" android:overScrollMode="never" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+        <widget.ui.textview.MicoTextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/mtv_close" android:background="@drawable/bg_primary_r8" android:layout_width="264.0dip" android:layout_height="40.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:text="@string/string_team_battle_audience_rules_got_it" style="@style/TextView.Bold.15" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

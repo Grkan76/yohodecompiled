@@ -1,0 +1,426 @@
+.class public final Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+.super Lcom/google/protobuf/GeneratedMessageLite$b;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayerOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageLite$b<",
+        "Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;",
+        "Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;",
+        ">;",
+        "Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayerOrBuilder;"
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 2
+    invoke-static {}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$14800()Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/GeneratedMessageLite$b;-><init>(Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/waka/wakagame/model/protobuf/PbMKGUno$1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public clearRank()Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15300(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public clearScore()Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15500(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public clearUser()Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15100(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public getRank()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 2
+    .line 3
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->getRank()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public getScore()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 2
+    .line 3
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->getScore()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public getUser()Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 2
+    .line 3
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->getUser()Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public hasUser()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 2
+    .line 3
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->hasUser()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+.end method
+
+.method public mergeUser(Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;)Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0, p1}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15000(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public setRank(I)Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0, p1}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15200(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public setScore(I)Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    .line 3
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    .line 5
+    .line 6
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    .line 7
+    .line 8
+    invoke-static {v0, p1}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$15400(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-object p0
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+.end method
+
+.method public setUser(Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser$Builder;)Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 3
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 4
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    invoke-virtual {p1}, Lcom/google/protobuf/GeneratedMessageLite$b;->build()Lcom/google/protobuf/GeneratedMessageLite;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;
+
+    invoke-static {v0, p1}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$14900(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;)V
+
+    return-object p0
+.end method
+
+.method public setUser(Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;)Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer$Builder;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$b;->copyOnWrite()V
+
+    .line 2
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$b;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;
+
+    invoke-static {v0, p1}, Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;->access$14900(Lcom/waka/wakagame/model/protobuf/PbMKGUno$UnoReportPlayer;Lcom/waka/wakagame/model/protobuf/PbMKGCommon$GameUser;)V
+
+    return-object p0
+.end method

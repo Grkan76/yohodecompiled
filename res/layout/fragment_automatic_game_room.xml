@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:id="@id/automatic_game_room" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/audio_game_room_bg" layout="@layout/include_audio_room_background_webp" />
+    <libx.android.videoplayer.VideoPlayer android:id="@id/id_automatic_game_background_mp4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/include_game_topbar" />
+    <FrameLayout android:id="@id/game_main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" />
+    <include android:id="@id/audio_game_room_msg_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toTopOf="@id/arbm_room_bottom_bar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_audio_room_message" />
+    <include android:id="@id/bottom_tool_box_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" layout="@layout/layout_automatic_game_bottom_bar" />
+    <com.audio.ui.audioroom.bottombar.AudioRoomBottomBar android:id="@id/arbm_room_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ViewStub android:id="@id/id_audio_room_send_msg_vs" android:layout="@layout/layout_audio_room_send_msg_wrap" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>

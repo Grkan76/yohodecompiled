@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_toolbar_height" app:tbNavigationEnable="true" app:tbNavigationIcon="@drawable/ic_back_black" app:tbTitle="@string/string_gift_wall" app:tbTitleColor="@color/black" />
+        <widget.md.view.main.RLImageView android:id="@id/audio_question" android:padding="6.0dip" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_nav_help_24" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/colorE6E8EB" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:background="@drawable/shape_bg_countries_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+</LinearLayout>

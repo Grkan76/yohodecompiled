@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/id_empty_root_ll" android:background="@color/transparent" style="@style/MDEmptyLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ic_empty" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/ic_search_family_empy" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.14" android:textColor="@color/colorA6B0BD" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/string_audio_contact_search_no_result" />
+</LinearLayout>

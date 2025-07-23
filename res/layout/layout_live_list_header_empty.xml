@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/id_header_empty_ll" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_live_banner_empty_icon" />
+    <widget.ui.textview.MicoTextView android:text="@string/string_live_empty" style="@style/EmptyLayoutTextStyle" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_family_profile_rebate_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.14" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_family_profile_rebate_tips" android:background="@drawable/bg_family_profile_rebate_tips" android:layout_width="198.0dip" android:layout_height="50.0dip" android:text="\ 123123123123123" />
+        <ImageView android:layout_gravity="end|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/ic_family_profile_rebate_tip_20" android:layout_marginEnd="15.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_family_rebate_entrance" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_family_reward" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/ll_family_profile_rebate_tips" />
+</androidx.constraintlayout.widget.ConstraintLayout>

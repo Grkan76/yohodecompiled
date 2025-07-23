@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:layout_gravity="end|bottom|center" android:id="@id/iv_particle_bg" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_marginBottom="-50.0dip" android:layout_marginEnd="-40.0dip" />
+    <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/fl_combo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip">
+        <ImageView android:id="@id/iv_combo_click_bg" android:layout_width="82.0dip" android:layout_height="82.0dip" android:src="@drawable/bg_combo_button_lv1" />
+        <com.audionew.features.audioroom.ui.ComboCountDownProgressBar android:id="@id/rp_combo_progress" android:layout_width="82.0dip" android:layout_height="82.0dip" app:maxProgress="100" app:roundWidth="6.0dip" app:textIsDisplayable="false" />
+        <com.audio.ui.audioroom.redrain.StrokeTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:layout_gravity="center|top" android:id="@id/tv_combo_click_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="X 48" app:StrokeStyleable_strokeColor="@color/color0C969A" app:StrokeStyleable_strokeWidth="1.0dip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/tv_combo_continue_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="30" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_effect_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="38.0dip" android:layout_marginEnd="48.0dip" />
+    <View android:layout_gravity="end|bottom|center" android:id="@id/iv_combo_tips_pos" android:visibility="visible" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginBottom="82.0dip" android:layout_marginEnd="20.0dip" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/iv_combo_tips" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginBottom="82.0dip" android:src="@drawable/icon_combo_button_great" android:rotation="-15.0" android:layout_marginEnd="20.0dip" />
+</FrameLayout>

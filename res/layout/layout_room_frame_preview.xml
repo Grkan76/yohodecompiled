@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.packages.widget.RoomFramePreviewView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_room_cover" android:layout_width="180.0dip" android:layout_height="180.0dip" app:layout_constraintBottom_toBottomOf="@id/iv_room_frame" app:layout_constraintEnd_toEndOf="@id/iv_room_frame" app:layout_constraintStart_toStartOf="@id/iv_room_frame" app:layout_constraintTop_toTopOf="@id/iv_room_frame" app:roundedCornerRadius="16.0dip" />
+    <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/iv_room_frame" android:layout_width="180.0dip" android:layout_height="180.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.31" app:roundedCornerRadius="16.0dip" app:roundingBorderColor="@color/color1AFFFFFF" />
+</com.audionew.features.packages.widget.RoomFramePreviewView>

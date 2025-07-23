@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white10" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/colorFFEA00" android:id="@id/id_tv_next_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_boom_rocket_next_rocket_tips" />
+</LinearLayout>

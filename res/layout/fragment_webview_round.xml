@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.audio.ui.widget.CircleBridgeWebview android:id="@id/id_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:corner="20.0dip" app:left_bottom="true" app:left_top="true" app:right_bottom="true" app:right_top="true" />
+</LinearLayout>

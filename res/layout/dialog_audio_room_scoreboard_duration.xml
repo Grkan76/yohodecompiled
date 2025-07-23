@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/id_duration_page" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/include_score_board_duration_title" />
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="301.0dip">
+            <com.audio.ui.widget.WheelPicker android:layout_gravity="center_horizontal" android:id="@id/id_wheel_picker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="24.0dip" app:wheel_atmospheric="true" app:wheel_curved="true" app:wheel_cyclic="false" app:wheel_item_text_color="@color/colorA6B0BD" app:wheel_item_text_size="20.0sp" app:wheel_selected_item_text_color="@color/color1D212C" app:wheel_selected_item_text_size="20.0sp" app:wheel_visible_item_count="7" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

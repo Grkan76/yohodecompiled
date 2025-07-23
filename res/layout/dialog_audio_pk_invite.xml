@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@drawable/bg_common_white_r20" android:clickable="false" android:layout_width="312.0dip" android:layout_height="300.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_pk_invite_dialog_bg" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/iv_close" android:padding="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_cbd1dd" android:layout_alignParentEnd="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/ic_pk_title" android:layout_centerHorizontal="true" />
+            <com.mico.framework.ui.image.widget.MicoImageView android:id="@id/miv_invite_user" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="72.0dip" android:layout_centerHorizontal="true" app:roundAsCircle="true" app:roundingBorderColor="@color/white" app:roundingBorderWidth="2.0dip" />
+            <widget.ui.textview.MicoTextView android:textColor="@color/colorAudioPrimary" android:id="@id/mtv_invite_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="148.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/TextView.Medium.14" />
+            <widget.ui.button.MicoButton android:id="@id/id_cancel_btn" android:layout_width="125.0dip" android:layout_height="40.0dip" android:layout_marginBottom="30.0dip" android:text="@string/string_pk_refuse" android:layout_alignParentBottom="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" style="@style/DialogBtnCancel" />
+            <widget.ui.button.MicoButton android:enabled="false" android:id="@id/id_ok_btn" android:layout_width="125.0dip" android:layout_height="40.0dip" android:layout_marginBottom="30.0dip" android:text="@string/string_pk_accept" android:layout_alignParentBottom="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" style="@style/DialogBtnOk" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

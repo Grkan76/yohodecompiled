@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <Transition motion:autoTransition="animateToEnd" motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" motion:duration="100" motion:layoutDuringTransition="honorRequest" motion:motionInterpolator="easeInOut" />
+    <ConstraintSet android:id="@id/start">
+        <Constraint android:id="@id/exit_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="400.0dip" motion:layout_constraintEnd_toEndOf="@id/no_room_container" motion:layout_constraintStart_toStartOf="@id/no_room_container" motion:layout_constraintTop_toTopOf="@id/guideline" />
+        <Constraint android:id="@id/mini_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="400.0dip" motion:layout_constraintBottom_toTopOf="@id/guideline" motion:layout_constraintEnd_toEndOf="@id/no_room_container" motion:layout_constraintStart_toStartOf="@id/no_room_container" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/end">
+        <Constraint android:id="@id/exit_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" motion:layout_constraintEnd_toEndOf="@id/no_room_container" motion:layout_constraintStart_toStartOf="@id/no_room_container" motion:layout_constraintTop_toTopOf="@id/guideline" />
+        <Constraint android:id="@id/mini_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" motion:layout_constraintBottom_toTopOf="@id/guideline" motion:layout_constraintEnd_toEndOf="@id/no_room_container" motion:layout_constraintStart_toStartOf="@id/no_room_container" />
+    </ConstraintSet>
+</MotionScene>

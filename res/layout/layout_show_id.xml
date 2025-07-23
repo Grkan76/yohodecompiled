@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.showid.ShowIdView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llShowIdContainer" android:background="@drawable/bg_black05_r7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivShowIdBadge" android:layout_width="32.0dip" android:layout_height="14.0dip" />
+    <com.audio.ui.widget.AudioGradientTextView android:textAppearance="@style/TextView.Bold.12" android:ellipsize="end" android:id="@id/tvShowId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="2.0dip" app:agtEndColor="@color/colorEC8100" app:agtStartColor="@color/colorFFC01D" />
+</com.audio.ui.showid.ShowIdView>

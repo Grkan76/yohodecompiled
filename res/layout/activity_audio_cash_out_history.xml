@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/id_top_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <widget.md.view.layout.CommonToolbar app:tbNavigationEnable="true" app:tbTitle="@string/string_cash_out_history" app:tbTitleColor="@color/color1D212C" style="@style/CommonToolbarStyle" />
+        <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.5dip" style="@style/LineF1F2F6" />
+    </FrameLayout>
+    <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_common" app:failedLayout="@layout/layout_load_network_error" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="224.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgCapture" android:background="@drawable/ic_chat_camera_svg" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="54.0dip" android:layout_marginEnd="32.0dip" app:layout_constraintEnd_toStartOf="@id/imgAlbum" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imgAlbum" android:background="@drawable/ic_chat_photo_svg" android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/imgCapture" app:layout_constraintTop_toTopOf="@id/imgCapture" />
+</androidx.constraintlayout.widget.ConstraintLayout>

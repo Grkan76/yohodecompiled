@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/id_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/holder" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+    <RelativeLayout android:background="@drawable/bg_common_white_top_r16" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="horizontal" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <widget.md.view.main.RLImageView android:layout_gravity="start|center" android:id="@id/ivBack" android:padding="5.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_back_black" android:layout_marginStart="11.0dip" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/ivClose" android:padding="3.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_dialog_close_black" android:layout_marginEnd="11.0dip" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_youtube" />
+        </FrameLayout>
+        <com.audio.ui.widget.SafeBridgeWebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+        <FrameLayout android:background="@drawable/bg_video_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/webView">
+            <widget.ui.button.MicoButton android:layout_gravity="center" android:id="@id/recommendBtn" android:visibility="gone" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip" android:text="@string/room_video_recommend_button" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/DialogBtnOk" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_title_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.cardview.widget.CardView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip" app:cardCornerRadius="16.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_team_fight_set_top_img" android:scaleType="fitXY" />
+                <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:id="@id/audio_room_mode_set_dialog_top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/mic_mode" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/fl_title_container" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Medium.12" android:textColor="@color/colorFFAA00" android:id="@id/tv_seat_layout_tips" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-16.0dip" android:paddingHorizontal="16.0dip" android:lineHeight="16.0dip" app:layout_constraintTop_toBottomOf="@id/fl_title_container" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_seat_layout" android:background="@color/white" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip" app:layout_constraintBottom_toTopOf="@id/ll_on_mic_mode_container" app:layout_constraintTop_toBottomOf="@id/tv_seat_layout_tips" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_on_mic_mode_container" android:background="@color/white" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView android:id="@id/iv_on_mic_mode_checker" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/selector_audio_share_friend_check" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.12" android:textColor="@color/color636B82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apply_mic_choice" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

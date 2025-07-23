@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ui.view.MultiStatusLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/id_ll_sticker_root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:mslFailedLayout="@layout/layout_audio_gift_failed" app:mslLoadingLayout="@layout/layout_audio_gift_loading" app:mslStatus1="@layout/layout_custom_sticker_empty_hint"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/rv_stickers" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    <View android:id="@id/view_sticker_limit" android:background="@color/black50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</widget.ui.view.MultiStatusLayout>

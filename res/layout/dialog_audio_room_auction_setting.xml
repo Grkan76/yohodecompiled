@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/bg_common_white_top_r16" android:paddingTop="14.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" android:text="@string/auction_setting_title" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_skip_auction_stage" android:background="@drawable/shape_auction_setting_btn_skip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="@string/auction_setting_title_skip" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_end_current_stage" android:background="@drawable/shape_auction_setting_btn_end" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="@string/auction_setting_title_end" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_end_auction_mode" android:background="@drawable/shape_auction_setting_btn_done" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="12.0dip" android:text="@string/auction_setting_title_done" />
+    </LinearLayout>
+</FrameLayout>

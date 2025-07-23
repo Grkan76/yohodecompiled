@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MDLayoutBaseStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.md.view.layout.CommonToolbar android:id="@id/id_common_toolbar" app:tbExtraOption1_Type="normal" app:tbExtraOptionIcon1="@drawable/ic_home_search" app:tbExtraOptionIconDisableRTL="true" app:tbNavigationEnable="true" app:tbTitle="@string/string_audio_friends_request" app:tbTitleColor="@color/color1D212C" style="@style/CommonToolbarStyle" />
+    <LinearLayout android:orientation="vertical" android:background="@color/colorF5F7F9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <widget.ui.textview.MicoTextView android:textSize="12.0sp" android:textColor="@color/colorA6B0BD" android:gravity="center_vertical" android:id="@id/id_friend_request_will_expire" android:paddingLeft="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/string_audio_friend_request_will_expire" android:paddingStart="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_switch_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="8.0dip">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.16" android:textColor="@color/color1D212C" android:ellipsize="end" android:layout_gravity="center" android:id="@id/tv_auto_pass" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/string_auto_accept_friend_apply_desc" android:maxLines="2" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+            <widget.ui.switchbutton.SwitchButton android:layout_gravity="center" android:id="@id/id_auto_pass_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:kswBackColor="@color/selector_swith_button_bg_color" app:kswBackMeasureRatio="1.9" app:kswThumbDrawable="@drawable/bg_switch_button_thumb" app:kswThumbHeight="20.0dip" app:kswThumbMarginBottom="-3.0dip" app:kswThumbMarginLeft="-1.0dip" app:kswThumbMarginRight="-1.0dip" app:kswThumbMarginTop="-3.0dip" app:kswThumbWidth="20.0dip" />
+        </LinearLayout>
+        <com.mico.framework.ui.widget.recyclerview.PullRefreshLayout android:id="@id/id_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:emptyLayout="@layout/layout_empty_friend_apply" app:failedLayout="@layout/layout_load_network_error" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_common_white_r20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="18.0dip" android:src="@drawable/ic_family_grade_fire" />
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/color1D212C" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="24.0dip" android:text="@string/string_family_upgrade_tips_title" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_marginLeft="32.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_task" android:layout_weight="1.0" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_activity" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorAudioPrimary" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_task_send_gift" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 coin = 1" />
+                        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_family_grade_fire_small" android:layout_marginStart="2.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorAudioPrimary" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_task_watch_live" android:layout_weight="1.0" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:gravity="center" android:id="@id/id_tv_watch_live_upper" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorAudioPrimary" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_task_stay_mic" android:layout_weight="1.0" />
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:gravity="center" android:id="@id/id_tv_on_mic_upper" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/colorAudioPrimary" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_family_upgrade_tips_task_login" android:layout_weight="1.0" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/color636B82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+ 20" />
+                        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_family_grade_fire_small" android:layout_marginStart="2.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.audionew.features.family.widget.FamilyUpgradeTipsFrameView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.16" android:textColor="@color/white" android:gravity="center" android:id="@id/id_tv_ok" android:background="@drawable/bg_family_how_to_upgrade" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="32.0dip" android:text="@string/string_team_battle_audience_rules_got_it" />
+    </LinearLayout>
+</FrameLayout>

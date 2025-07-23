@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mico.framework.ui.widget.AspectRatioRelativeLayout android:layout_gravity="center" android:background="@drawable/bg_common_white_r8" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspect_ratio="0.893"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/ic_diamond_lottery_entrance_item" />
+        <TextView android:textAppearance="@style/TextView.Bold.12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:background="@drawable/bg_get_diamond_entrance" android:layout_width="85.0dip" android:layout_height="28.0dip" android:layout_marginTop="10.0dip" android:text="@string/string_get_obtain" android:includeFontPadding="false" />
+    </LinearLayout>
+</com.mico.framework.ui.widget.AspectRatioRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:minWidth="260.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <widget.ui.button.MicoButton android:textSize="@dimen/audio_dialog_btn_size" android:id="@id/id_cancel_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_cancel" android:layout_weight="1.0" style="@style/DialogBtnCancel" />
+    <View android:layout_width="16.0dip" android:layout_height="0.0dip" />
+    <widget.ui.button.MicoButton android:enabled="false" android:textSize="@dimen/audio_dialog_btn_size" android:id="@id/id_ok_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/string_common_confirm" android:layout_weight="1.0" style="@style/DialogBtnOk" />
+</LinearLayout>

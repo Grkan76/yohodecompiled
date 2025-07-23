@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="@drawable/$ic_moment_liked__0" android:pathData="M14.086,2.036C15.478,2.433 16.331,3.833 16.048,5.252L15.212,9.427H19.58C21.175,9.427 22.415,10.813 22.239,12.398L21.76,16.706C21.459,19.415 19.169,21.465 16.443,21.465H5.181C3.704,21.465 2.506,20.267 2.506,18.79V12.102C2.506,10.625 3.704,9.427 5.181,9.427H7.053V21.465H8.658V7.824L10.837,3.465C11.435,2.269 12.8,1.668 14.086,2.036Z" android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout android:orientation="vertical" android:background="@color/transparent" style="@style/BaseLayoutStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/id_top_base_line" android:layout_width="fill_parent" android:layout_height="0.100000024dip" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/id_chat_top_tab" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="@id/id_toolbar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.Toolbar android:layout_height="44.0dip" android:paddingStart="6.0dip" android:paddingEnd="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/id_top_base_line" app:popupTheme="@style/MainPopTheme" style="@style/BaseToolbar">
+        <FrameLayout android:layout_gravity="start" android:id="@id/flTitle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextView.Bold.20" android:textColor="@color/color1D212C" android:layout_gravity="center" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_tab_Chats" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/iv_top_chat_status" android:visibility="gone" style="@style/ToolbarStatusFrameStyle">
+                <com.audio.ui.widget.AudioChatStatusView android:id="@id/acs_chat_status_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/iv_top_contacts" style="@style/ToolbarBtnFrameOutStyle">
+                <ImageView android:id="@id/iv_top_contacts_real" android:background="@drawable/bg_main_top_icon_oval" android:padding="5.0dip" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ic_chat_contact" style="@style/ToolbarBtnImgStyle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.audionew.features.main.view.ScrollVPLayout android:id="@id/id_scroll_vp_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/id_toolbar">
+        <include layout="@layout/include_viewpager" />
+    </com.audionew.features.main.view.ScrollVPLayout>
+</com.audionew.features.main.ui.MainFitsWindowsRootConstraintLayout>

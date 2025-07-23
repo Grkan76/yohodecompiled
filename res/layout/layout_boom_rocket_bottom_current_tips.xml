@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/white10" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_gift_white" android:scaleType="fitXY" />
+    <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/string_boom_rocket_send_gift_tips" android:layout_marginStart="4.0dip" />
+    <ImageView android:id="@id/id_iv_boom_rocket_bottom_current_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="1.0dip" android:src="@drawable/ic_right_arrow_white" android:scaleType="fitXY" android:layout_marginStart="1.0dip" />
+</LinearLayout>

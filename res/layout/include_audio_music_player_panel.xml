@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audio.ui.music.widget.PlayerPanel android:background="@color/black70" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/id_play_iv" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_audio_mini_play_btn" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="68.0dip" android:layout_marginRight="46.0dip" android:layout_marginStart="68.0dip" android:layout_marginEnd="46.0dip">
+        <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Bold.14" android:textColor="@color/white" android:ellipsize="end" android:id="@id/id_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:maxLines="1" android:layout_above="@id/id_progress_pos" />
+        <androidx.appcompat.widget.AppCompatSeekBar android:id="@id/id_progress_pos" android:background="@null" android:paddingLeft="0.0dip" android:paddingTop="6.0dip" android:paddingRight="0.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="100" android:progressDrawable="@drawable/bg_audio_mini_player_seek_progress" android:minHeight="2.0dip" android:thumb="@drawable/bg_audio_mini_player_seek_thumb" android:thumbOffset="0.0dip" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip" android:layout_below="@id/id_progress_pos">
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.10" android:textColor="@color/white70" android:id="@id/id_current_pos_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <widget.ui.textview.MicoTextView android:textAppearance="@style/TextView.Regular.10" android:textColor="@color/white70" android:id="@id/id_duration_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/id_volume_iv" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_miniplay_volume" />
+</com.audio.ui.music.widget.PlayerPanel>
